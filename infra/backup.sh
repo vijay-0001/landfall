@@ -5,7 +5,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir -p backups
 f="backups/landfall-$(date -u +%Y%m%dT%H%M%SZ).sql.gz"
-docker compose -f infra/docker-compose.yml exec -T db pg_dump -U landfall landfall | gzip > "$f"
+docker compose -f infra/docker-compose.yml --env-file .env exec -T db pg_dump -U landfall landfall | gzip > "$f"
 test -s "$f"
 find backups -name 'landfall-*.sql.gz' -mtime +14 -delete
 if [ -n "${BACKUP_TARGET:-}" ]; then
