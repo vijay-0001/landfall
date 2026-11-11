@@ -1,0 +1,15 @@
+.git
+.venv
+**/node_modules
+**/.next
+**/test-results
+.claude
+spikes/d1_paypal
+spikes/d7_claude
+spikes/d8_shippo
+spikes/d9_easyship
+spikes/d12_eval
+.env
+.env.*
+backups
+*.log

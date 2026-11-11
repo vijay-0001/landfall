@@ -1,0 +1,22 @@
+# Shared-VPS override. Another stack's reverse proxy owns ports 80 and 443, so Landfall runs without its own Caddy and publishes
+# no port at all. Only the web container joins that stack's network, under a unique alias, so their Caddy can reach it.
+#   docker compose -f infra/docker-compose.yml -f infra/docker-compose.vps.yml --env-file .env up -d --build
+services:
+  web:
+    build:  # /api/* is proxied by the web app itself (rewrite baked in at build), so the API never joins the shared network
+      context: ..
+      dockerfile: apps/web/Dockerfile
+      args: { NEXT_PUBLIC_SITE_URL: "${PUBLIC_URL:-http://localhost}", API_PROXY_TARGET: "http://api:8000" }
+    networks:
+      internal: {}
+      shared:
+        aliases: [landfall-web]
+  kiln:  # the mock merchant: joins the shared network so the existing Caddy can serve it on its own host name (added when the PM says go)
+    networks:
+      internal: {}
+      shared:
+        aliases: [landfall-kiln]
+networks:
+  shared:
+    external: true
+    name: ${SHARED_PROXY_NETWORK:?set SHARED_PROXY_NETWORK to the existing reverse proxy's docker network}

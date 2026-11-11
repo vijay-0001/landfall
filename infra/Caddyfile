@@ -1,0 +1,26 @@
+# Only caddy publishes ports (80, 443). SITE_ADDRESS is ":80" locally and the real domain on the VPS (automatic HTTPS).
+{$SITE_ADDRESS::80} {
+	encode zstd gzip
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		-Server
+	}
+	handle /api/* {
+		reverse_proxy api:8000
+	}
+	handle {
+		reverse_proxy web:3000
+	}
+}
+
+# The mock merchant (Kiln & Co.) is its own site: its own address, its own pages, no shared paths with Landfall.
+{$KILN_ADDRESS:kiln.localhost} {
+	encode zstd gzip
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		-Server
+	}
+	reverse_proxy kiln:3400
+}

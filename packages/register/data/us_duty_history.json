@@ -1,0 +1,171 @@
+[
+ {
+  "id": "us-relief-800",
+  "destination": "US",
+  "code": "*",
+  "origin_scope": "ALL",
+  "measure": "low_value_relief",
+  "rate_kind": "fixed",
+  "rate": "800",
+  "currency": "USD",
+  "params": {
+   "relieves": "duty",
+   "statute": "19 U.S.C. 1321 (section 321)"
+  },
+  "valid_from": "2025-01-01",
+  "valid_to": "2025-08-29",
+  "source_ref": "Section 321 de minimis: goods valued at 800 dollars or less entered duty-free (FR 2026-12669 recites the 800 dollar threshold); suspended for all countries from 12:01 a.m. EDT 29 Aug 2025 by FR 2025-14897 'Suspending Duty-Free De Minimis Treatment for All Countries', continued by FR 2026-03829 and made indefinite for all modes by FR 2026-12669 and 2026-12670",
+  "source_url": "https://www.federalregister.gov/d/2025-14897",
+  "note": "Fetched text in packages/register/fixtures/history/2025-14897.txt and 2026-12669.txt."
+ },
+ {
+  "id": "us-ieepa-recip-gb",
+  "destination": "US",
+  "code": "*",
+  "origin_scope": "GB",
+  "measure": "additional_duty",
+  "rate_kind": "percent",
+  "rate": "10",
+  "currency": null,
+  "params": {
+   "hts_heading": "9903.01.25",
+   "stacks_on_base": true,
+   "basis": "IEEPA reciprocal tariff"
+  },
+  "valid_from": "2025-04-05",
+  "valid_to": "2026-02-24",
+  "source_ref": "Executive Order 14257 (FR 2025-06063), reciprocal tariff of 10 percent, HTS 9903.01.25 'The duty provided in the applicable subheading + 10%', effective 12:01 a.m. EDT 5 Apr 2025; the additional IEEPA duties were ended by Executive Order 14389 of 20 Feb 2026 (FR 2026-03832)",
+  "source_url": "https://www.federalregister.gov/d/2025-06063",
+  "note": "End date 24 Feb 2026 is the effective date of its replacement (Section 122, FR 2026-03824). EO 14389 says the duties 'shall no longer be in effect and, as soon as practicable, shall no longer be collected'; the exact collection stop date is an assumption."
+ },
+ {
+  "id": "us-s122-all",
+  "destination": "US",
+  "code": "*",
+  "origin_scope": "ALL",
+  "measure": "additional_duty",
+  "rate_kind": "percent",
+  "rate": "10",
+  "currency": null,
+  "params": {
+   "hts_heading": "9903.03.01",
+   "stacks_on_base": true,
+   "basis": "Section 122 temporary import surcharge"
+  },
+  "valid_from": "2026-02-24",
+  "valid_to": "2026-07-24",
+  "source_ref": "Proclamation 'Imposing a Temporary Import Surcharge To Address Fundamental International Payments Problems' (FR 2026-03824): 10 percent ad valorem for 150 days, effective 12:01 a.m. EST 24 Feb 2026 through 12:01 a.m. EDT 24 Jul 2026; HTS 9903.03.01",
+  "source_url": "https://www.federalregister.gov/d/2026-03824",
+  "note": "Annex I and II product exceptions were not checked against our HTS codes."
+ },
+ {
+  "id": "us-s301-gb",
+  "destination": "US",
+  "code": "*",
+  "origin_scope": "GB",
+  "measure": "additional_duty",
+  "rate_kind": "percent",
+  "rate": "10",
+  "currency": null,
+  "params": {
+   "hts_heading": "9903.05.81",
+   "stacks_on_base": true,
+   "basis": "Section 301 (forced-labor investigations)"
+  },
+  "valid_from": "2026-07-24",
+  "valid_to": null,
+  "source_ref": "Federal Register 2026-15181 (91 FR 47318, 28 Jul 2026) Annex I; HTS 9903.05.81 'The duty provided in the applicable subheading + 10%', articles the product of the United Kingdom, U.S. note 52; effective 12:01 a.m. ET 24 Jul 2026",
+  "source_url": "https://www.federalregister.gov/d/2026-15181",
+  "note": "Exemption list in note 52(j)(1) is published as an image; mug and wallet lines not confirmed absent (see BUILD_LOG)."
+ },
+ {
+  "id": "us-s301-in",
+  "destination": "US",
+  "code": "*",
+  "origin_scope": "IN",
+  "measure": "additional_duty",
+  "rate_kind": "percent",
+  "rate": "10",
+  "currency": null,
+  "params": {
+   "hts_heading": "9903.05.44",
+   "stacks_on_base": true,
+   "basis": "Section 301 (forced-labor investigations)"
+  },
+  "valid_from": "2026-07-24",
+  "valid_to": null,
+  "source_ref": "Federal Register 2026-15181 Annex I; HTS 9903.05.44 'The duty provided in the applicable subheading + 10%' (India), U.S. note 52",
+  "source_url": "https://www.federalregister.gov/d/2026-15181",
+  "note": ""
+ },
+ {
+  "id": "us-s301-eu-floor",
+  "destination": "US",
+  "code": "*",
+  "origin_scope": "EU",
+  "measure": "total_rate_floor",
+  "rate_kind": "percent",
+  "rate": "10",
+  "currency": null,
+  "params": {
+   "hts_headings": [
+    "9903.05.38",
+    "9903.05.39"
+   ],
+   "basis": "Section 301 (forced-labor investigations)"
+  },
+  "valid_from": "2026-07-24",
+  "valid_to": null,
+  "source_ref": "Federal Register 2026-15181 Annex I; HTS 9903.05.38 (column 1 at or above 10%: duty as stated) and 9903.05.39 (column 1 below 10%: sum is 10%), U.S. note 52",
+  "source_url": "https://www.federalregister.gov/d/2026-15181",
+  "note": ""
+ },
+ {
+  "id": "us-cov-gb",
+  "destination": "US",
+  "code": "*",
+  "origin_scope": "GB",
+  "measure": "origin_coverage",
+  "rate_kind": "none",
+  "rate": null,
+  "currency": null,
+  "params": {},
+  "valid_from": "2025-01-01",
+  "valid_to": null,
+  "source_ref": "Register coverage: full duty stack curated for UK origin from 1 Jan 2025 (de minimis, IEEPA reciprocal, Section 122, Section 301)",
+  "source_url": null,
+  "note": ""
+ },
+ {
+  "id": "us-cov-in",
+  "destination": "US",
+  "code": "*",
+  "origin_scope": "IN",
+  "measure": "origin_coverage",
+  "rate_kind": "none",
+  "rate": null,
+  "currency": null,
+  "params": {},
+  "valid_from": "2026-02-24",
+  "valid_to": null,
+  "source_ref": "Register coverage: India origin from 24 Feb 2026 (Section 122, then Section 301). Earlier India-specific IEEPA rates are not curated.",
+  "source_url": null,
+  "note": ""
+ },
+ {
+  "id": "us-cov-eu",
+  "destination": "US",
+  "code": "*",
+  "origin_scope": "EU",
+  "measure": "origin_coverage",
+  "rate_kind": "none",
+  "rate": null,
+  "currency": null,
+  "params": {},
+  "valid_from": "2026-02-24",
+  "valid_to": null,
+  "source_ref": "Register coverage: EU origin from 24 Feb 2026 (Section 122, then Section 301). Earlier EU-specific IEEPA rates are not curated.",
+  "source_url": null,
+  "note": ""
+ }
+]

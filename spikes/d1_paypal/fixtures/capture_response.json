@@ -1,0 +1,174 @@
+{
+  "id": "1AE897264Y697121N",
+  "intent": "CAPTURE",
+  "status": "COMPLETED",
+  "payment_source": {
+    "paypal": {
+      "email_address": "sandbox-buyer@example.test",
+      "account_id": "ASSDASBMT3FTU",
+      "account_status": "VERIFIED",
+      "name": {
+        "given_name": "John",
+        "surname": "Doe"
+      },
+      "address": {
+        "country_code": "US"
+      }
+    }
+  },
+  "purchase_units": [
+    {
+      "reference_id": "landfall-spike-001",
+      "amount": {
+        "currency_code": "USD",
+        "value": "59.45",
+        "breakdown": {
+          "item_total": {
+            "currency_code": "USD",
+            "value": "38.00"
+          },
+          "shipping": {
+            "currency_code": "USD",
+            "value": "14.00"
+          },
+          "handling": {
+            "currency_code": "USD",
+            "value": "0.00"
+          },
+          "tax_total": {
+            "currency_code": "USD",
+            "value": "7.45"
+          },
+          "insurance": {
+            "currency_code": "USD",
+            "value": "0.00"
+          },
+          "shipping_discount": {
+            "currency_code": "USD",
+            "value": "0.00"
+          }
+        }
+      },
+      "payee": {
+        "email_address": "sandbox-seller@example.test",
+        "merchant_id": "79A9VEQG3ZBEL",
+        "display_data": {
+          "brand_name": "Kiln & Co. (Landfall demo)"
+        }
+      },
+      "description": "Kiln & Co. order, import duties and taxes included",
+      "custom_id": "landfall-spike-001",
+      "items": [
+        {
+          "name": "Hand-thrown stoneware mug",
+          "unit_amount": {
+            "currency_code": "USD",
+            "value": "38.00"
+          },
+          "tax": {
+            "currency_code": "USD",
+            "value": "7.45"
+          },
+          "quantity": "1",
+          "sku": "KILN-MUG-01",
+          "category": "PHYSICAL_GOODS"
+        }
+      ],
+      "shipping": {
+        "name": {
+          "full_name": "Sandbox Buyer"
+        },
+        "address": {
+          "address_line_1": "1 Main St",
+          "admin_area_2": "New York",
+          "admin_area_1": "NY",
+          "postal_code": "10001",
+          "country_code": "US"
+        }
+      },
+      "payments": {
+        "captures": [
+          {
+            "id": "2UH661857G790663J",
+            "status": "COMPLETED",
+            "amount": {
+              "currency_code": "USD",
+              "value": "59.45"
+            },
+            "final_capture": true,
+            "seller_protection": {
+              "status": "ELIGIBLE",
+              "dispute_categories": [
+                "ITEM_NOT_RECEIVED",
+                "UNAUTHORIZED_TRANSACTION"
+              ]
+            },
+            "seller_receivable_breakdown": {
+              "gross_amount": {
+                "currency_code": "USD",
+                "value": "59.45"
+              },
+              "paypal_fee": {
+                "currency_code": "USD",
+                "value": "2.62"
+              },
+              "net_amount": {
+                "currency_code": "USD",
+                "value": "56.83"
+              },
+              "receivable_amount": {
+                "currency_code": "GBP",
+                "value": "41.07"
+              },
+              "exchange_rate": {
+                "source_currency": "USD",
+                "target_currency": "GBP",
+                "value": "0.722649944322"
+              }
+            },
+            "custom_id": "landfall-spike-001",
+            "links": [
+              {
+                "href": "https://api.sandbox.paypal.com/v2/payments/captures/2UH661857G790663J",
+                "rel": "self",
+                "method": "GET"
+              },
+              {
+                "href": "https://api.sandbox.paypal.com/v2/payments/captures/2UH661857G790663J/refund",
+                "rel": "refund",
+                "method": "POST"
+              },
+              {
+                "href": "https://api.sandbox.paypal.com/v2/checkout/orders/1AE897264Y697121N",
+                "rel": "up",
+                "method": "GET"
+              }
+            ],
+            "create_time": "2026-10-30T05:07:31Z",
+            "update_time": "2026-10-30T05:07:31Z"
+          }
+        ]
+      }
+    }
+  ],
+  "payer": {
+    "name": {
+      "given_name": "John",
+      "surname": "Doe"
+    },
+    "email_address": "sandbox-buyer@example.test",
+    "payer_id": "ASSDASBMT3FTU",
+    "address": {
+      "country_code": "US"
+    }
+  },
+  "create_time": "2026-10-30T05:05:19Z",
+  "update_time": "2026-10-30T05:07:31Z",
+  "links": [
+    {
+      "href": "https://api.sandbox.paypal.com/v2/checkout/orders/1AE897264Y697121N",
+      "rel": "self",
+      "method": "GET"
+    }
+  ]
+}

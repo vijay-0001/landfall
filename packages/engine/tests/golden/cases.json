@@ -1,0 +1,1919 @@
+[
+ {
+  "id": "US-01-mug-uk",
+  "title": "Mug UK to US: 10% general plus 10% Section 301 = 20%, $7.60 on $38 (demo anchor; shipping is not in the US customs value)",
+  "basis": [
+   "HTS 6912.00.44.00 general 10%",
+   "FR 2026-15181 Annex I, HTS 9903.05.81 (UK +10%), effective 24 Jul 2026"
+  ],
+  "verification": "verified from fetched official text; note 52(j)(1) UK exemption list read as text on 3 Nov 2026: no mug or wallet line is on it",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "38.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "7.60",
+   "vat_total": "0.00",
+   "tax_total": "7.60"
+  }
+ },
+ {
+  "id": "US-02-mug-before-s301",
+  "title": "Mug UK to US entered 1 Jul 2026, before the Section 301 UK action: base 10% only",
+  "basis": [
+   "HTS 6912.00.44.00",
+   "Section 301 UK effective 2026-07-24"
+  ],
+  "verification": "verified from fetched official text",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-07-01",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "38.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "3.80",
+   "vat_total": "0.00",
+   "tax_total": "3.80"
+  }
+ },
+ {
+  "id": "US-03-straddle-2d",
+  "title": "Change-date straddle: entry 22 Jul 2026, 2 days before the 24 Jul change, charges the higher side",
+  "basis": [
+   "HLD section 7: within 5 days of a change date, price both sides and use the higher"
+  ],
+  "verification": "engine rule",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-07-22",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "38.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "7.60",
+   "vat_total": "0.00",
+   "tax_total": "7.60",
+   "straddle_applied": true
+  }
+ },
+ {
+  "id": "US-04-straddle-boundary-in",
+  "title": "Straddle boundary: exactly 5 days before the change is inside the window",
+  "basis": [
+   "HLD section 7, window 5 days"
+  ],
+  "verification": "engine rule",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-07-19",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "38.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "7.60",
+   "vat_total": "0.00",
+   "tax_total": "7.60",
+   "straddle_applied": true
+  }
+ },
+ {
+  "id": "US-05-straddle-boundary-out",
+  "title": "Straddle boundary: 6 days before the change is outside the window",
+  "basis": [
+   "HLD section 7, window 5 days"
+  ],
+  "verification": "engine rule",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-07-18",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "38.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "3.80",
+   "vat_total": "0.00",
+   "tax_total": "3.80",
+   "straddle_applied": false
+  }
+ },
+ {
+  "id": "US-06-bowl-uk",
+  "title": "Serving bowl 6912.00.48.10 UK to US on $42: 9.8% = 4.12 (4.116 rounds up) plus 10% = 4.20",
+  "basis": [
+   "HTS 6912.00.48 general 9.8%",
+   "FR 2026-15181 Annex I, HTS 9903.05.81 (UK +10%), effective 24 Jul 2026"
+  ],
+  "verification": "verified from fetched official text; note 52(j)(1) UK exemption list read as text on 3 Nov 2026: no mug or wallet line is on it",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "BOWL",
+     "code": "6912.00.48.10",
+     "origin": "GB",
+     "unit_price": "42.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "8.32",
+   "vat_total": "0.00",
+   "tax_total": "8.32"
+  }
+ },
+ {
+  "id": "US-07-wallet-uk",
+  "title": "Leather card wallet 4202.31.60.00 UK origin on $45: 8% + 10% = 18%",
+  "basis": [
+   "HTS 4202.31.60.00 general 8%",
+   "FR 2026-15181 Annex I, HTS 9903.05.81 (UK +10%), effective 24 Jul 2026"
+  ],
+  "verification": "verified from fetched official text; note 52(j)(1) UK exemption list read as text on 3 Nov 2026: no mug or wallet line is on it",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "WALLET",
+     "code": "4202.31.60.00",
+     "origin": "GB",
+     "unit_price": "45.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "8.10",
+   "vat_total": "0.00",
+   "tax_total": "8.10"
+  }
+ },
+ {
+  "id": "US-08-wallet-india",
+  "title": "Leather card wallet India origin on $45: 8% + 10% (HTS 9903.05.44) = 18%",
+  "basis": [
+   "HTS 4202.31.60.00 general 8%",
+   "FR 2026-15181, HTS 9903.05.44 India +10%"
+  ],
+  "verification": "verified from fetched official text",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "WALLET",
+     "code": "4202.31.60.00",
+     "origin": "IN",
+     "unit_price": "45.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "8.10",
+   "vat_total": "0.00",
+   "tax_total": "8.10"
+  }
+ },
+ {
+  "id": "US-09-napkins-eu-floor",
+  "title": "Cotton napkins 6302.51.40.00 Portugal origin on $48: column 1 is 6.3%, below 10%, so the total is the higher of the two = 10% = $4.80, not 16.3%",
+  "basis": [
+   "HTS 6302.51.40.00 general 6.3%",
+   "FR 2026-15181, HTS 9903.05.39: sum is 10 percent where column 1 is under 10"
+  ],
+  "verification": "verified from fetched official text",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "NAPKIN",
+     "code": "6302.51.40.00",
+     "origin": "PT",
+     "unit_price": "48.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "4.80",
+   "vat_total": "0.00",
+   "tax_total": "4.80"
+  }
+ },
+ {
+  "id": "US-10-handbag-eu-no-addon",
+  "title": "Plastic-sheeting handbag 4202.22.15.00 Germany origin on $30: column 1 is 16%, at or above 10%, so duty as stated and no add-on = $4.80",
+  "basis": [
+   "HTS 4202.22.15.00 general 16%",
+   "FR 2026-15181, HTS 9903.05.38: duty as provided in the subheading"
+  ],
+  "verification": "verified from fetched official text",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "BAG",
+     "code": "4202.22.15.00",
+     "origin": "DE",
+     "unit_price": "30.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "4.80",
+   "vat_total": "0.00",
+   "tax_total": "4.80"
+  }
+ },
+ {
+  "id": "US-11-no-de-minimis",
+  "title": "No de minimis: a $5 UK mug still pays 10% + 10% = $1.00",
+  "basis": [
+   "Federal Register 2026-12669 and 2026-12670 (indefinite suspension of de minimis, 24 Jun 2026)",
+   "FR 2026-15181 Annex I, HTS 9903.05.81 (UK +10%), effective 24 Jul 2026"
+  ],
+  "verification": "verified from fetched official text; note 52(j)(1) UK exemption list read as text on 3 Nov 2026: no mug or wallet line is on it",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "5.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "1.00",
+   "vat_total": "0.00",
+   "tax_total": "1.00"
+  }
+ },
+ {
+  "id": "US-12-quantity-2",
+  "title": "Two mugs at $38: duty on $76 = $15.20",
+  "basis": [
+   "HTS 6912.00.44.00",
+   "FR 2026-15181 Annex I, HTS 9903.05.81 (UK +10%), effective 24 Jul 2026"
+  ],
+  "verification": "verified from fetched official text; note 52(j)(1) UK exemption list read as text on 3 Nov 2026: no mug or wallet line is on it",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "38.00",
+     "quantity": 2
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "15.20",
+   "vat_total": "0.00",
+   "tax_total": "15.20"
+  }
+ },
+ {
+  "id": "US-13-two-lines",
+  "title": "Two lines, mug $38 and wallet $45, both UK origin: 7.60 + 8.10",
+  "basis": [
+   "HTS rows above",
+   "FR 2026-15181 Annex I, HTS 9903.05.81 (UK +10%), effective 24 Jul 2026"
+  ],
+  "verification": "verified from fetched official text; note 52(j)(1) UK exemption list read as text on 3 Nov 2026: no mug or wallet line is on it",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "38.00",
+     "quantity": 1
+    },
+    {
+     "sku": "WALLET",
+     "code": "4202.31.60.00",
+     "origin": "GB",
+     "unit_price": "45.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "15.70",
+   "vat_total": "0.00",
+   "tax_total": "15.70"
+  }
+ },
+ {
+  "id": "US-14-origin-not-covered",
+  "title": "Origin Japan has no coverage row: the engine refuses to price rather than under-charge",
+  "basis": [
+   "Safety rule: no coverage row for the origin means unsupported"
+  ],
+  "verification": "engine rule",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "JP",
+     "unit_price": "38.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": false,
+   "unsupported_reason": "origin_not_covered"
+  }
+ },
+ {
+  "id": "US-15-code-not-in-register",
+  "title": "Code with no base-duty row: unsupported, never zero duty",
+  "basis": [
+   "Safety rule"
+  ],
+  "verification": "engine rule",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "X",
+     "code": "6911.10.00.00",
+     "origin": "GB",
+     "unit_price": "20.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": false,
+   "unsupported_reason": "code_not_in_register"
+  }
+ },
+ {
+  "id": "GB-01-relief-vat",
+  "title": "UK destination, 25 pound item plus 5 shipping from a US seller: duty relieved (135 pound relief), VAT 20% on 30 = 6.00",
+  "basis": [
+   "UK Trade Tariff 6912002310 and GOV.UK pages cited in rows.json"
+  ],
+  "verification": "verified from fetched official text",
+  "input": {
+   "destination": "GB",
+   "currency": "GBP",
+   "seller_country": "US",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "5.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912002310",
+     "origin": "US",
+     "unit_price": "25.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "0.00",
+   "vat_total": "6.00",
+   "tax_total": "6.00"
+  }
+ },
+ {
+  "id": "GB-02-relief-boundary",
+  "title": "Goods value exactly 135.00 pounds keeps relief; VAT 20% on 140 = 28.00",
+  "basis": [
+   "UK Trade Tariff 6912002310 and GOV.UK pages cited in rows.json"
+  ],
+  "verification": "verified from fetched official text",
+  "input": {
+   "destination": "GB",
+   "currency": "GBP",
+   "seller_country": "US",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "5.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912002310",
+     "origin": "US",
+     "unit_price": "135.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "0.00",
+   "vat_total": "28.00",
+   "tax_total": "28.00"
+  }
+ },
+ {
+  "id": "GB-03-over-relief",
+  "title": "Goods value 135.01 pounds loses relief: duty 4% on 140.01 = 5.60, VAT 20% on 145.61 = 29.12",
+  "basis": [
+   "UK Trade Tariff 6912002310 and GOV.UK pages cited in rows.json"
+  ],
+  "verification": "duty rate verified; customs value including freight is an assumption (broker)",
+  "input": {
+   "destination": "GB",
+   "currency": "GBP",
+   "seller_country": "US",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "5.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912002310",
+     "origin": "US",
+     "unit_price": "135.01",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "5.60",
+   "vat_total": "29.12",
+   "tax_total": "34.72"
+  }
+ },
+ {
+  "id": "GB-04-home-market",
+  "title": "UK seller to UK buyer is the home market: no import duty or import VAT line",
+  "basis": [
+   "Mockup 2 'United Kingdom: Home market, none'"
+  ],
+  "verification": "product rule",
+  "input": {
+   "destination": "GB",
+   "currency": "GBP",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "5.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912002310",
+     "origin": "GB",
+     "unit_price": "25.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "0.00",
+   "vat_total": "0.00",
+   "tax_total": "0.00",
+   "home_market": true
+  }
+ },
+ {
+  "id": "GB-05-currency-mismatch",
+  "title": "Thresholds compare against the seller's own price in the destination currency; a USD cart to the UK is refused, never converted",
+  "basis": [
+   "Decision D-006: no currency conversion"
+  ],
+  "verification": "product rule",
+  "input": {
+   "destination": "GB",
+   "currency": "USD",
+   "seller_country": "US",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "5.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912002310",
+     "origin": "US",
+     "unit_price": "25.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": false,
+   "unsupported_reason": "currency_mismatch"
+  }
+ },
+ {
+  "id": "EU-01-mug-de",
+  "title": "EU, IOSS seller, mug 35 euro plus 12 shipping to Germany: flat 3.00 duty; VAT 19% on 47 = 8.93; total 11.93",
+  "basis": [
+   "Council Regulation (EU) 2026/382 flat 3 euro duty; TEDB VAT rates (rows.json)"
+  ],
+  "verification": "duty rate verified; VAT base excluding the duty is an assumption (broker)",
+  "input": {
+   "destination": "EU",
+   "currency": "EUR",
+   "seller_country": "GB",
+   "ioss_registered": true,
+   "import_date": "2026-10-29",
+   "shipping": "12.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "35.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   },
+   "eu_member_state": "DE"
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "3.00",
+   "vat_total": "8.93",
+   "tax_total": "11.93"
+  }
+ },
+ {
+  "id": "EU-02-two-categories",
+  "title": "Two item categories (6912 mug 35, 6302 napkins 40) plus 12 shipping to Germany: flat duty 6.00; VAT 19% on 87 = 16.53; total 22.53",
+  "basis": [
+   "Council Regulation (EU) 2026/382 flat 3 euro duty; TEDB VAT rates (rows.json)"
+  ],
+  "verification": "duty rate verified; VAT base excluding the duty is an assumption (broker)",
+  "input": {
+   "destination": "EU",
+   "currency": "EUR",
+   "seller_country": "GB",
+   "ioss_registered": true,
+   "import_date": "2026-10-29",
+   "shipping": "12.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "35.00",
+     "quantity": 1
+    },
+    {
+     "sku": "NAPKIN",
+     "code": "6302.51.40.00",
+     "origin": "GB",
+     "unit_price": "40.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   },
+   "eu_member_state": "DE"
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "6.00",
+   "vat_total": "16.53",
+   "tax_total": "22.53"
+  }
+ },
+ {
+  "id": "EU-03-same-category-qty",
+  "title": "Same category, quantity 2: one flat 3.00; VAT 19% on 70 + 12 = 82 gives 15.58; total 18.58",
+  "basis": [
+   "Council Regulation (EU) 2026/382 flat 3 euro duty; TEDB VAT rates (rows.json)"
+  ],
+  "verification": "duty rate verified; VAT base excluding the duty is an assumption (broker)",
+  "input": {
+   "destination": "EU",
+   "currency": "EUR",
+   "seller_country": "GB",
+   "ioss_registered": true,
+   "import_date": "2026-10-29",
+   "shipping": "12.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "35.00",
+     "quantity": 2
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   },
+   "eu_member_state": "DE"
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "3.00",
+   "vat_total": "15.58",
+   "tax_total": "18.58"
+  }
+ },
+ {
+  "id": "EU-04-greece",
+  "title": "Greece uses TEDB code EL, VAT 24%: 24% on 47 = 11.28, plus 3.00 = 14.28",
+  "basis": [
+   "TEDB: Greece is EL, standard rate 24%",
+   "Council Regulation (EU) 2026/382 flat 3 euro duty; TEDB VAT rates (rows.json)"
+  ],
+  "verification": "duty rate verified; VAT base excluding the duty is an assumption (broker)",
+  "input": {
+   "destination": "EU",
+   "currency": "EUR",
+   "seller_country": "GB",
+   "ioss_registered": true,
+   "import_date": "2026-10-29",
+   "shipping": "12.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "35.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   },
+   "eu_member_state": "EL"
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "3.00",
+   "vat_total": "11.28",
+   "tax_total": "14.28"
+  }
+ },
+ {
+  "id": "EU-05-over-150",
+  "title": "Consignment value over 150 euro is outside the flat-duty regime: unsupported (trigger T6)",
+  "basis": [
+   "Council Regulation (EU) 2026/382 flat 3 euro duty; TEDB VAT rates (rows.json)"
+  ],
+  "verification": "engine rule",
+  "input": {
+   "destination": "EU",
+   "currency": "EUR",
+   "seller_country": "GB",
+   "ioss_registered": true,
+   "import_date": "2026-10-29",
+   "shipping": "12.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "160.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   },
+   "eu_member_state": "DE"
+  },
+  "expected": {
+   "supported": false,
+   "unsupported_reason": "over_low_value_limit"
+  }
+ },
+ {
+  "id": "EU-06-not-ioss",
+  "title": "Seller not registered for IOSS: EU is outside hackathon scope",
+  "basis": [
+   "BRD scope: EU for IOSS-registered sellers only"
+  ],
+  "verification": "product rule",
+  "input": {
+   "destination": "EU",
+   "currency": "EUR",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "12.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "35.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   },
+   "eu_member_state": "DE"
+  },
+  "expected": {
+   "supported": false,
+   "unsupported_reason": "seller_not_ioss"
+  }
+ },
+ {
+  "id": "EU-07-france",
+  "title": "France VAT 20%: 20% on 47 = 9.40, plus 3.00 = 12.40",
+  "basis": [
+   "TEDB France 20%",
+   "Council Regulation (EU) 2026/382 flat 3 euro duty; TEDB VAT rates (rows.json)"
+  ],
+  "verification": "duty rate verified; VAT base excluding the duty is an assumption (broker)",
+  "input": {
+   "destination": "EU",
+   "currency": "EUR",
+   "seller_country": "GB",
+   "ioss_registered": true,
+   "import_date": "2026-10-29",
+   "shipping": "12.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "35.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   },
+   "eu_member_state": "FR"
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "3.00",
+   "vat_total": "9.40",
+   "tax_total": "12.40"
+  }
+ },
+ {
+  "id": "EU-08-before-flat-duty",
+  "title": "Entry on 30 Jun 2026, before the flat duty applied: no valid rule, so unsupported rather than guessing",
+  "basis": [
+   "Council Regulation (EU) 2026/382 applies from 1 Jul 2026"
+  ],
+  "verification": "engine rule",
+  "input": {
+   "destination": "EU",
+   "currency": "EUR",
+   "seller_country": "GB",
+   "ioss_registered": true,
+   "import_date": "2026-06-30",
+   "shipping": "12.00",
+   "items": [
+    {
+     "sku": "MUG",
+     "code": "6912.00.44.00",
+     "origin": "GB",
+     "unit_price": "35.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   },
+   "eu_member_state": "DE"
+  },
+  "expected": {
+   "supported": false,
+   "unsupported_reason": "no_rule_valid_on_date"
+  }
+ },
+ {
+  "id": "US-CN-01-wallet-after-24-jul",
+  "title": "Leather card wallet China origin on $26 after 24 Jul 2026: 8% + 25% List 3 + 12.5% = 45.5%, $11.83",
+  "basis": [
+   "HTS 4202.31.60.00 general 8%",
+   "U.S. note 20(f) List 3, heading 9903.88.03: +25%",
+   "HTS 9903.05.31 (FR 2026-15181): +12.5% from 24 Jul 2026",
+   "Section 122 surcharge ended 24 Jul 2026"
+  ],
+  "verification": "derived by hand from the cited rates; the product lists were read as text from the official HTS Chapter 99 on 3 Nov 2026",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-10-29",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "W",
+     "code": "4202.31.60.00",
+     "origin": "CN",
+     "unit_price": "26.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": true,
+   "duty_total": "11.83",
+   "vat_total": "0.00",
+   "tax_total": "11.83"
+  }
+ },
+ {
+  "id": "US-CN-03-line-with-an-exclusion-is-not-priced",
+  "title": "China-origin line 4202.92.31 with a product exclusion in force through 9 Nov 2026 is not priced",
+  "basis": [
+   "U.S. note 20(vvv), heading 9903.88.69: an exclusion applies to a statistical suffix of 4202.92.31"
+  ],
+  "verification": "derived by hand from the cited rates; the product lists were read as text from the official HTS Chapter 99 on 3 Nov 2026",
+  "input": {
+   "destination": "US",
+   "currency": "USD",
+   "seller_country": "GB",
+   "ioss_registered": false,
+   "import_date": "2026-11-03",
+   "shipping": "14.00",
+   "items": [
+    {
+     "sku": "W",
+     "code": "4202.92.31.00",
+     "origin": "CN",
+     "unit_price": "30.00",
+     "quantity": 1
+    }
+   ],
+   "change_window_days": 5,
+   "origin_groups": {
+    "EU": [
+     "AT",
+     "BE",
+     "BG",
+     "CY",
+     "CZ",
+     "DE",
+     "DK",
+     "EE",
+     "EL",
+     "ES",
+     "FI",
+     "FR",
+     "HR",
+     "HU",
+     "IE",
+     "IT",
+     "LT",
+     "LU",
+     "LV",
+     "MT",
+     "NL",
+     "PL",
+     "PT",
+     "RO",
+     "SE",
+     "SI",
+     "SK"
+    ]
+   }
+  },
+  "expected": {
+   "supported": false,
+   "unsupported_reason": "exclusion_review"
+  }
+ }
+]

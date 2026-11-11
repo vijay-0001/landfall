@@ -1,0 +1,10 @@
+{
+  "name": "landfall-renderer",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "type": "module",
+  "description": "Renders share images (1200x630 PNG) by screenshotting server-rendered share pages with headless Chromium.",
+  "scripts": { "start": "node server.mjs", "test": "node --test" },
+  "dependencies": { "playwright": "^1.64.0" }
+}

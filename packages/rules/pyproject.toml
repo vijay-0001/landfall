@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "landfall-pay-rules"
+version = "0.1.0"
+description = "Landfall rule proposals: Federal Register notices to a reviewed, quoted rule form to a future-dated register row"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+dependencies = ["httpx>=0.27", "landfall-pay-register", "landfall-pay-classifier"]
+
+[tool.setuptools.packages.find]
+include = ["landfall_rules*"]

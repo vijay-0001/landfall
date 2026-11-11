@@ -1,0 +1,22 @@
+[
+  {
+    "id": "us-postal-formal-entry",
+    "destination": "US",
+    "code": "*",
+    "origin_scope": "ALL",
+    "measure": "process_requirement",
+    "rate_kind": "none",
+    "rate": null,
+    "currency": null,
+    "params": {
+      "title": "Formal entry becomes mandatory for postal parcels carrying extra duties",
+      "summary": "No price change. For goods that arrive through the international postal network and carry Chapter 98 or Chapter 99 duties, the entry must be filed formally. If your shipping partner sends parcels by post, check that it supports this before the date.",
+      "regulation": "19 CFR 145.12(a)(2)(v) and (vi)"
+    },
+    "valid_from": "2027-01-20",
+    "valid_to": null,
+    "source_ref": "CBP, FR 2026-21600 (22 Oct 2026): 'The compliance date for 19 CFR 145.12(a)(2)(v) and (vi) is January 20, 2027.' Covers merchandise arriving through the international postal network that is subject to duties under Chapter 98 or Chapter 99 of the HTSUS.",
+    "source_url": "https://www.federalregister.gov/d/2026-21600",
+    "note": "Process requirement, not a rate. The engine ignores this measure; Rule Radar lists it. Fetched text: packages/register/fixtures/history/2026-21600.txt."
+  }
+]

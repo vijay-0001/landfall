@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "landfall-pay-register"
+version = "0.1.0"
+description = "Landfall register package"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+dependencies = ["sqlalchemy>=2", "pg8000>=1.31", "alembic>=1.13", "httpx>=0.27", "lxml>=5"]
+
+[tool.setuptools.packages.find]
+include = ["landfall_register*"]

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "landfall-pay-api"
+version = "0.1.0"
+description = "Landfall api package"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+dependencies = ["fastapi>=0.110", "uvicorn>=0.30", "pydantic>=2", "landfall-pay-engine", "landfall-pay-register", "landfall-pay-classifier", "landfall-pay-paypal", "landfall-pay-rules", "landfall-pay-shipping"]
+
+[tool.setuptools.packages.find]
+include = ["landfall_api*"]

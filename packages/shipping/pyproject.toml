@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "landfall-pay-shipping"
+version = "0.1.0"
+description = "Landfall shipping adapter: Easyship delivered-duty-paid shipments (test mode, never buys a label) and duty quote cross-check"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+dependencies = ["httpx>=0.27"]
+
+[tool.setuptools.packages.find]
+include = ["landfall_shipping*"]

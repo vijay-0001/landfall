@@ -1,0 +1,99 @@
+# Landfall on one VPS: six containers (caddy, web, api, worker, renderer, db). Run from the repo root:
+#   docker compose -f infra/docker-compose.yml --env-file .env --profile standalone up -d --build
+# On the shared VPS (another app's Caddy owns 80 and 443): add -f infra/docker-compose.vps.yml and drop the profile; see infra/vps-deploy.md.
+name: landfall
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: landfall
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: landfall
+    volumes: [pgdata:/var/lib/postgresql/data]
+    networks: [internal]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U landfall -d landfall"]
+      interval: 5s
+      retries: 20
+
+  api:
+    build: { context: .., dockerfile: apps/api/Dockerfile }
+    restart: unless-stopped
+    env_file: ../.env
+    environment:
+      LANDFALL_DATABASE_URL: postgresql+pg8000://landfall:${POSTGRES_PASSWORD}@db:5432/landfall
+      RENDERER_URL: http://renderer:3300
+      LANDFALL_SIGNING_KEY: "${LANDFALL_SIGNING_KEY:?set LANDFALL_SIGNING_KEY in .env (it signs quotes; make one with python -c 'import secrets;print(secrets.token_hex(32))')}"
+      LANDFALL_ALLOW_SIGNUP: ${LANDFALL_ALLOW_SIGNUP:-}  # empty = merchant sign-up closed (the default for a hosted deployment); 1 = open for judges
+    depends_on: { db: { condition: service_healthy } }
+    networks: [internal]
+
+  worker:
+    build: { context: .., dockerfile: apps/worker/Dockerfile }
+    restart: unless-stopped
+    env_file: ../.env
+    environment:
+      LANDFALL_DATABASE_URL: postgresql+pg8000://landfall:${POSTGRES_PASSWORD}@db:5432/landfall
+    depends_on: { api: { condition: service_healthy } }
+    networks: [internal]
+
+  renderer:
+    build: { context: .., dockerfile: apps/renderer/Dockerfile }
+    restart: unless-stopped
+    environment:
+      WEB_URL: http://web:3000
+    networks: [internal]
+
+  web:
+    build:
+      context: ..
+      dockerfile: apps/web/Dockerfile
+      args: { NEXT_PUBLIC_SITE_URL: "${PUBLIC_URL:-http://localhost}" }
+    restart: unless-stopped
+    environment:
+      API_INTERNAL_URL: http://api:8000
+    depends_on: { api: { condition: service_healthy } }
+    networks: [internal]
+
+  kiln:  # the MOCK MERCHANT (a separate small shop). Its only link to Landfall is the HTTP API with its own key.
+    build: { context: .., dockerfile: apps/kiln/Dockerfile }
+    restart: unless-stopped
+    environment:
+      LANDFALL_API_URL: http://api:8000
+      LANDFALL_KILN_API_KEY: ${LANDFALL_KILN_API_KEY:-}  # optional: staff can also paste the secret key in Kiln's Shop admin (Landfall connection box), which is kept in the data volume
+      KILN_ADMIN_USER: ${KILN_ADMIN_USER:-owner}
+      KILN_ADMIN_PASSWORD: ${KILN_ADMIN_PASSWORD:-}  # 10+ characters turns the staff login and back office ON; empty leaves them off
+      KILN_DATA_DIR: /app/data
+      KILN_PUBLIC_URL: ${KILN_PUBLIC_URL:-http://kiln.localhost}
+      LANDFALL_PUBLIC_API_URL: ${PUBLIC_URL:-http://localhost}  # where the BROWSER reaches Landfall (the widget script and the quote call)
+      LANDFALL_CONSOLE_URL: ${PUBLIC_URL:-http://localhost}
+      KILN_PAYPAL_CLIENT_ID: ${KILN_PAYPAL_CLIENT_ID:-}  # Kiln's OWN PayPal sandbox app: Landfall never holds it
+      KILN_PAYPAL_CLIENT_SECRET: ${KILN_PAYPAL_CLIENT_SECRET:-}
+    volumes: [kilndata:/app/data]  # Kiln's own catalogue edits, photo uploads and saved Landfall key
+    depends_on: { api: { condition: service_healthy } }
+    networks: [internal]
+
+  caddy:  # standalone use only (local, or a VPS with free ports 80 and 443): docker compose --profile standalone up. The shared-VPS override leaves it out.
+    profiles: ["standalone"]
+    image: caddy:2
+    restart: unless-stopped
+    ports: ["${HTTP_PORT:-80}:80", "${HTTPS_PORT:-443}:443"]
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS:-:80}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on: [web, api]
+    networks: [internal, public]
+
+networks:
+  internal: { internal: false }
+  public: {}
+
+volumes:
+  pgdata:
+  kilndata:
+  caddy_data:
+  caddy_config:

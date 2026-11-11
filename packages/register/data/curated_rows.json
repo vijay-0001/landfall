@@ -1,0 +1,40 @@
+[
+ {
+  "id": "gb-relief",
+  "destination": "GB",
+  "code": "*",
+  "origin_scope": "ALL",
+  "measure": "low_value_relief",
+  "rate_kind": "fixed",
+  "rate": "135",
+  "currency": "GBP",
+  "params": {
+   "relieves": "duty",
+   "threshold_basis": "goods value, shipping excluded"
+  },
+  "valid_from": "2021-01-01",
+  "valid_to": null,
+  "source_ref": "GOV.UK, Reforming the customs treatment of low-value imports: relief from import duty for goods valued at 135 pounds or less, ending on a day set by regulations by October 2028 at the latest",
+  "source_url": "https://www.gov.uk/government/publications/reforming-customs-rules-for-low-value-imports/reforming-the-customs-treatment-of-low-value-imports-into-the-uk",
+  "note": ""
+ },
+ {
+  "id": "eu-flat3",
+  "destination": "EU",
+  "code": "*",
+  "origin_scope": "ALL",
+  "measure": "flat_per_item_category",
+  "rate_kind": "fixed",
+  "rate": "3.00",
+  "currency": "EUR",
+  "params": {
+   "limit": "150",
+   "group_by": "hs6"
+  },
+  "valid_from": "2026-07-01",
+  "valid_to": "2028-07-01",
+  "source_ref": "Council Regulation (EU) 2026/382 with Delegated Regulation (EU) 2026/1022: temporary 3 euro customs duty per item (tariff classification), consignments up to 150 euro, 1 Jul 2026 to 1 Jul 2028",
+  "source_url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+  "note": "Grouping by 6-digit subheading is the working reading of 'per item'; broker to confirm (BRD open question 4)."
+ }
+]

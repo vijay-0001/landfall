@@ -1,0 +1,5238 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Landfall API",
+    "description": "Duties-included checkout. Recommendations, not rulings.",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/api/health": {
+      "get": {
+        "summary": "Health",
+        "operationId": "health_api_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "type": "object",
+                  "title": "Response Health Api Health Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/merchants": {
+      "post": {
+        "summary": "Create Merchant",
+        "description": "Open a merchant account. The API key in the answer is shown once; Landfall keeps only its hash.\nClosed by default: a deployment opens sign-up with LANDFALL_ALLOW_SIGNUP=1 (local runs and tests do). The hosted demo has one merchant, Kiln & Co.",
+        "operationId": "create_merchant_api_merchants_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MerchantCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MerchantCreated"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/merchants/me": {
+      "get": {
+        "summary": "Merchant Me",
+        "operationId": "merchant_me_api_merchants_me_get",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MerchantMe"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/products/import": {
+      "post": {
+        "summary": "Import Products",
+        "description": "Read the store's public product feed (Shopify-style /products.json) into this merchant's catalogue, one product per SKU. No model call here:\nrecommendations are requested per product afterwards.",
+        "operationId": "import_products_api_products_import_post",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ImportIn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ImportOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/products/sync": {
+      "post": {
+        "summary": "Sync Products",
+        "description": "Re-read the saved feed now (the nightly job does the same for every shop). New products get a recommendation; changed listings must be reviewed again.",
+        "operationId": "sync_products_api_products_sync_post",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SyncOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/catalogue": {
+      "get": {
+        "summary": "Catalogue",
+        "operationId": "catalogue_api_catalogue_get",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Catalogue"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/products": {
+      "post": {
+        "summary": "Create Product",
+        "operationId": "create_product_api_products_post",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProductCreate"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Product"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/products/{product_id}": {
+      "get": {
+        "summary": "Get Product",
+        "operationId": "get_product_api_products__product_id__get",
+        "parameters": [
+          {
+            "name": "product_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Product Id"
+            }
+          },
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductDetail"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/products/{product_id}/recommend": {
+      "post": {
+        "summary": "Recommend",
+        "operationId": "recommend_api_products__product_id__recommend_post",
+        "parameters": [
+          {
+            "name": "product_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Product Id"
+            }
+          },
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductDetail"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/products/{product_id}/assistant": {
+      "get": {
+        "summary": "Assistant History",
+        "operationId": "assistant_history_api_products__product_id__assistant_get",
+        "parameters": [
+          {
+            "name": "product_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Product Id"
+            }
+          },
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AssistantReply"
+                  },
+                  "title": "Response Assistant History Api Products  Product Id  Assistant Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Assistant Ask",
+        "description": "Ask about this product's recommendation. The assistant explains and points to sources; it has no path to Accept or Override.",
+        "operationId": "assistant_ask_api_products__product_id__assistant_post",
+        "parameters": [
+          {
+            "name": "product_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Product Id"
+            }
+          },
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AssistantIn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AssistantReply"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/recommendations/{rec_id}/answer": {
+      "post": {
+        "summary": "Answer",
+        "operationId": "answer_api_recommendations__rec_id__answer_post",
+        "parameters": [
+          {
+            "name": "rec_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Rec Id"
+            }
+          },
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AnswerIn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AnswerOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/recommendations/{rec_id}/decision": {
+      "post": {
+        "summary": "Decide",
+        "operationId": "decide_api_recommendations__rec_id__decision_post",
+        "parameters": [
+          {
+            "name": "rec_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Rec Id"
+            }
+          },
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DecisionIn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Decision"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/products/bulk-accept": {
+      "post": {
+        "summary": "Bulk Accept",
+        "operationId": "bulk_accept_api_products_bulk_accept_post",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BulkAcceptIn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BulkAcceptOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/quote": {
+      "post": {
+        "summary": "Quote",
+        "description": "The duty for a cart and a destination, from the register: no model call. With the merchant's API key the items may be named by SKU.",
+        "operationId": "quote_api_quote_post",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          },
+          {
+            "name": "x-landfall-key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X-Landfall-Key"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuoteIn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Quote"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/orders": {
+      "post": {
+        "summary": "Create Order",
+        "description": "Create the PayPal order with the duty as tax_total and per-item tax. Returns the PayPal approval link for the buyer.",
+        "operationId": "create_order_api_orders_post",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderCreateIn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderCreated"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/quotes/verify": {
+      "post": {
+        "summary": "Verify Quote",
+        "description": "Before capturing, the merchant's server sends the PayPal order the buyer approved and the quote's token. Valid means the order carries exactly the quoted\nduty, totals, currency and items. Nothing here touches PayPal or any PayPal credential.",
+        "operationId": "verify_quote_api_quotes_verify_post",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuoteVerifyIn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QuoteVerifyOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/shop": {
+      "get": {
+        "summary": "Shop",
+        "operationId": "shop_api_shop_get",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Storefront"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/orders/{order_id}": {
+      "get": {
+        "summary": "Order Receipt",
+        "operationId": "order_receipt_api_orders__order_id__get",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Order Id"
+            }
+          },
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderReceipt"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/orders/{order_id}/capture": {
+      "post": {
+        "summary": "Capture Order",
+        "operationId": "capture_order_api_orders__order_id__capture_post",
+        "parameters": [
+          {
+            "name": "order_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Order Id"
+            }
+          },
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderCaptured"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/timemachine/options": {
+      "get": {
+        "summary": "Tm Options",
+        "operationId": "tm_options_api_timemachine_options_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TimeMachineOptions"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/timemachine/series": {
+      "get": {
+        "summary": "Tm Series",
+        "operationId": "tm_series_api_timemachine_series_get",
+        "parameters": [
+          {
+            "name": "product",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Product"
+            }
+          },
+          {
+            "name": "origin",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Origin"
+            }
+          },
+          {
+            "name": "destination",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "enum": [
+                "US",
+                "EU",
+                "GB",
+                "AU",
+                "CA"
+              ],
+              "type": "string",
+              "title": "Destination"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TimeMachineSeries"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/timemachine/share.png": {
+      "get": {
+        "summary": "Tm Share",
+        "operationId": "tm_share_api_timemachine_share_png_get",
+        "parameters": [
+          {
+            "name": "product",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Product"
+            }
+          },
+          {
+            "name": "origin",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Origin"
+            }
+          },
+          {
+            "name": "destination",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "enum": [
+                "US",
+                "EU",
+                "GB",
+                "AU",
+                "CA"
+              ],
+              "type": "string",
+              "title": "Destination"
+            }
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Date"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/radar": {
+      "get": {
+        "summary": "Radar",
+        "operationId": "radar_api_radar_get",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RadarAlert"
+                  },
+                  "title": "Response Radar Api Radar Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/radar/{alert_id}/choice": {
+      "post": {
+        "summary": "Radar Choice",
+        "operationId": "radar_choice_api_radar__alert_id__choice_post",
+        "parameters": [
+          {
+            "name": "alert_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Alert Id"
+            }
+          },
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RadarChoiceIn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RadarAlert"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/passport": {
+      "get": {
+        "summary": "Passport",
+        "operationId": "passport_api_passport_get",
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Authorization"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Passport"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/passport/badge.png": {
+      "get": {
+        "summary": "Passport Badge",
+        "operationId": "passport_badge_api_passport_badge_png_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/coverage": {
+      "get": {
+        "summary": "Coverage",
+        "description": "What Landfall covers and where each source comes from (public; no seller data).",
+        "operationId": "coverage_api_coverage_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Coverage"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ops/sync": {
+      "get": {
+        "summary": "Ops Sync",
+        "operationId": "ops_sync_api_ops_sync_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SyncStatus"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ops/rules": {
+      "get": {
+        "summary": "Ops Rules",
+        "operationId": "ops_rules_api_ops_rules_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/RuleProposal"
+                  },
+                  "type": "array",
+                  "title": "Response Ops Rules Api Ops Rules Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ops/rules/{rule_id}/approve": {
+      "post": {
+        "summary": "Ops Approve",
+        "operationId": "ops_approve_api_ops_rules__rule_id__approve_post",
+        "parameters": [
+          {
+            "name": "rule_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Rule Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RuleProposal"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ops/rules/{rule_id}/edit": {
+      "post": {
+        "summary": "Ops Edit",
+        "operationId": "ops_edit_api_ops_rules__rule_id__edit_post",
+        "parameters": [
+          {
+            "name": "rule_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Rule Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RuleEditIn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RuleProposal"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ops/rules/{rule_id}/reject": {
+      "post": {
+        "summary": "Ops Reject",
+        "operationId": "ops_reject_api_ops_rules__rule_id__reject_post",
+        "parameters": [
+          {
+            "name": "rule_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Rule Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RuleProposal"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/how-it-works": {
+      "get": {
+        "summary": "How It Works",
+        "operationId": "how_it_works_api_how_it_works_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HowItWorks"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AnswerIn": {
+        "properties": {
+          "question_id": {
+            "type": "string",
+            "title": "Question Id"
+          },
+          "option_id": {
+            "type": "string",
+            "title": "Option Id"
+          }
+        },
+        "type": "object",
+        "required": [
+          "question_id",
+          "option_id"
+        ],
+        "title": "AnswerIn"
+      },
+      "AnswerOut": {
+        "properties": {
+          "recommendation": {
+            "$ref": "#/components/schemas/Recommendation"
+          },
+          "remaining_questions": {
+            "type": "integer",
+            "title": "Remaining Questions"
+          }
+        },
+        "type": "object",
+        "required": [
+          "recommendation",
+          "remaining_questions"
+        ],
+        "title": "AnswerOut"
+      },
+      "AssistantIn": {
+        "properties": {
+          "question": {
+            "type": "string",
+            "maxLength": 2000,
+            "title": "Question"
+          }
+        },
+        "type": "object",
+        "required": [
+          "question"
+        ],
+        "title": "AssistantIn"
+      },
+      "AssistantReply": {
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "question": {
+            "type": "string",
+            "title": "Question"
+          },
+          "answer": {
+            "type": "string",
+            "title": "Answer"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "explain",
+              "ask",
+              "sources",
+              "refusal"
+            ],
+            "title": "Kind"
+          },
+          "refused": {
+            "type": "boolean",
+            "title": "Refused",
+            "description": "True when the assistant declined (asked to decide, to pay less than is due, or off topic). It never decides for the seller."
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "question",
+          "answer",
+          "kind",
+          "refused"
+        ],
+        "title": "AssistantReply"
+      },
+      "BulkAcceptIn": {
+        "properties": {
+          "product_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Product Ids"
+          },
+          "fine_print_version": {
+            "type": "string",
+            "title": "Fine Print Version"
+          }
+        },
+        "type": "object",
+        "required": [
+          "product_ids",
+          "fine_print_version"
+        ],
+        "title": "BulkAcceptIn"
+      },
+      "BulkAcceptOut": {
+        "properties": {
+          "accepted": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Accepted"
+          },
+          "rejected": {
+            "items": {
+              "additionalProperties": {
+                "type": "string"
+              },
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Rejected",
+            "description": "product_id and reason; only the High band is bulk-acceptable"
+          }
+        },
+        "type": "object",
+        "required": [
+          "accepted",
+          "rejected"
+        ],
+        "title": "BulkAcceptOut"
+      },
+      "Catalogue": {
+        "properties": {
+          "shop": {
+            "$ref": "#/components/schemas/Shop"
+          },
+          "summary": {
+            "$ref": "#/components/schemas/CatalogueSummary"
+          },
+          "products": {
+            "items": {
+              "$ref": "#/components/schemas/Product"
+            },
+            "type": "array",
+            "title": "Products"
+          }
+        },
+        "type": "object",
+        "required": [
+          "shop",
+          "summary",
+          "products"
+        ],
+        "title": "Catalogue"
+      },
+      "CatalogueSummary": {
+        "properties": {
+          "ready_count": {
+            "type": "integer",
+            "title": "Ready Count"
+          },
+          "total_count": {
+            "type": "integer",
+            "title": "Total Count"
+          },
+          "ready_after_accept": {
+            "type": "integer",
+            "title": "Ready After Accept"
+          },
+          "passport_countries": {
+            "type": "integer",
+            "title": "Passport Countries"
+          },
+          "radar_next_days": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Radar Next Days"
+          },
+          "radar_next_affects": {
+            "type": "integer",
+            "title": "Radar Next Affects"
+          },
+          "high_band_open": {
+            "type": "integer",
+            "title": "High Band Open"
+          }
+        },
+        "type": "object",
+        "required": [
+          "ready_count",
+          "total_count",
+          "ready_after_accept",
+          "passport_countries",
+          "radar_next_days",
+          "radar_next_affects",
+          "high_band_open"
+        ],
+        "title": "CatalogueSummary"
+      },
+      "Coverage": {
+        "properties": {
+          "as_of": {
+            "type": "string",
+            "format": "date-time",
+            "title": "As Of"
+          },
+          "register_version": {
+            "type": "string",
+            "title": "Register Version"
+          },
+          "destinations": {
+            "items": {
+              "$ref": "#/components/schemas/CoverageDestination"
+            },
+            "type": "array",
+            "title": "Destinations"
+          },
+          "origins": {
+            "items": {
+              "$ref": "#/components/schemas/CoverageOrigin"
+            },
+            "type": "array",
+            "title": "Origins"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/CoverageSource"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "stale_rule": {
+            "type": "string",
+            "title": "Stale Rule"
+          },
+          "pause_rule": {
+            "type": "string",
+            "title": "Pause Rule"
+          },
+          "disclaimer": {
+            "type": "string",
+            "title": "Disclaimer"
+          }
+        },
+        "type": "object",
+        "required": [
+          "as_of",
+          "register_version",
+          "destinations",
+          "origins",
+          "sources",
+          "stale_rule",
+          "pause_rule",
+          "disclaimer"
+        ],
+        "title": "Coverage"
+      },
+      "CoverageDestination": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "name"
+        ],
+        "title": "CoverageDestination"
+      },
+      "CoverageOrigin": {
+        "properties": {
+          "code": {
+            "type": "string",
+            "title": "Code"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "destinations": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Destinations",
+            "description": "The destination ids this origin is covered for"
+          }
+        },
+        "type": "object",
+        "required": [
+          "code",
+          "name",
+          "destinations"
+        ],
+        "title": "CoverageOrigin"
+      },
+      "CoverageSource": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "provides": {
+            "type": "string",
+            "title": "Provides"
+          },
+          "refreshed": {
+            "type": "string",
+            "title": "Refreshed"
+          },
+          "last_success_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Last Success At"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "ok",
+              "stale",
+              "paused",
+              "no_run_yet",
+              "manual"
+            ],
+            "title": "Status"
+          },
+          "detail": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "provides",
+          "refreshed",
+          "last_success_at",
+          "status"
+        ],
+        "title": "CoverageSource"
+      },
+      "CrossCheck": {
+        "properties": {
+          "order_id": {
+            "type": "string",
+            "title": "Order Id"
+          },
+          "our_duty": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "easyship_duty": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Money"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "difference": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Money"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "note": {
+            "type": "string",
+            "title": "Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "order_id",
+          "our_duty",
+          "easyship_duty",
+          "difference",
+          "note"
+        ],
+        "title": "CrossCheck"
+      },
+      "Decision": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "recommendation_id": {
+            "type": "string",
+            "title": "Recommendation Id"
+          },
+          "action": {
+            "type": "string",
+            "enum": [
+              "accepted",
+              "overridden"
+            ],
+            "title": "Action"
+          },
+          "code": {
+            "type": "string",
+            "title": "Code"
+          },
+          "origin": {
+            "type": "string",
+            "title": "Origin"
+          },
+          "fine_print_version": {
+            "type": "string",
+            "title": "Fine Print Version"
+          },
+          "evidence_ref": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Evidence Ref"
+          },
+          "at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "recommendation_id",
+          "action",
+          "code",
+          "origin",
+          "fine_print_version",
+          "evidence_ref",
+          "at"
+        ],
+        "title": "Decision"
+      },
+      "DecisionIn": {
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "accepted",
+              "overridden"
+            ],
+            "title": "Action"
+          },
+          "code": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Code"
+          },
+          "origin": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Origin"
+          },
+          "fine_print_version": {
+            "type": "string",
+            "title": "Fine Print Version"
+          },
+          "evidence_ref": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Evidence Ref",
+            "description": "Optional. Never required."
+          }
+        },
+        "type": "object",
+        "required": [
+          "action",
+          "fine_print_version"
+        ],
+        "title": "DecisionIn"
+      },
+      "DestinationPricing": {
+        "properties": {
+          "destination": {
+            "type": "string",
+            "enum": [
+              "US",
+              "EU",
+              "GB",
+              "AU",
+              "CA"
+            ],
+            "title": "Destination"
+          },
+          "supported": {
+            "type": "boolean",
+            "title": "Supported"
+          },
+          "rule_applied": {
+            "type": "string",
+            "title": "Rule Applied"
+          },
+          "duty_and_tax": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Money"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "flat_label": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Flat Label",
+            "description": "e.g. EUR 3.00 + VAT"
+          },
+          "as_of": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "As Of"
+          },
+          "register_version": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Register Version"
+          },
+          "paused_reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Paused Reason"
+          },
+          "trail": {
+            "items": {
+              "$ref": "#/components/schemas/TrailLine"
+            },
+            "type": "array",
+            "title": "Trail",
+            "default": []
+          }
+        },
+        "type": "object",
+        "required": [
+          "destination",
+          "supported",
+          "rule_applied",
+          "duty_and_tax",
+          "as_of",
+          "register_version"
+        ],
+        "title": "DestinationPricing"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "HelpLink": {
+        "properties": {
+          "label": {
+            "type": "string",
+            "title": "Label"
+          },
+          "url": {
+            "type": "string",
+            "title": "Url"
+          },
+          "hint": {
+            "type": "string",
+            "title": "Hint"
+          }
+        },
+        "type": "object",
+        "required": [
+          "label",
+          "url",
+          "hint"
+        ],
+        "title": "HelpLink"
+      },
+      "HowItWorks": {
+        "properties": {
+          "steps": {
+            "items": {
+              "additionalProperties": {
+                "type": "string"
+              },
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Steps"
+          },
+          "sources": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "powers": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Powers"
+          },
+          "scope_note": {
+            "type": "string",
+            "title": "Scope Note"
+          },
+          "ai_note": {
+            "type": "string",
+            "title": "Ai Note"
+          },
+          "sample_register_version": {
+            "type": "string",
+            "title": "Sample Register Version"
+          }
+        },
+        "type": "object",
+        "required": [
+          "steps",
+          "sources",
+          "powers",
+          "scope_note",
+          "ai_note",
+          "sample_register_version"
+        ],
+        "title": "HowItWorks"
+      },
+      "ImportIn": {
+        "properties": {
+          "feed_url": {
+            "type": "string",
+            "maxLength": 500,
+            "minLength": 8,
+            "title": "Feed Url",
+            "description": "The store's public product feed, for example https://shop.example/products.json"
+          },
+          "currency": {
+            "type": "string",
+            "enum": [
+              "USD",
+              "GBP",
+              "EUR",
+              "AUD",
+              "CAD"
+            ],
+            "title": "Currency",
+            "description": "Currency of the feed's plain prices (feeds that carry presentment prices bring their own)"
+          }
+        },
+        "type": "object",
+        "required": [
+          "feed_url",
+          "currency"
+        ],
+        "title": "ImportIn"
+      },
+      "ImportOut": {
+        "properties": {
+          "created": {
+            "items": {
+              "$ref": "#/components/schemas/Product"
+            },
+            "type": "array",
+            "title": "Created"
+          },
+          "updated": {
+            "items": {
+              "$ref": "#/components/schemas/Product"
+            },
+            "type": "array",
+            "title": "Updated"
+          },
+          "skipped": {
+            "items": {
+              "$ref": "#/components/schemas/ImportSkipped"
+            },
+            "type": "array",
+            "title": "Skipped"
+          }
+        },
+        "type": "object",
+        "required": [
+          "created",
+          "updated",
+          "skipped"
+        ],
+        "title": "ImportOut"
+      },
+      "ImportSkipped": {
+        "properties": {
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "reason": {
+            "type": "string",
+            "title": "Reason"
+          }
+        },
+        "type": "object",
+        "required": [
+          "title",
+          "reason"
+        ],
+        "title": "ImportSkipped"
+      },
+      "LevelRequirement": {
+        "properties": {
+          "text": {
+            "type": "string",
+            "title": "Text"
+          },
+          "done": {
+            "type": "boolean",
+            "title": "Done"
+          }
+        },
+        "type": "object",
+        "required": [
+          "text",
+          "done"
+        ],
+        "title": "LevelRequirement"
+      },
+      "MerchantCreate": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "maxLength": 80,
+            "minLength": 2,
+            "title": "Name"
+          },
+          "country": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}$",
+            "title": "Country",
+            "description": "ISO-2 country the shop ships from"
+          },
+          "city": {
+            "type": "string",
+            "maxLength": 80,
+            "minLength": 2,
+            "title": "City"
+          }
+        },
+        "type": "object",
+        "required": [
+          "name",
+          "country",
+          "city"
+        ],
+        "title": "MerchantCreate"
+      },
+      "MerchantCreated": {
+        "properties": {
+          "shop_id": {
+            "type": "string",
+            "title": "Shop Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "country": {
+            "type": "string",
+            "title": "Country"
+          },
+          "city": {
+            "type": "string",
+            "title": "City"
+          },
+          "api_key": {
+            "type": "string",
+            "title": "Api Key",
+            "description": "Shown once. Landfall keeps only a hash of it."
+          },
+          "api_key_prefix": {
+            "type": "string",
+            "title": "Api Key Prefix"
+          },
+          "publishable_key": {
+            "type": "string",
+            "title": "Publishable Key",
+            "description": "Quote-only and safe to put in a web page: the checkout widget sends it. It cannot import, order or read anything."
+          }
+        },
+        "type": "object",
+        "required": [
+          "shop_id",
+          "name",
+          "country",
+          "city",
+          "api_key",
+          "api_key_prefix",
+          "publishable_key"
+        ],
+        "title": "MerchantCreated"
+      },
+      "MerchantMe": {
+        "properties": {
+          "shop_id": {
+            "type": "string",
+            "title": "Shop Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "country": {
+            "type": "string",
+            "title": "Country"
+          },
+          "city": {
+            "type": "string",
+            "title": "City"
+          },
+          "api_key_prefix": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Api Key Prefix"
+          },
+          "publishable_key": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Publishable Key"
+          },
+          "feed_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Feed Url"
+          },
+          "product_count": {
+            "type": "integer",
+            "title": "Product Count"
+          },
+          "last_synced_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Last Synced At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "shop_id",
+          "name",
+          "country",
+          "city",
+          "api_key_prefix",
+          "feed_url",
+          "product_count"
+        ],
+        "title": "MerchantMe"
+      },
+      "Money": {
+        "properties": {
+          "amount": {
+            "type": "string",
+            "title": "Amount",
+            "examples": [
+              "7.60"
+            ]
+          },
+          "currency": {
+            "type": "string",
+            "enum": [
+              "USD",
+              "GBP",
+              "EUR",
+              "AUD",
+              "CAD"
+            ],
+            "title": "Currency"
+          }
+        },
+        "type": "object",
+        "required": [
+          "amount",
+          "currency"
+        ],
+        "title": "Money"
+      },
+      "OrderCaptured": {
+        "properties": {
+          "order_id": {
+            "type": "string",
+            "title": "Order Id"
+          },
+          "paypal_order_id": {
+            "type": "string",
+            "title": "Paypal Order Id"
+          },
+          "capture_id": {
+            "type": "string",
+            "title": "Capture Id"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "tax_total": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "register_version": {
+            "type": "string",
+            "title": "Register Version"
+          },
+          "shipment_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Shipment Id"
+          },
+          "stamp_minted": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "US",
+                  "EU",
+                  "GB",
+                  "AU",
+                  "CA"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Stamp Minted"
+          }
+        },
+        "type": "object",
+        "required": [
+          "order_id",
+          "paypal_order_id",
+          "capture_id",
+          "status",
+          "tax_total",
+          "register_version"
+        ],
+        "title": "OrderCaptured"
+      },
+      "OrderCreateIn": {
+        "properties": {
+          "quote": {
+            "$ref": "#/components/schemas/QuoteIn"
+          },
+          "return_url": {
+            "type": "string",
+            "title": "Return Url"
+          },
+          "cancel_url": {
+            "type": "string",
+            "title": "Cancel Url"
+          }
+        },
+        "type": "object",
+        "required": [
+          "quote",
+          "return_url",
+          "cancel_url"
+        ],
+        "title": "OrderCreateIn"
+      },
+      "OrderCreated": {
+        "properties": {
+          "order_id": {
+            "type": "string",
+            "title": "Order Id"
+          },
+          "paypal_order_id": {
+            "type": "string",
+            "title": "Paypal Order Id"
+          },
+          "approve_url": {
+            "type": "string",
+            "title": "Approve Url"
+          },
+          "register_version": {
+            "type": "string",
+            "title": "Register Version"
+          },
+          "total": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "paypal_purchase_unit": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Paypal Purchase Unit",
+            "description": "The purchase unit Landfall sent to PayPal: amount.breakdown.tax_total and the per-item tax. Shown so a merchant can see where the duty lands."
+          }
+        },
+        "type": "object",
+        "required": [
+          "order_id",
+          "paypal_order_id",
+          "approve_url",
+          "register_version",
+          "total"
+        ],
+        "title": "OrderCreated"
+      },
+      "OrderReceipt": {
+        "properties": {
+          "order_id": {
+            "type": "string",
+            "title": "Order Id"
+          },
+          "paypal_order_id": {
+            "type": "string",
+            "title": "Paypal Order Id"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "capture_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Capture Id"
+          },
+          "ship_to_label": {
+            "type": "string",
+            "title": "Ship To Label"
+          },
+          "lines": {
+            "items": {
+              "$ref": "#/components/schemas/ReceiptLine"
+            },
+            "type": "array",
+            "title": "Lines"
+          },
+          "item_total": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "shipping": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "tax_total": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "seller_discount": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "total": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "duties_included": {
+            "type": "boolean",
+            "title": "Duties Included"
+          },
+          "register_version": {
+            "type": "string",
+            "title": "Register Version"
+          },
+          "rates_as_of": {
+            "type": "string",
+            "format": "date",
+            "title": "Rates As Of"
+          },
+          "shipment_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Shipment Id"
+          },
+          "delivered_duty_paid_note": {
+            "type": "string",
+            "title": "Delivered Duty Paid Note"
+          }
+        },
+        "type": "object",
+        "required": [
+          "order_id",
+          "paypal_order_id",
+          "status",
+          "capture_id",
+          "ship_to_label",
+          "lines",
+          "item_total",
+          "shipping",
+          "tax_total",
+          "seller_discount",
+          "total",
+          "duties_included",
+          "register_version",
+          "rates_as_of",
+          "delivered_duty_paid_note"
+        ],
+        "title": "OrderReceipt"
+      },
+      "OriginSignal": {
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "label_photo",
+              "listing_text",
+              "shop_history",
+              "handmade_claim",
+              "supplier_hint",
+              "shop_country"
+            ],
+            "title": "Kind"
+          },
+          "text": {
+            "type": "string",
+            "title": "Text"
+          },
+          "points_to": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Points To"
+          }
+        },
+        "type": "object",
+        "required": [
+          "kind",
+          "text"
+        ],
+        "title": "OriginSignal"
+      },
+      "Passport": {
+        "properties": {
+          "level": {
+            "type": "integer",
+            "title": "Level"
+          },
+          "level_name": {
+            "type": "string",
+            "title": "Level Name"
+          },
+          "next_level_progress_pct": {
+            "type": "integer",
+            "title": "Next Level Progress Pct"
+          },
+          "stamps": {
+            "items": {
+              "$ref": "#/components/schemas/Stamp"
+            },
+            "type": "array",
+            "title": "Stamps"
+          },
+          "next_stamps": {
+            "items": {
+              "$ref": "#/components/schemas/Stamp"
+            },
+            "type": "array",
+            "title": "Next Stamps"
+          },
+          "requirements": {
+            "items": {
+              "$ref": "#/components/schemas/LevelRequirement"
+            },
+            "type": "array",
+            "title": "Requirements"
+          },
+          "badge_headline": {
+            "type": "string",
+            "title": "Badge Headline"
+          },
+          "badge_subline": {
+            "type": "string",
+            "title": "Badge Subline"
+          },
+          "badge_image_url": {
+            "type": "string",
+            "title": "Badge Image Url"
+          },
+          "share_url": {
+            "type": "string",
+            "title": "Share Url"
+          }
+        },
+        "type": "object",
+        "required": [
+          "level",
+          "level_name",
+          "next_level_progress_pct",
+          "stamps",
+          "next_stamps",
+          "requirements",
+          "badge_headline",
+          "badge_subline",
+          "badge_image_url",
+          "share_url"
+        ],
+        "title": "Passport"
+      },
+      "PhotoReadOut": {
+        "properties": {
+          "url": {
+            "type": "string",
+            "title": "Url"
+          },
+          "label_text": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Label Text",
+            "description": "Text printed on the product's own label, tag or packaging"
+          },
+          "made_in": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Made In",
+            "description": "A country named as the place of manufacture"
+          },
+          "materials": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Materials"
+          },
+          "notes": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Notes"
+          },
+          "error": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Error",
+            "description": "Why this photo could not be read, in plain words"
+          }
+        },
+        "type": "object",
+        "required": [
+          "url"
+        ],
+        "title": "PhotoReadOut"
+      },
+      "Product": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "shop_id": {
+            "type": "string",
+            "title": "Shop Id"
+          },
+          "sku": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sku",
+            "description": "The merchant's own SKU, so its checkout can name the product the way its store does"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "description": {
+            "type": "string",
+            "title": "Description"
+          },
+          "photo_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Photo Url"
+          },
+          "prices": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "propertyNames": {
+              "enum": [
+                "USD",
+                "GBP",
+                "EUR",
+                "AUD",
+                "CAD"
+              ]
+            },
+            "type": "object",
+            "title": "Prices"
+          },
+          "category": {
+            "type": "string",
+            "title": "Category"
+          },
+          "review_status": {
+            "type": "string",
+            "enum": [
+              "not_reviewed",
+              "accepted",
+              "overridden"
+            ],
+            "title": "Review Status"
+          },
+          "band": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "high",
+                  "check",
+                  "ask"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Band"
+          },
+          "code": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Code",
+            "description": "Accepted or recommended code, as displayed"
+          },
+          "origin": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Origin"
+          },
+          "origin_uncertain": {
+            "type": "boolean",
+            "title": "Origin Uncertain",
+            "default": false
+          },
+          "ai_note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Ai Note"
+          },
+          "question_count": {
+            "type": "integer",
+            "title": "Question Count",
+            "default": 0
+          },
+          "paused_reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Paused Reason",
+            "description": "T5: duties-included not available"
+          },
+          "image_urls": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Image Urls",
+            "description": "The product's photo addresses"
+          },
+          "listing_changed": {
+            "type": "boolean",
+            "title": "Listing Changed",
+            "description": "The store changed this listing after the seller's decision: review again. Until then it is not priced duty-paid",
+            "default": false
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "shop_id",
+          "title",
+          "description",
+          "prices",
+          "category",
+          "review_status"
+        ],
+        "title": "Product"
+      },
+      "ProductCreate": {
+        "properties": {
+          "title": {
+            "type": "string",
+            "maxLength": 120,
+            "minLength": 3,
+            "title": "Title"
+          },
+          "description": {
+            "type": "string",
+            "maxLength": 2000,
+            "minLength": 10,
+            "title": "Description"
+          },
+          "photo_url": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 500
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Photo Url"
+          },
+          "image_urls": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "maxItems": 4,
+            "title": "Image Urls",
+            "description": "Up to four photo addresses (https). The AI reads them once for labels, a made-in country and visible materials; Landfall keeps the addresses and the text read, never the image"
+          },
+          "prices": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "propertyNames": {
+              "enum": [
+                "USD",
+                "GBP",
+                "EUR",
+                "AUD",
+                "CAD"
+              ]
+            },
+            "type": "object",
+            "minProperties": 1,
+            "title": "Prices"
+          },
+          "category": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Category"
+          }
+        },
+        "type": "object",
+        "required": [
+          "title",
+          "description",
+          "prices"
+        ],
+        "title": "ProductCreate"
+      },
+      "ProductDetail": {
+        "properties": {
+          "product": {
+            "$ref": "#/components/schemas/Product"
+          },
+          "recommendation": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Recommendation"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "fine_print_version": {
+            "type": "string",
+            "title": "Fine Print Version"
+          },
+          "fine_print": {
+            "type": "string",
+            "title": "Fine Print"
+          }
+        },
+        "type": "object",
+        "required": [
+          "product",
+          "recommendation",
+          "fine_print_version",
+          "fine_print"
+        ],
+        "title": "ProductDetail"
+      },
+      "Question": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "trigger": {
+            "type": "string",
+            "enum": [
+              "T1",
+              "T2",
+              "T3",
+              "T4",
+              "T5",
+              "T6"
+            ],
+            "title": "Trigger"
+          },
+          "text": {
+            "type": "string",
+            "title": "Text"
+          },
+          "help": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Help"
+          },
+          "evidence_crop_label": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Evidence Crop Label"
+          },
+          "options": {
+            "items": {
+              "$ref": "#/components/schemas/QuestionOption"
+            },
+            "type": "array",
+            "title": "Options"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "trigger",
+          "text",
+          "options"
+        ],
+        "title": "Question"
+      },
+      "QuestionOption": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          },
+          "price_impact": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Money"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Change to what the buyer pays if chosen"
+          },
+          "is_ai_pick": {
+            "type": "boolean",
+            "title": "Is Ai Pick",
+            "default": false
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "label"
+        ],
+        "title": "QuestionOption"
+      },
+      "Quote": {
+        "properties": {
+          "destination": {
+            "type": "string",
+            "enum": [
+              "US",
+              "EU",
+              "GB",
+              "AU",
+              "CA"
+            ],
+            "title": "Destination"
+          },
+          "ship_to_label": {
+            "type": "string",
+            "title": "Ship To Label"
+          },
+          "currency": {
+            "type": "string",
+            "enum": [
+              "USD",
+              "GBP",
+              "EUR",
+              "AUD",
+              "CAD"
+            ],
+            "title": "Currency"
+          },
+          "lines": {
+            "items": {
+              "$ref": "#/components/schemas/QuoteLine"
+            },
+            "type": "array",
+            "title": "Lines"
+          },
+          "item_total": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "shipping": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "tax_total": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "seller_discount": {
+            "$ref": "#/components/schemas/Money",
+            "description": "Duty the seller covers (Absorb it on Rule Radar). The duty stays in tax_total in full; this is a separate seller-funded discount."
+          },
+          "total": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "duties_included": {
+            "type": "boolean",
+            "title": "Duties Included"
+          },
+          "old_way_note": {
+            "type": "string",
+            "title": "Old Way Note"
+          },
+          "rates_as_of": {
+            "type": "string",
+            "format": "date",
+            "title": "Rates As Of"
+          },
+          "register_version": {
+            "type": "string",
+            "title": "Register Version"
+          },
+          "ship_to_country": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Ship To Country"
+          },
+          "stale_note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Stale Note",
+            "description": "48 h without a good sync"
+          },
+          "paused_reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Paused Reason",
+            "description": "7 days without a good sync: duties-included paused"
+          },
+          "delivered_duty_paid_note": {
+            "type": "string",
+            "title": "Delivered Duty Paid Note"
+          },
+          "paypal_purchase_unit": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Paypal Purchase Unit",
+            "description": "The PayPal purchase unit for this cart: amount with its breakdown (tax_total) and the items with their tax, exact to the cent. A merchant with its own PayPal integration puts it into its own create-order call."
+          },
+          "quote_token": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Quote Token",
+            "description": "Signed by Landfall. The merchant's server sends it to /api/quotes/verify with the PayPal order before capturing."
+          },
+          "quote_expires_at": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Quote Expires At",
+            "description": "Unix seconds. After this the quote must be asked for again."
+          }
+        },
+        "type": "object",
+        "required": [
+          "destination",
+          "ship_to_label",
+          "currency",
+          "lines",
+          "item_total",
+          "shipping",
+          "tax_total",
+          "seller_discount",
+          "total",
+          "duties_included",
+          "old_way_note",
+          "rates_as_of",
+          "register_version",
+          "delivered_duty_paid_note"
+        ],
+        "title": "Quote"
+      },
+      "QuoteIn": {
+        "properties": {
+          "shop_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Shop Id",
+            "description": "Only for the keyless demo shop. With an API key the shop is the key's own."
+          },
+          "destination": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "US",
+                  "EU",
+                  "GB",
+                  "AU",
+                  "CA"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Destination",
+            "description": "Optional when ship_to_country is given: the country decides it"
+          },
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/QuoteItemIn"
+            },
+            "type": "array",
+            "maxItems": 50,
+            "minItems": 1,
+            "title": "Items"
+          },
+          "currency": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "USD",
+                  "GBP",
+                  "EUR",
+                  "AUD",
+                  "CAD"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Currency",
+            "description": "Optional: it is the destination's currency. If given it must match: Landfall never converts."
+          },
+          "ship_to_country": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Ship To Country",
+            "description": "ISO-2 ship-to country; with it the destination, member state or province follow"
+          },
+          "region": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Region",
+            "description": "Canadian province code (the EU member state goes in eu_member_state)"
+          },
+          "ship_to_postcode": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Ship To Postcode"
+          },
+          "eu_member_state": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Eu Member State",
+            "description": "ISO-2 code, EL for Greece"
+          },
+          "import_date": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Import Date"
+          }
+        },
+        "type": "object",
+        "required": [
+          "items"
+        ],
+        "title": "QuoteIn"
+      },
+      "QuoteItemIn": {
+        "properties": {
+          "product_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Product Id",
+            "description": "Landfall's product id"
+          },
+          "sku": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sku",
+            "description": "The merchant's own SKU (needs the merchant's API key)"
+          },
+          "quantity": {
+            "type": "integer",
+            "maximum": 99.0,
+            "minimum": 1.0,
+            "title": "Quantity",
+            "default": 1
+          }
+        },
+        "type": "object",
+        "title": "QuoteItemIn"
+      },
+      "QuoteLine": {
+        "properties": {
+          "product_id": {
+            "type": "string",
+            "title": "Product Id"
+          },
+          "sku": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sku"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "quantity": {
+            "type": "integer",
+            "title": "Quantity"
+          },
+          "unit_price": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "duty_and_tax": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "duties_included": {
+            "type": "boolean",
+            "title": "Duties Included"
+          },
+          "trail": {
+            "items": {
+              "$ref": "#/components/schemas/TrailLine"
+            },
+            "type": "array",
+            "title": "Trail"
+          },
+          "unpriced_reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Unpriced Reason",
+            "description": "Plain reason this line carries no duty (not reviewed, not priced, outside what Landfall prices)"
+          },
+          "origin": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Origin"
+          },
+          "code": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Code"
+          }
+        },
+        "type": "object",
+        "required": [
+          "product_id",
+          "title",
+          "quantity",
+          "unit_price",
+          "duty_and_tax",
+          "duties_included",
+          "trail"
+        ],
+        "title": "QuoteLine"
+      },
+      "QuoteVerifyIn": {
+        "properties": {
+          "quote_token": {
+            "type": "string",
+            "title": "Quote Token"
+          },
+          "paypal_order": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Paypal Order",
+            "description": "The order as PayPal returns it (GET /v2/checkout/orders/{id}), fetched with the merchant's own credentials"
+          }
+        },
+        "type": "object",
+        "required": [
+          "quote_token",
+          "paypal_order"
+        ],
+        "title": "QuoteVerifyIn"
+      },
+      "QuoteVerifyOut": {
+        "properties": {
+          "valid": {
+            "type": "boolean",
+            "title": "Valid"
+          },
+          "reasons": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Reasons",
+            "description": "Plain reasons when the order does not match the quote; empty when it does"
+          }
+        },
+        "type": "object",
+        "required": [
+          "valid",
+          "reasons"
+        ],
+        "title": "QuoteVerifyOut"
+      },
+      "QuotedField": {
+        "properties": {
+          "value": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Value"
+          },
+          "quote": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Quote",
+            "description": "Sentence the value came from. Blank field if the model found none."
+          }
+        },
+        "type": "object",
+        "required": [
+          "value",
+          "quote"
+        ],
+        "title": "QuotedField"
+      },
+      "RadarAlert": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "destination": {
+            "type": "string",
+            "enum": [
+              "US",
+              "EU",
+              "GB",
+              "AU",
+              "CA"
+            ],
+            "title": "Destination"
+          },
+          "effective_from": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Effective From"
+          },
+          "effective_label": {
+            "type": "string",
+            "title": "Effective Label"
+          },
+          "days_left": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Days Left"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "summary": {
+            "type": "string",
+            "title": "Summary"
+          },
+          "affected_product_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Affected Product Ids"
+          },
+          "impact_per_order": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Money"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "source_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source Url"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "act",
+              "further_out",
+              "watching",
+              "in_effect"
+            ],
+            "title": "Status"
+          },
+          "choice": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "absorb",
+                  "pass_on"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Choice"
+          },
+          "scheduled_price_change": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Scheduled Price Change"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "destination",
+          "effective_from",
+          "effective_label",
+          "days_left",
+          "title",
+          "summary",
+          "affected_product_ids",
+          "impact_per_order",
+          "source_url",
+          "status"
+        ],
+        "title": "RadarAlert"
+      },
+      "RadarChoiceIn": {
+        "properties": {
+          "choice": {
+            "type": "string",
+            "enum": [
+              "absorb",
+              "pass_on"
+            ],
+            "title": "Choice"
+          }
+        },
+        "type": "object",
+        "required": [
+          "choice"
+        ],
+        "title": "RadarChoiceIn"
+      },
+      "ReceiptLine": {
+        "properties": {
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "quantity": {
+            "type": "integer",
+            "title": "Quantity"
+          },
+          "unit_price": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "duty_and_tax": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "duties_included": {
+            "type": "boolean",
+            "title": "Duties Included"
+          },
+          "unpriced_reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Unpriced Reason"
+          }
+        },
+        "type": "object",
+        "required": [
+          "title",
+          "quantity",
+          "unit_price",
+          "duty_and_tax",
+          "duties_included"
+        ],
+        "title": "ReceiptLine"
+      },
+      "Recommendation": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "product_id": {
+            "type": "string",
+            "title": "Product Id"
+          },
+          "code": {
+            "type": "string",
+            "title": "Code",
+            "description": "Code for the primary destination as displayed, e.g. 6912.00.44.00"
+          },
+          "code6": {
+            "type": "string",
+            "title": "Code6"
+          },
+          "code_description": {
+            "type": "string",
+            "title": "Code Description"
+          },
+          "code_reason": {
+            "type": "string",
+            "title": "Code Reason"
+          },
+          "code_sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceRef"
+            },
+            "type": "array",
+            "title": "Code Sources"
+          },
+          "runner_up": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Runner Up"
+          },
+          "origin": {
+            "type": "string",
+            "title": "Origin"
+          },
+          "origin_reason": {
+            "type": "string",
+            "title": "Origin Reason"
+          },
+          "origin_signals": {
+            "items": {
+              "$ref": "#/components/schemas/OriginSignal"
+            },
+            "type": "array",
+            "title": "Origin Signals"
+          },
+          "band": {
+            "type": "string",
+            "enum": [
+              "high",
+              "check",
+              "ask"
+            ],
+            "title": "Band"
+          },
+          "triggers": {
+            "items": {
+              "type": "string",
+              "enum": [
+                "T1",
+                "T2",
+                "T3",
+                "T4",
+                "T5",
+                "T6"
+              ]
+            },
+            "type": "array",
+            "title": "Triggers"
+          },
+          "headline": {
+            "type": "string",
+            "title": "Headline",
+            "examples": [
+              "No questions needed: both likely codes cost the same"
+            ]
+          },
+          "questions": {
+            "items": {
+              "$ref": "#/components/schemas/Question"
+            },
+            "type": "array",
+            "title": "Questions"
+          },
+          "pricing": {
+            "items": {
+              "$ref": "#/components/schemas/DestinationPricing"
+            },
+            "type": "array",
+            "title": "Pricing"
+          },
+          "help_terms": {
+            "type": "string",
+            "title": "Help Terms",
+            "description": "Search words taken from the listing, already filled into the help links",
+            "default": ""
+          },
+          "help_links": {
+            "items": {
+              "$ref": "#/components/schemas/HelpLink"
+            },
+            "type": "array",
+            "title": "Help Links",
+            "description": "Official places to look the code up; empty for goods Landfall will not price for legal, safety or moral reasons"
+          },
+          "help_prominent": {
+            "type": "boolean",
+            "title": "Help Prominent",
+            "description": "True when Landfall found no code or is not confident: the links lead the page",
+            "default": false
+          },
+          "photo_reads": {
+            "items": {
+              "$ref": "#/components/schemas/PhotoReadOut"
+            },
+            "type": "array",
+            "title": "Photo Reads",
+            "description": "What the AI read in the product's photos (text only: the photos are not kept)"
+          },
+          "model": {
+            "type": "string",
+            "title": "Model"
+          },
+          "prompt_version": {
+            "type": "string",
+            "title": "Prompt Version"
+          },
+          "register_version": {
+            "type": "string",
+            "title": "Register Version"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "product_id",
+          "code",
+          "code6",
+          "code_description",
+          "code_reason",
+          "code_sources",
+          "origin",
+          "origin_reason",
+          "origin_signals",
+          "band",
+          "triggers",
+          "headline",
+          "questions",
+          "pricing",
+          "model",
+          "prompt_version",
+          "register_version",
+          "created_at"
+        ],
+        "title": "Recommendation"
+      },
+      "RuleEditIn": {
+        "properties": {
+          "destination": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Destination"
+          },
+          "code_pattern": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Code Pattern"
+          },
+          "origin_scope": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Origin Scope"
+          },
+          "measure": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Measure"
+          },
+          "rate": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rate"
+          },
+          "valid_from": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Valid From"
+          },
+          "valid_to": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Valid To"
+          }
+        },
+        "type": "object",
+        "title": "RuleEditIn"
+      },
+      "RuleProposal": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "notice_title": {
+            "type": "string",
+            "title": "Notice Title"
+          },
+          "notice_doc_number": {
+            "type": "string",
+            "title": "Notice Doc Number"
+          },
+          "notice_url": {
+            "type": "string",
+            "title": "Notice Url"
+          },
+          "notice_published": {
+            "type": "string",
+            "format": "date",
+            "title": "Notice Published"
+          },
+          "notice_excerpt": {
+            "type": "string",
+            "title": "Notice Excerpt"
+          },
+          "destination": {
+            "$ref": "#/components/schemas/QuotedField"
+          },
+          "code_pattern": {
+            "$ref": "#/components/schemas/QuotedField"
+          },
+          "origin_scope": {
+            "$ref": "#/components/schemas/QuotedField"
+          },
+          "measure": {
+            "$ref": "#/components/schemas/QuotedField"
+          },
+          "rate": {
+            "$ref": "#/components/schemas/QuotedField"
+          },
+          "valid_from": {
+            "$ref": "#/components/schemas/QuotedField"
+          },
+          "valid_to": {
+            "$ref": "#/components/schemas/QuotedField"
+          },
+          "products_affected": {
+            "type": "integer",
+            "title": "Products Affected"
+          },
+          "sellers_affected": {
+            "type": "integer",
+            "title": "Sellers Affected"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "pending",
+              "approved",
+              "edited",
+              "rejected"
+            ],
+            "title": "Status"
+          },
+          "model": {
+            "type": "string",
+            "title": "Model"
+          },
+          "prompt_version": {
+            "type": "string",
+            "title": "Prompt Version"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "notice_title",
+          "notice_doc_number",
+          "notice_url",
+          "notice_published",
+          "notice_excerpt",
+          "destination",
+          "code_pattern",
+          "origin_scope",
+          "measure",
+          "rate",
+          "valid_from",
+          "valid_to",
+          "products_affected",
+          "sellers_affected",
+          "status",
+          "model",
+          "prompt_version"
+        ],
+        "title": "RuleProposal"
+      },
+      "ShipToCountry": {
+        "properties": {
+          "country": {
+            "type": "string",
+            "title": "Country"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "destination": {
+            "type": "string",
+            "enum": [
+              "US",
+              "EU",
+              "GB",
+              "AU",
+              "CA"
+            ],
+            "title": "Destination"
+          },
+          "currency": {
+            "type": "string",
+            "enum": [
+              "USD",
+              "GBP",
+              "EUR",
+              "AUD",
+              "CAD"
+            ],
+            "title": "Currency"
+          },
+          "region": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Region"
+          }
+        },
+        "type": "object",
+        "required": [
+          "country",
+          "name",
+          "destination",
+          "currency"
+        ],
+        "title": "ShipToCountry"
+      },
+      "Shop": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "country": {
+            "type": "string",
+            "title": "Country"
+          },
+          "city": {
+            "type": "string",
+            "title": "City"
+          },
+          "ioss_registered": {
+            "type": "boolean",
+            "title": "Ioss Registered"
+          },
+          "sandbox_label": {
+            "type": "string",
+            "title": "Sandbox Label",
+            "default": "PayPal sandbox"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "country",
+          "city",
+          "ioss_registered"
+        ],
+        "title": "Shop"
+      },
+      "ShopProduct": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "title": {
+            "type": "string",
+            "title": "Title"
+          },
+          "description": {
+            "type": "string",
+            "title": "Description"
+          },
+          "category": {
+            "type": "string",
+            "title": "Category"
+          },
+          "origin": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Origin"
+          },
+          "prices": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "propertyNames": {
+              "enum": [
+                "USD",
+                "GBP",
+                "EUR",
+                "AUD",
+                "CAD"
+              ]
+            },
+            "type": "object",
+            "title": "Prices"
+          },
+          "photo_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Photo Url"
+          },
+          "duties_included": {
+            "type": "boolean",
+            "title": "Duties Included",
+            "description": "True when the seller has accepted a code and origin: the buyer pays duty in the price"
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note",
+            "description": "Plain reason when duties are not included"
+          },
+          "blocked": {
+            "type": "boolean",
+            "title": "Blocked",
+            "description": "True for goods Landfall will not handle for legal, safety or moral reasons: they cannot be added to a cart",
+            "default": false
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "description",
+          "category",
+          "origin",
+          "prices",
+          "duties_included"
+        ],
+        "title": "ShopProduct"
+      },
+      "SourceHealth": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "last_success_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Last Success At"
+          },
+          "rows_changed": {
+            "type": "integer",
+            "title": "Rows Changed"
+          },
+          "future_dated": {
+            "type": "integer",
+            "title": "Future Dated"
+          },
+          "publish": {
+            "type": "string",
+            "enum": [
+              "automatic",
+              "needs_review"
+            ],
+            "title": "Publish"
+          },
+          "health": {
+            "type": "string",
+            "enum": [
+              "ok",
+              "stale_48h",
+              "paused_7d"
+            ],
+            "title": "Health"
+          },
+          "detail": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "last_success_at",
+          "rows_changed",
+          "future_dated",
+          "publish",
+          "health"
+        ],
+        "title": "SourceHealth"
+      },
+      "SourceRef": {
+        "properties": {
+          "label": {
+            "type": "string",
+            "title": "Label"
+          },
+          "url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Url"
+          },
+          "document_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Document Id"
+          }
+        },
+        "type": "object",
+        "required": [
+          "label"
+        ],
+        "title": "SourceRef"
+      },
+      "Stamp": {
+        "properties": {
+          "destination": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "US",
+                  "EU",
+                  "GB",
+                  "AU",
+                  "CA"
+                ]
+              },
+              {
+                "type": "string"
+              }
+            ],
+            "title": "Destination"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          },
+          "earned_on": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Earned On"
+          },
+          "product_count": {
+            "type": "integer",
+            "title": "Product Count",
+            "default": 0
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          },
+          "earned": {
+            "type": "boolean",
+            "title": "Earned"
+          }
+        },
+        "type": "object",
+        "required": [
+          "destination",
+          "label",
+          "earned_on",
+          "earned"
+        ],
+        "title": "Stamp"
+      },
+      "Storefront": {
+        "properties": {
+          "shop": {
+            "$ref": "#/components/schemas/Shop"
+          },
+          "countries": {
+            "items": {
+              "$ref": "#/components/schemas/ShipToCountry"
+            },
+            "type": "array",
+            "title": "Countries"
+          },
+          "products": {
+            "items": {
+              "$ref": "#/components/schemas/ShopProduct"
+            },
+            "type": "array",
+            "title": "Products"
+          }
+        },
+        "type": "object",
+        "required": [
+          "shop",
+          "countries",
+          "products"
+        ],
+        "title": "Storefront"
+      },
+      "SyncOut": {
+        "properties": {
+          "added": {
+            "type": "integer",
+            "title": "Added"
+          },
+          "price_updated": {
+            "type": "integer",
+            "title": "Price Updated"
+          },
+          "changed": {
+            "type": "integer",
+            "title": "Changed",
+            "description": "Title or description changed in the feed: the earlier decision no longer applies until the seller reviews again"
+          },
+          "removed": {
+            "type": "integer",
+            "title": "Removed",
+            "description": "No longer in the feed: not sold through the checkout"
+          },
+          "restored": {
+            "type": "integer",
+            "title": "Restored"
+          },
+          "skipped": {
+            "items": {
+              "$ref": "#/components/schemas/ImportSkipped"
+            },
+            "type": "array",
+            "title": "Skipped"
+          },
+          "recommended": {
+            "type": "integer",
+            "title": "Recommended",
+            "description": "New or changed products that now have a recommendation waiting for the seller"
+          },
+          "pending": {
+            "type": "integer",
+            "title": "Pending",
+            "description": "New or changed products left without a recommendation (the recommender was unavailable)"
+          },
+          "last_synced_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Last Synced At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "added",
+          "price_updated",
+          "changed",
+          "removed",
+          "restored",
+          "skipped",
+          "recommended",
+          "pending",
+          "last_synced_at"
+        ],
+        "title": "SyncOut"
+      },
+      "SyncStatus": {
+        "properties": {
+          "register_version": {
+            "type": "string",
+            "title": "Register Version"
+          },
+          "sources": {
+            "items": {
+              "$ref": "#/components/schemas/SourceHealth"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "shipment_cross_check": {
+            "items": {
+              "$ref": "#/components/schemas/CrossCheck"
+            },
+            "type": "array",
+            "title": "Shipment Cross Check",
+            "default": []
+          }
+        },
+        "type": "object",
+        "required": [
+          "register_version",
+          "sources"
+        ],
+        "title": "SyncStatus"
+      },
+      "TimeMachineOption": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "label"
+        ],
+        "title": "TimeMachineOption"
+      },
+      "TimeMachineOptions": {
+        "properties": {
+          "products": {
+            "items": {
+              "$ref": "#/components/schemas/TimeMachineOption"
+            },
+            "type": "array",
+            "title": "Products"
+          },
+          "origins": {
+            "items": {
+              "$ref": "#/components/schemas/TimeMachineOption"
+            },
+            "type": "array",
+            "title": "Origins"
+          },
+          "destinations": {
+            "items": {
+              "$ref": "#/components/schemas/TimeMachineOption"
+            },
+            "type": "array",
+            "title": "Destinations"
+          }
+        },
+        "type": "object",
+        "required": [
+          "products",
+          "origins",
+          "destinations"
+        ],
+        "title": "TimeMachineOptions"
+      },
+      "TimeMachinePoint": {
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date",
+            "title": "Date"
+          },
+          "buyer_total": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "duty_and_tax": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "is_change_date": {
+            "type": "boolean",
+            "title": "Is Change Date",
+            "default": false
+          },
+          "is_future": {
+            "type": "boolean",
+            "title": "Is Future",
+            "default": false
+          },
+          "illustrative": {
+            "type": "boolean",
+            "title": "Illustrative",
+            "default": false
+          },
+          "label": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Label"
+          },
+          "source_ref": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source Ref"
+          },
+          "source_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source Url"
+          }
+        },
+        "type": "object",
+        "required": [
+          "date",
+          "buyer_total",
+          "duty_and_tax"
+        ],
+        "title": "TimeMachinePoint"
+      },
+      "TimeMachineSeries": {
+        "properties": {
+          "product_id": {
+            "type": "string",
+            "title": "Product Id"
+          },
+          "product_label": {
+            "type": "string",
+            "title": "Product Label"
+          },
+          "origin_id": {
+            "type": "string",
+            "title": "Origin Id"
+          },
+          "origin_label": {
+            "type": "string",
+            "title": "Origin Label"
+          },
+          "destination": {
+            "type": "string",
+            "enum": [
+              "US",
+              "EU",
+              "GB",
+              "AU",
+              "CA"
+            ],
+            "title": "Destination"
+          },
+          "destination_label": {
+            "type": "string",
+            "title": "Destination Label"
+          },
+          "item_price": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "shipping": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "headline": {
+            "type": "string",
+            "title": "Headline"
+          },
+          "points": {
+            "items": {
+              "$ref": "#/components/schemas/TimeMachinePoint"
+            },
+            "type": "array",
+            "title": "Points"
+          },
+          "today": {
+            "type": "string",
+            "format": "date",
+            "title": "Today"
+          },
+          "sources": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Sources"
+          },
+          "has_illustrative": {
+            "type": "boolean",
+            "title": "Has Illustrative"
+          },
+          "register_version": {
+            "type": "string",
+            "title": "Register Version"
+          }
+        },
+        "type": "object",
+        "required": [
+          "product_id",
+          "product_label",
+          "origin_id",
+          "origin_label",
+          "destination",
+          "destination_label",
+          "item_price",
+          "shipping",
+          "headline",
+          "points",
+          "today",
+          "sources",
+          "has_illustrative",
+          "register_version"
+        ],
+        "title": "TimeMachineSeries"
+      },
+      "TrailLine": {
+        "properties": {
+          "label": {
+            "type": "string",
+            "title": "Label"
+          },
+          "base": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "rate": {
+            "type": "string",
+            "title": "Rate",
+            "examples": [
+              "10%"
+            ]
+          },
+          "amount": {
+            "$ref": "#/components/schemas/Money"
+          },
+          "source_ref": {
+            "type": "string",
+            "title": "Source Ref"
+          },
+          "source_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source Url"
+          },
+          "row_id": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Row Id"
+          }
+        },
+        "type": "object",
+        "required": [
+          "label",
+          "base",
+          "rate",
+          "amount",
+          "source_ref"
+        ],
+        "title": "TrailLine"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

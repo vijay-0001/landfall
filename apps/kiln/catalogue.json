@@ -1,0 +1,454 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "handle": "mug-001",
+      "title": "Hand-thrown stoneware mug",
+      "body_html": "<p>Thrown by hand in our Stoke studio from British stoneware clay. Dishwasher safe. 350 ml.</p>",
+      "colour": "#b4573a",
+      "variants": [
+        {
+          "sku": "MUG-001",
+          "title": "Default Title",
+          "price": "30.00",
+          "presentment_prices": [
+            {
+              "price": {
+                "amount": "30.00",
+                "currency_code": "GBP"
+              }
+            },
+            {
+              "price": {
+                "amount": "38.00",
+                "currency_code": "USD"
+              }
+            },
+            {
+              "price": {
+                "amount": "35.00",
+                "currency_code": "EUR"
+              }
+            },
+            {
+              "price": {
+                "amount": "58.00",
+                "currency_code": "AUD"
+              }
+            },
+            {
+              "price": {
+                "amount": "52.00",
+                "currency_code": "CAD"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        "/photos/mug-1.jpg",
+        "/photos/mug-2.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "handle": "bowl-001",
+      "title": "Stoneware serving bowl",
+      "body_html": "<p>Wheel-thrown stoneware serving bowl, 24 cm, food-safe glaze, made in our Stoke studio.</p>",
+      "colour": "#c98b5a",
+      "variants": [
+        {
+          "sku": "BOWL-001",
+          "title": "Default Title",
+          "price": "40.00",
+          "presentment_prices": [
+            {
+              "price": {
+                "amount": "40.00",
+                "currency_code": "GBP"
+              }
+            },
+            {
+              "price": {
+                "amount": "52.00",
+                "currency_code": "USD"
+              }
+            },
+            {
+              "price": {
+                "amount": "47.00",
+                "currency_code": "EUR"
+              }
+            },
+            {
+              "price": {
+                "amount": "78.00",
+                "currency_code": "AUD"
+              }
+            },
+            {
+              "price": {
+                "amount": "70.00",
+                "currency_code": "CAD"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        "/photos/bowl-1.jpg",
+        "/photos/bowl-2.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "handle": "nap-004",
+      "title": "Cotton napkins, set of 4",
+      "body_html": "<p>Stonewashed cotton napkins, set of 4, woven and sewn by our partner mill near Porto.</p>",
+      "colour": "#d9c7a8",
+      "variants": [
+        {
+          "sku": "NAP-004",
+          "title": "Default Title",
+          "price": "28.00",
+          "presentment_prices": [
+            {
+              "price": {
+                "amount": "28.00",
+                "currency_code": "GBP"
+              }
+            },
+            {
+              "price": {
+                "amount": "36.00",
+                "currency_code": "USD"
+              }
+            },
+            {
+              "price": {
+                "amount": "33.00",
+                "currency_code": "EUR"
+              }
+            },
+            {
+              "price": {
+                "amount": "54.00",
+                "currency_code": "AUD"
+              }
+            },
+            {
+              "price": {
+                "amount": "49.00",
+                "currency_code": "CAD"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        "/photos/napkins-1.jpg",
+        "/photos/napkins-2.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "handle": "wal-001",
+      "title": "Leather card wallet",
+      "body_html": "<p>Slim leather card wallet, six card slots, hand-finished in Britain.</p>",
+      "colour": "#6b4a36",
+      "variants": [
+        {
+          "sku": "WAL-001",
+          "title": "Default Title",
+          "price": "20.00",
+          "presentment_prices": [
+            {
+              "price": {
+                "amount": "20.00",
+                "currency_code": "GBP"
+              }
+            },
+            {
+              "price": {
+                "amount": "26.00",
+                "currency_code": "USD"
+              }
+            },
+            {
+              "price": {
+                "amount": "24.00",
+                "currency_code": "EUR"
+              }
+            },
+            {
+              "price": {
+                "amount": "40.00",
+                "currency_code": "AUD"
+              }
+            },
+            {
+              "price": {
+                "amount": "36.00",
+                "currency_code": "CAD"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        "/photos/wallet-1.jpg",
+        "/photos/wallet-2.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "handle": "tote-001",
+      "title": "Printed cotton tote",
+      "body_html": "<p>Cotton tote bag, screen-printed in our studio with the Kiln &amp; Co. kiln design.</p>",
+      "colour": "#8a9a7b",
+      "variants": [
+        {
+          "sku": "TOTE-001",
+          "title": "Default Title",
+          "price": "19.00",
+          "presentment_prices": [
+            {
+              "price": {
+                "amount": "19.00",
+                "currency_code": "GBP"
+              }
+            },
+            {
+              "price": {
+                "amount": "24.00",
+                "currency_code": "USD"
+              }
+            },
+            {
+              "price": {
+                "amount": "22.00",
+                "currency_code": "EUR"
+              }
+            },
+            {
+              "price": {
+                "amount": "37.00",
+                "currency_code": "AUD"
+              }
+            },
+            {
+              "price": {
+                "amount": "33.00",
+                "currency_code": "CAD"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        "/photos/tote-1.jpg",
+        "/photos/tote-2.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "handle": "tee-001",
+      "title": "Organic cotton t-shirt, unisex",
+      "body_html": "<p>Plain crew-neck t-shirt, 100% organic cotton jersey, knitted and sewn for us by a small factory in Dhaka, Bangladesh. Sizes S to XL.</p>",
+      "colour": "#7a8fa6",
+      "variants": [
+        {
+          "sku": "TEE-001",
+          "title": "Default Title",
+          "price": "22.00",
+          "presentment_prices": [
+            {
+              "price": {
+                "amount": "22.00",
+                "currency_code": "GBP"
+              }
+            },
+            {
+              "price": {
+                "amount": "28.00",
+                "currency_code": "USD"
+              }
+            },
+            {
+              "price": {
+                "amount": "26.00",
+                "currency_code": "EUR"
+              }
+            },
+            {
+              "price": {
+                "amount": "42.00",
+                "currency_code": "AUD"
+              }
+            },
+            {
+              "price": {
+                "amount": "38.00",
+                "currency_code": "CAD"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        "/photos/tee-1.jpg",
+        "/photos/tee-2.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "handle": "spn-003",
+      "title": "Olive wood spoon set, 3 pieces",
+      "body_html": "<p>Three hand-carved olive wood kitchen spoons (serving, stirring, tasting), oiled not varnished, carved by a family workshop in Vietnam.</p>",
+      "colour": "#a47c4f",
+      "variants": [
+        {
+          "sku": "SPN-003",
+          "title": "Default Title",
+          "price": "18.00",
+          "presentment_prices": [
+            {
+              "price": {
+                "amount": "18.00",
+                "currency_code": "GBP"
+              }
+            },
+            {
+              "price": {
+                "amount": "23.00",
+                "currency_code": "USD"
+              }
+            },
+            {
+              "price": {
+                "amount": "21.00",
+                "currency_code": "EUR"
+              }
+            },
+            {
+              "price": {
+                "amount": "35.00",
+                "currency_code": "AUD"
+              }
+            },
+            {
+              "price": {
+                "amount": "31.00",
+                "currency_code": "CAD"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        "/photos/spoons-1.jpg",
+        "/photos/spoons-2.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "handle": "trn-024",
+      "title": "Wooden toy train set, 24 pieces",
+      "body_html": "<p>Beech wood toy train with 24 pieces of track and bridges, painted with child-safe paint. For ages 3 and up. Made in China.</p>",
+      "colour": "#c0463d",
+      "variants": [
+        {
+          "sku": "TRN-024",
+          "title": "Default Title",
+          "price": "34.00",
+          "presentment_prices": [
+            {
+              "price": {
+                "amount": "34.00",
+                "currency_code": "GBP"
+              }
+            },
+            {
+              "price": {
+                "amount": "44.00",
+                "currency_code": "USD"
+              }
+            },
+            {
+              "price": {
+                "amount": "40.00",
+                "currency_code": "EUR"
+              }
+            },
+            {
+              "price": {
+                "amount": "68.00",
+                "currency_code": "AUD"
+              }
+            },
+            {
+              "price": {
+                "amount": "60.00",
+                "currency_code": "CAD"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        "/photos/train-1.jpg",
+        "/photos/train-2.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "handle": "vas-001",
+      "title": "Vintage uranium glass vase",
+      "body_html": "<p>1930s vintage uranium glass vase that glows green under UV light. Slightly radioactive, as all uranium glass is. 18 cm tall.</p>",
+      "colour": "#9fc23a",
+      "variants": [
+        {
+          "sku": "VAS-001",
+          "title": "Default Title",
+          "price": "85.00",
+          "presentment_prices": [
+            {
+              "price": {
+                "amount": "85.00",
+                "currency_code": "GBP"
+              }
+            },
+            {
+              "price": {
+                "amount": "110.00",
+                "currency_code": "USD"
+              }
+            },
+            {
+              "price": {
+                "amount": "99.00",
+                "currency_code": "EUR"
+              }
+            },
+            {
+              "price": {
+                "amount": "170.00",
+                "currency_code": "AUD"
+              }
+            },
+            {
+              "price": {
+                "amount": "150.00",
+                "currency_code": "CAD"
+              }
+            }
+          ]
+        }
+      ],
+      "images": [
+        "/photos/vase-1.jpg",
+        "/photos/vase-2.jpg"
+      ]
+    }
+  ]
+}

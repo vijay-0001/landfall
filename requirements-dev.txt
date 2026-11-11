@@ -1,0 +1,10 @@
+pytest
+ruff
+pip-licenses
+pg8000
+-e packages/engine
+-e packages/register
+-e packages/classifier
+-e packages/paypal
+-e apps/api
+-e apps/worker

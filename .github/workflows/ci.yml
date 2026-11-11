@@ -1,0 +1,29 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    services:
+      db:
+        image: postgres:16
+        env: { POSTGRES_PASSWORD: landfall, POSTGRES_DB: landfall_test }
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U postgres" --health-interval 5s --health-retries 10
+    env:
+      LANDFALL_TEST_DATABASE_URL: postgresql+asyncpg://postgres:landfall@localhost:5432/landfall_test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "24" }
+      - run: pip install -r requirements-dev.txt
+      - run: npm ci --omit=optional --ignore-scripts || true
+      - run: scripts/ci all
+  images:
+    runs-on: ubuntu-latest
+    needs: ci
+    steps:
+      - uses: actions/checkout@v4
+      - run: for a in web api worker renderer; do docker build -f apps/$a/Dockerfile -t landfall-$a:ci .; done

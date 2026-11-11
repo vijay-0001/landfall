@@ -1,0 +1,9 @@
+{
+  "name": "kiln-and-co",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "type": "module",
+  "description": "Kiln & Co.: a mock merchant (a small online shop) that prices import duty by calling Landfall's API. Not part of Landfall.",
+  "scripts": { "start": "node server.mjs", "test": "node --test" }
+}

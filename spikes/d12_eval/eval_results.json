@@ -1,0 +1,3422 @@
+{
+ "summary": {
+  "model": "claude-haiku-5-5",
+  "listings": 200,
+  "exact6_callA": 0.965,
+  "exact6_callB": 0.975,
+  "heading4_callA": 0.975,
+  "calls_agree": 0.99,
+  "valid_in_list": 1.0,
+  "latency_p50": 1.1784390211105347,
+  "latency_p95": 1.6524956226348877,
+  "latency_max": 8.157963991165161,
+  "per_product_2calls_tokens": [
+   2169.94,
+   189.465
+  ],
+  "cost_per_product_assumed_usd": 0.003117265,
+  "wall_s": 63.88850665092468
+ },
+ "rows": [
+  {
+   "title": "Handmade stoneware coffee mug",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.95,
+    "reason": "A glazed, wheel-thrown stoneware coffee mug is ceramic tableware/kitchenware of a material other than porcelain, matching heading 6912.00.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.92,
+    "reason": "A glazed, wheel-thrown stoneware mug is ceramic tableware/kitchenware made of a material other than porcelain, which falls under 6912.00.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Handmade stoneware coffee mug",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.93,
+    "reason": "Stoneware kitchenware is ceramic tableware of a non-porcelain material, which falls under 6912.00.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.93,
+    "reason": "Stoneware kitchenware is ceramic tableware of a non-porcelain material, which falls under 6912.00.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Speckled glaze ceramic mug 350ml",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.9,
+    "reason": "Wheel-thrown stoneware drinking mug is ceramic tableware of a non-porcelain material, which falls under 6912.00.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.9,
+    "reason": "Wheel-thrown stoneware drinking mug is ceramic tableware of a non-porcelain material, which falls under 6912.00.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Speckled glaze ceramic mug 350ml",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.9,
+    "reason": "A hand-glazed stoneware mug is ceramic tableware of a non-porcelain material, which falls under 6912.00.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.9,
+    "reason": "Stoneware mug is a ceramic tableware/kitchenware article that is not porcelain, so it falls under 6912.00.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Stoneware tea mug with handle",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.9,
+    "reason": "A glazed stoneware tea mug is ceramic tableware/kitchenware made of non-porcelain material, which falls under 6912.00.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.9,
+    "reason": "A glazed stoneware tea mug is a ceramic kitchenware/tableware article made of non-porcelain material, which falls under 6912.00.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Rustic earthenware serving bowl",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.9,
+    "reason": "Glazed earthenware kitchen serving bowl is a ceramic kitchenware article that is not porcelain, matching the non-porcelain tableware/kitchenware category.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.9,
+    "reason": "Glazed earthenware serving bowl is a ceramic kitchenware article that is not porcelain, matching the non-porcelain tableware/kitchenware code.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Rustic earthenware serving bowl",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.9,
+    "reason": "Glazed terracotta earthenware serving bowl is ceramic tableware of a non-porcelain body, matching the stoneware/earthenware heading 6912.00.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.9,
+    "reason": "Earthenware tableware is non-porcelain ceramic tableware, which falls under 6912.00.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Hand painted ceramic cereal bowl",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.93,
+    "reason": "Glazed earthenware tableware for kitchen use is ceramic tableware of a material other than porcelain, matching 6912.00.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.93,
+    "reason": "Glazed earthenware kitchenware is ceramic tableware/kitchenware of a non-porcelain material, which falls under 6912.00.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Hand painted ceramic cereal bowl",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.8,
+    "reason": "A glazed terracotta (earthenware) bowl for the table is ceramic tableware of a material other than porcelain, so it falls under 6912.00.",
+    "question": "Is the body truly terracotta/earthenware rather than porcelain or stoneware, as the description suggests?"
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.8,
+    "reason": "A glazed terracotta bowl for the table is a ceramic tableware article made of non-porcelain earthenware, which falls under 6912.00.",
+    "question": "Is the body confirmed as earthenware or terracotta rather than porcelain or stoneware, since the listing does not state the paste composition explicitly?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Earthenware soup bowl set of 2",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.93,
+    "reason": "Glazed earthenware kitchen bowls are ceramic tableware/kitchenware not of porcelain, matching the 6912.00 category for other-than-porcelain ceramics.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.93,
+    "reason": "Glazed earthenware kitchen bowls are ceramic tableware/kitchenware of a material other than porcelain, matching 6912.00.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Stoneware dinner plate 27cm",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.93,
+    "reason": "Stoneware dinner plate is ceramic tableware of a non-porcelain material, which falls under 6912.00.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.93,
+    "reason": "Stoneware dinner plate is a ceramic tableware article of material other than porcelain, matching the 6912.00 category.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Stoneware dinner plate 27cm",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.93,
+    "reason": "Stoneware dinner plate is ceramic tableware of a material other than porcelain, matching 6912.00.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.93,
+    "reason": "Stoneware tableware is ceramic tableware of a material other than porcelain, which falls under 6912.00.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Matte glaze ceramic side plate",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.9,
+    "reason": "Stoneware tableware is a ceramic table article other than porcelain, which falls under 6912.00.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.9,
+    "reason": "Stoneware tableware is a ceramic table article other than porcelain, which falls under 6912.00.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Matte glaze ceramic side plate",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.9,
+    "reason": "A thrown kiln-fired stoneware side plate is ceramic tableware of a non-porcelain material, which falls under 6912.00.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.9,
+    "reason": "A thrown, kiln-fired stoneware side plate is ceramic tableware of a non-porcelain material, which falls under 6912.00.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Handmade stoneware dessert plate",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.9,
+    "reason": "Stoneware is a non-porcelain ceramic, and a plate is tableware, which matches the 6912.00 category for ceramic tableware other than porcelain.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.93,
+    "reason": "Stoneware tableware is a ceramic table article that is not porcelain, so it falls under the non-porcelain ceramic tableware heading.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "White porcelain dinner plate",
+   "truth": "6911.10",
+   "a": {
+    "hs6": "6911.10",
+    "confidence": 0.92,
+    "reason": "A white porcelain dinner plate is porcelain tableware, which falls under 6911.10 for tableware and kitchenware of porcelain.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6911.10",
+    "confidence": 0.93,
+    "reason": "Fine white porcelain dinner plate is tableware of porcelain, which matches the 6911.10 tableware/kitchenware of porcelain heading.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "White porcelain dinner plate",
+   "truth": "6911.10",
+   "a": {
+    "hs6": "6911.10",
+    "confidence": 0.95,
+    "reason": "Described as a vitrified porcelain dinner plate, which is porcelain tableware and matches the porcelain tableware code.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6911.10",
+    "confidence": 0.95,
+    "reason": "Described as porcelain dinner plate, which is tableware of porcelain.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Fine porcelain salad plate set of 4",
+   "truth": "6911.10",
+   "a": {
+    "hs6": "6911.10",
+    "confidence": 0.95,
+    "reason": "A set of fine white porcelain salad plates is porcelain tableware, which falls under 6911.10.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6911.10",
+    "confidence": 0.93,
+    "reason": "Fine white porcelain salad plates are porcelain tableware, matching the tableware/kitchenware of porcelain heading.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Fine porcelain salad plate set of 4",
+   "truth": "6911.10",
+   "a": {
+    "hs6": "6911.10",
+    "confidence": 0.93,
+    "reason": "Described as fine porcelain tableware (salad plates), which falls under tableware/kitchenware of porcelain.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6911.10",
+    "confidence": 0.93,
+    "reason": "The listing describes a set of porcelain salad plates, which is porcelain tableware/kitchenware, matching heading 6911.10.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Porcelain dining plate gold rim",
+   "truth": "6911.10",
+   "a": {
+    "hs6": "6911.10",
+    "confidence": 0.93,
+    "reason": "Fine white porcelain dining plate is tableware of porcelain, matching HS 6911.10; the gold rim is decorative and does not change classification.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6911.10",
+    "confidence": 0.93,
+    "reason": "Fine white porcelain dining plate is tableware of porcelain, matching HS 6911.10 for porcelain tableware and kitchenware.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Bone china teacup and saucer",
+   "truth": "6911.10",
+   "a": {
+    "hs6": "6911.10",
+    "confidence": 0.93,
+    "reason": "Translucent porcelain (bone china) teacup and saucer is tableware of porcelain, matching the 6911.10 tableware/kitchenware category; the gilt rim is decoration and does not change classification.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6911.10",
+    "confidence": 0.93,
+    "reason": "Translucent porcelain (bone china) teacup and saucer is porcelain tableware, matching the tableware/kitchenware of porcelain code.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Bone china teacup and saucer",
+   "truth": "6911.10",
+   "a": {
+    "hs6": "6911.10",
+    "confidence": 0.93,
+    "reason": "A bone china cup and saucer is porcelain tableware used for serving tea or coffee, which matches the porcelain tableware/kitchenware heading.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6911.10",
+    "confidence": 0.93,
+    "reason": "A porcelain teacup and saucer for tea or coffee is porcelain tableware, which falls under 6911.10.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Porcelain tea cup with saucer",
+   "truth": "6911.10",
+   "a": {
+    "hs6": "6911.10",
+    "confidence": 0.93,
+    "reason": "A porcelain tea cup with saucer is tableware of porcelain, which matches the 6911.10 heading for porcelain tableware and kitchenware.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6911.10",
+    "confidence": 0.93,
+    "reason": "A porcelain tea cup with saucer is tableware of porcelain, which matches heading 6911.10 directly.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Porcelain tea cup with saucer",
+   "truth": "6911.10",
+   "a": {
+    "hs6": "6911.10",
+    "confidence": 0.95,
+    "reason": "A porcelain cup with saucer used for serving tea or coffee is porcelain tableware, which matches code 6911.10.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6911.10",
+    "confidence": 0.93,
+    "reason": "A porcelain cup with saucer is porcelain tableware used for serving tea or coffee, which falls under 6911.10.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Fine porcelain espresso cup set",
+   "truth": "6911.10",
+   "a": {
+    "hs6": "6911.10",
+    "confidence": 0.93,
+    "reason": "Porcelain espresso cups are tableware/kitchenware of porcelain, which matches heading 6911.10 directly.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6911.10",
+    "confidence": 0.93,
+    "reason": "Porcelain espresso cups are tableware of porcelain, which matches the 6911.10 heading for porcelain tableware and kitchenware.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Hand painted ceramic vase",
+   "truth": "6913.90",
+   "a": {
+    "hs6": "6913.90",
+    "confidence": 0.8,
+    "reason": "A decorative hand-painted vase made of earthenware is an ornamental ceramic article that is not porcelain, so it falls under statuettes/ornamental ceramic articles other than porcelain.",
+    "question": "Is the vase purely decorative with no function as a container for food or drink, or is it intended to hold flowers or other items as a household article?"
+   },
+   "b": {
+    "hs6": "6913.90",
+    "confidence": 0.8,
+    "reason": "A hand-painted decorative vase made of earthenware is an ornamental ceramic article that is not porcelain, which falls under 6913.90.",
+    "question": "Is the vase used purely as an ornament, or is it intended to hold flowers or liquids as a household article?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Hand painted ceramic vase",
+   "truth": "6913.90",
+   "a": {
+    "hs6": "6913.90",
+    "confidence": 0.6,
+    "reason": "A glazed ornamental ceramic vase is an ornamental ceramic article, but the listing does not state whether the body is porcelain or another ceramic such as earthenware or stoneware.",
+    "question": "Is the vase made of porcelain (fine white translucent body) or of non-porcelain ceramic such as earthenware or stoneware?"
+   },
+   "b": {
+    "hs6": "6913.90",
+    "confidence": 0.6,
+    "reason": "A hand-painted glazed ornamental ceramic vase is an ornamental ceramic article, and since the material is not stated as porcelain it falls under the non-porcelain statuette/ornamental code.",
+    "question": "Is the vase made of porcelain (fine white translucent body) or of another ceramic such as stoneware or earthenware?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Earthenware flower vase 25cm",
+   "truth": "6913.90",
+   "a": {
+    "hs6": "6914.90",
+    "confidence": 0.6,
+    "reason": "A decorative earthenware vase is an ornamental ceramic article not of porcelain and not tableware, so it falls under other ceramic articles, non-porcelain.",
+    "question": "Is the vase primarily ornamental display ware (6914.90) or is it intended as a figurine/statuette-type article (6913.90)?"
+   },
+   "b": {
+    "hs6": "6914.90",
+    "confidence": 0.6,
+    "reason": "A decorative earthenware flower vase is an ornamental ceramic article not of porcelain, and the closed list offers no specific ornamental-vase code for non-porcelain ceramics beyond the statuette code, so 6914.90 for other ceramic articles is the closest fit, though 6913.90 is a plausible alternative if it is classed as an ornament.",
+    "question": "Is the vase primarily a functional container for flowers, or is it classed as an ornamental article of ceramic?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Earthenware flower vase 25cm",
+   "truth": "6913.90",
+   "a": {
+    "hs6": "6914.90",
+    "confidence": 0.6,
+    "reason": "A glazed earthenware ornamental vase is a ceramic article that is not porcelain and not a statuette or tableware, so it falls under other ceramic articles other than porcelain; the list has no dedicated earthenware vase code, making 6912.00 (household articles other than porcelain) a plausible alternative.",
+    "question": "Is the vase used as a functional household/kitchen item (e.g., holding food or drink, or for everyday table use), or is it purely decorative?"
+   },
+   "b": {
+    "hs6": "6913.90",
+    "confidence": 0.6,
+    "reason": "Glazed earthenware vase described as ornamental, which fits the ceramic ornamental articles heading for non-porcelain ceramics, though its use as a flower vase could also place it under household articles.",
+    "question": "Is the vase primarily decorative with no functional role, or is it marketed as a functional household or kitchen item?"
+   },
+   "agree": false
+  },
+  {
+   "title": "Decorative stoneware bud vase",
+   "truth": "6913.90",
+   "a": {
+    "hs6": "6914.90",
+    "confidence": 0.6,
+    "reason": "A decorative vase is an ornamental ceramic article, and the listing describes it as earthenware/stoneware, which points to non-porcelain ceramic articles, but the closed list has no clear ornamental code for non-porcelain vases apart from 6913.90, so classification between 6913.90 and 6914.90 is uncertain.",
+    "question": "Is the vase primarily a statuette or ornamental figure, or is it a general decorative article such as a vase or bowl?"
+   },
+   "b": {
+    "hs6": "6914.90",
+    "confidence": 0.6,
+    "reason": "A decorative vase is an ornamental ceramic article not of porcelain, and the closest list code for other ceramic articles is 6914.90, though 6913.90 (statuettes/ornamental ceramic articles, other than porcelain) could also apply to a purely decorative piece.",
+    "question": "Is the vase purely ornamental for display, or is it intended to hold water and flowers as a functional article?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Ceramic owl figurine",
+   "truth": "6913.90",
+   "a": {
+    "hs6": "6913.90",
+    "confidence": 0.6,
+    "reason": "A decorative ceramic owl ornament is a statuette, and the listing does not state porcelain, so it falls under the non-porcelain ceramic statuettes code.",
+    "question": "Is the figurine made of porcelain or of another ceramic body such as earthenware or stoneware?"
+   },
+   "b": {
+    "hs6": "6913.90",
+    "confidence": 0.6,
+    "reason": "A decorative ceramic owl ornament is a statuette, and the listing does not state porcelain, so it falls under the non-porcelain ornamental ceramic code.",
+    "question": "Is the figurine made of porcelain or of another ceramic such as stoneware or earthenware?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Ceramic owl figurine",
+   "truth": "6913.90",
+   "a": {
+    "hs6": "6913.90",
+    "confidence": 0.6,
+    "reason": "A hand-made glazed ceramic owl is an ornamental statuette, and the listing does not state porcelain, so it falls under the non-porcelain ceramic statuette heading.",
+    "question": "Is the figurine made of porcelain (fine white translucent body) or of another ceramic such as stoneware or earthenware?"
+   },
+   "b": {
+    "hs6": "6913.90",
+    "confidence": 0.7,
+    "reason": "A glazed ceramic owl figure is an ornamental statuette, and since the listing does not say porcelain, it falls under the non-porcelain ceramic statuette code.",
+    "question": "Is the figurine made of porcelain (fine white, translucent body) or of another ceramic such as stoneware or earthenware?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Hand glazed stoneware animal ornament",
+   "truth": "6913.90",
+   "a": {
+    "hs6": "6913.90",
+    "confidence": 0.9,
+    "reason": "A decorative ornament made of stoneware (a non-porcelain ceramic) falls under ornamental ceramic articles other than porcelain.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6913.90",
+    "confidence": 0.85,
+    "reason": "A hand-glazed stoneware decorative animal figure is an ornamental ceramic article of a non-porcelain material, which falls under statuettes and ornamental ceramic articles other than porcelain.",
+    "question": "Is the stoneware body fully vitrified and is the piece confirmed to be a figurine rather than a functional article such as a planter or vase?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Hand glazed stoneware animal ornament",
+   "truth": "6913.90",
+   "a": {
+    "hs6": "6913.90",
+    "confidence": 0.9,
+    "reason": "A hand-made glazed ceramic figure intended for shelf display is an ornamental statuette, and stoneware is not porcelain, so it falls under 6913.90.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6913.90",
+    "confidence": 0.85,
+    "reason": "A hand-glazed ceramic figure for shelf display is an ornamental article, and stoneware is not porcelain, so it falls under 6913.90.",
+    "question": "Is the stoneware body confirmed to be non-porcelain, and is the figure purely decorative rather than functional?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Decorative earthenware bird statuette",
+   "truth": "6913.90",
+   "a": {
+    "hs6": "6913.90",
+    "confidence": 0.85,
+    "reason": "A decorative ornamental statuette made of earthenware (a non-porcelain ceramic) falls under ceramic statuettes/ornamental articles other than porcelain.",
+    "question": "Is the statuette made of porcelain or of earthenware/stoneware, and does the listing confirm the body material?"
+   },
+   "b": {
+    "hs6": "6913.90",
+    "confidence": 0.9,
+    "reason": "A decorative ornamental statuette made of earthenware (non-porcelain ceramic) falls under statuettes and other ornamental ceramic articles other than porcelain.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Glazed ceramic plant pot with saucer",
+   "truth": "6914.90",
+   "a": {
+    "hs6": "6914.90",
+    "confidence": 0.6,
+    "reason": "A glazed ceramic plant pot is an ornamental/household ceramic article not classed as tableware, and the listing does not state whether the ceramic is porcelain, so it falls under other ceramic articles of non-porcelain material.",
+    "question": "Is the ceramic body porcelain (fine white vitrified body) or non-porcelain such as stoneware or earthenware?"
+   },
+   "b": {
+    "hs6": "6914.90",
+    "confidence": 0.6,
+    "reason": "A glazed ceramic flower pot is an ornamental/other ceramic article, and the listing does not indicate porcelain, so it falls under other ceramic articles not of porcelain.",
+    "question": "Is the pot made of porcelain, stoneware, or earthenware, and is it primarily for household use or purely decorative?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Glazed ceramic plant pot with saucer",
+   "truth": "6914.90",
+   "a": {
+    "hs6": "6914.90",
+    "confidence": 0.6,
+    "reason": "A glazed ceramic plant pot is an other ceramic article not of porcelain, and the closed list offers no specific planter code, so 6914.90 fits best, though 6912.00 (ceramic household articles other than porcelain) is a plausible alternative.",
+    "question": "Is the planter made of porcelain, stoneware/earthenware, or another ceramic body, and is it primarily a household/kitchen article or an ornamental article?"
+   },
+   "b": {
+    "hs6": "6914.90",
+    "confidence": 0.6,
+    "reason": "A glazed ceramic planter is an ornamental/household ceramic article not of porcelain, and none of the closed list's tableware or statuette codes fit it cleanly, so it falls under other ceramic articles other than porcelain.",
+    "question": "Is the ceramic body porcelain or earthenware/stoneware, and is the pot primarily for household/garden use rather than ornamental display?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Terracotta planter 15cm",
+   "truth": "6914.90",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.6,
+    "reason": "Terracotta is an unglazed earthenware ceramic, not porcelain, so it falls under other-than-porcelain household ceramic articles; the listing does not state glazing or water absorption, leaving it close to 6914.90 as an alternative.",
+    "question": "Is the planter an unglazed earthenware/terracotta household article, or is it classed as an ornamental or other ceramic article?"
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.6,
+    "reason": "Terracotta is an unglazed earthenware ceramic, not porcelain, so it falls under ceramic household articles other than porcelain; however, the list lacks a specific heading for plant pots, so the classification is approximate.",
+    "question": "Is the planter glazed or unglazed, and is it made of earthenware or porcelain?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Terracotta planter 15cm",
+   "truth": "6914.90",
+   "a": {
+    "hs6": "6914.90",
+    "confidence": 0.6,
+    "reason": "A glazed ceramic planter is a non-tableware, non-household-toilet ceramic article not made of porcelain, which fits the other ceramic articles heading; terracotta is typically earthenware, so it is not porcelain.",
+    "question": "Is the body made of porcelain (vitrified, white, translucent) or of earthenware/terracotta, and is it a decorative statuette-style article rather than a plain planter?"
+   },
+   "b": {
+    "hs6": "6914.90",
+    "confidence": 0.6,
+    "reason": "A glazed ceramic planter is an ornamental/household ceramic article not made of porcelain, and the closest list fit is other ceramic articles other than porcelain, though the terracotta body could also suit the earthenware/household heading 6912.00.",
+    "question": "Is the planter made of porcelain or of earthenware/terracotta body with a glaze, and is its primary use as a plant container rather than as tableware?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Stoneware indoor plant pot",
+   "truth": "6914.90",
+   "a": {
+    "hs6": "6914.90",
+    "confidence": 0.6,
+    "reason": "A stoneware flower pot is a ceramic article that is not tableware, kitchenware, household porcelain, or a statuette, so it falls under other ceramic articles of non-porcelain material; it could alternatively be classed as household ceramic articles under 6912.00 depending on use.",
+    "question": "Is the pot primarily an ornamental or horticultural planter, or is it intended as a general household article?"
+   },
+   "b": {
+    "hs6": "6914.90",
+    "confidence": 0.6,
+    "reason": "A ceramic flower pot is an ornamental/household ceramic article not in porcelain, and the closest list entry is other ceramic articles other than porcelain, though 6912.00 (stoneware household articles) could also fit since the title says stoneware.",
+    "question": "Is the pot a household/kitchen article made of stoneware, or purely an ornamental article (which would point toward 6913.90)?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Glazed ceramic wall tile 10x10",
+   "truth": "6907.21",
+   "a": {
+    "hs6": "6907.21",
+    "confidence": 0.9,
+    "reason": "Glazed ceramic wall tile described as having low water absorption matches the ceramic tiles with water absorption of 0.5% or less classification.",
+    "question": "What is the exact water absorption percentage of the tile, to confirm it is 0.5% or less?"
+   },
+   "b": {
+    "hs6": "6907.21",
+    "confidence": 0.9,
+    "reason": "The listing describes a glazed ceramic wall tile with low water absorption, matching the ceramic tiles with water absorption of 0.5% or less category.",
+    "question": "Could you confirm the water absorption figure is 0.5% or less, since that determines whether 6907.21 applies?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Glazed ceramic wall tile 10x10",
+   "truth": "6907.21",
+   "a": {
+    "hs6": "6907.21",
+    "confidence": 0.85,
+    "reason": "Glazed kiln-fired ceramic wall tile matches the ceramic tiles heading, though the code 6907.21 applies only if water absorption is 0.5% or less, which the listing does not state.",
+    "question": "What is the water absorption rate of the tile (is it 0.5% or less)?"
+   },
+   "b": {
+    "hs6": "6907.21",
+    "confidence": 0.6,
+    "reason": "Glazed kiln-fired ceramic wall tile matches the ceramic tile heading, though the listing lacks water absorption data needed to confirm the 6907.21 subcode (<=0.5%) versus other tile subheadings.",
+    "question": "What is the water absorption rate of the tile (percentage), as stated in the product specifications?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Handmade ceramic backsplash tiles pack of 20",
+   "truth": "6907.21",
+   "a": {
+    "hs6": "6907.21",
+    "confidence": 0.9,
+    "reason": "The listing describes handmade ceramic backsplash tiles with low water absorption, matching ceramic tiles with water absorption of 0.5% or less.",
+    "question": "What is the measured water absorption of the tiles, to confirm it is 0.5% or less?"
+   },
+   "b": {
+    "hs6": "6907.21",
+    "confidence": 0.9,
+    "reason": "The listing describes handmade ceramic backsplash tiles with low water absorption, matching ceramic tiles with water absorption of 0.5% or less.",
+    "question": "What is the measured water absorption of the tiles (is it 0.5% or less)?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Handmade ceramic backsplash tiles pack of 20",
+   "truth": "6907.21",
+   "a": {
+    "hs6": "6907.21",
+    "confidence": 0.8,
+    "reason": "Kiln-fired ceramic tiles for wall cladding match the ceramic tiles code; water absorption is not stated, so the 0.5% threshold is unverified.",
+    "question": "What is the water absorption rate of the tiles (is it 0.5% or less)?"
+   },
+   "b": {
+    "hs6": "6907.21",
+    "confidence": 0.8,
+    "reason": "Kiln-fired ceramic tiles for kitchen wall cladding match the ceramic tiles heading; the water absorption rate (which determines the 6907.21 vs other 6907 subheadings) is not stated.",
+    "question": "What is the water absorption rate of the tiles (is it 0.5% or less)?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Ceramic floor tile 30x30 matt",
+   "truth": "6907.21",
+   "a": {
+    "hs6": "6907.21",
+    "confidence": 0.9,
+    "reason": "The listing describes a ceramic floor tile with low water absorption, which matches the 6907.21 category for ceramic tiles with water absorption of 0.5% or less.",
+    "question": "What is the exact water absorption percentage of the tile, to confirm it is 0.5% or less?"
+   },
+   "b": {
+    "hs6": "6907.21",
+    "confidence": 0.9,
+    "reason": "A 30x30 matt ceramic floor tile explicitly described as low water absorption matches the ceramic tiles with water absorption of 0.5% or less category.",
+    "question": "What is the exact water absorption percentage of the tile, to confirm it is 0.5% or less?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Ceramic coaster set of 4",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.55,
+    "reason": "Ceramic coasters are household ceramic articles; without specification of porcelain, they fall under non-porcelain ceramic household articles, though the cork backing and possible use as tableware make the classification somewhat uncertain.",
+    "question": "Is the ceramic body porcelain or a non-porcelain material such as stoneware or earthenware?"
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.6,
+    "reason": "Cork-backed ceramic coasters are household articles of ceramic that is not described as porcelain, so they fall under the non-porcelain ceramic household articles heading; the listing doesn't specify the ceramic body type.",
+    "question": "Is the ceramic body porcelain, or stoneware/earthenware (non-porcelain)?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Ceramic coaster set of 4",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.8,
+    "reason": "A stoneware coaster is a ceramic household article that is not porcelain, so it falls under the non-porcelain ceramic tableware/household articles heading.",
+    "question": "Is the coaster decorative only, or is it intended for use with food or drink, and does it have any non-ceramic components?"
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.8,
+    "reason": "Stoneware coasters are ceramic household articles that are not porcelain, which falls under 6912.00.",
+    "question": "Is the coaster glazed or unglazed, and is any part of it porcelain rather than stoneware?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Hand painted stoneware drinks coasters",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.85,
+    "reason": "Stoneware coasters are ceramic household articles that are not porcelain, so they fall under the non-porcelain ceramic household article heading; the cork backing does not change the classification since the ceramic component gives the article its essential character.",
+    "question": "Is the ceramic body confirmed as stoneware rather than porcelain, and what is the exact ceramic material composition?"
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.8,
+    "reason": "Stoneware coasters are ceramic household articles that are not porcelain, so they fall under the non-porcelain ceramic household articles heading; the cork backing does not change the classification of the ceramic item.",
+    "question": "Is the ceramic body clearly stoneware or earthenware, rather than porcelain, and is the cork backing a minor component relative to the ceramic?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Hand painted stoneware drinks coasters",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6912.00",
+    "confidence": 0.85,
+    "reason": "Stoneware is a ceramic other than porcelain, and coasters are household/tableware articles, so they fall under 6912.00 rather than the porcelain codes.",
+    "question": "Is the stoneware body confirmed as non-porcelain (not porcelain or bone china), and is the coaster intended for table/drinks use only rather than as an ornamental piece?"
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.85,
+    "reason": "Stoneware is a ceramic other than porcelain, and coasters are household/tableware articles, so they fall under 6912.00 rather than the porcelain codes.",
+    "question": "Is the stoneware body confirmed as non-porcelain (e.g., no vitrified porcelain body), and is the coaster intended for tableware use?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Glazed ceramic cup coaster",
+   "truth": "6912.00",
+   "a": {
+    "hs6": "6914.90",
+    "confidence": 0.6,
+    "reason": "A glazed ceramic coaster is a non-porcelain ceramic household article not specifically covered elsewhere, and the listing does not state the ceramic body type, so 6914.90 is the residual code, though 6912.00 is possible if the body is earthenware or stoneware.",
+    "question": "Is the ceramic body porcelain, or is it earthenware or stoneware?"
+   },
+   "b": {
+    "hs6": "6912.00",
+    "confidence": 0.6,
+    "reason": "Glazed ceramic coasters used as household articles are non-porcelain ceramic tableware/household items, but the listing does not specify whether the body is porcelain or stoneware/earthenware, nor whether they are classed as tiles, which affects the choice.",
+    "question": "Is the ceramic body porcelain (fine white vitrified body) or stoneware/earthenware?"
+   },
+   "agree": false
+  },
+  {
+   "title": "Leather bifold wallet men's",
+   "truth": "4202.31",
+   "a": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A bifold wallet is a pocket/handbag article with its outer surface of genuine leather, matching HS 4202.31.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A bifold wallet is a pocket/handbag article with genuine leather outer surface, matching 4202.31.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather bifold wallet men's",
+   "truth": "4202.31",
+   "a": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A bifold wallet is a pocket article of the 4202.31 type with outer surface of cowhide leather.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A bifold wallet is a pocket article whose outer surface is cowhide leather, which matches the 4202.31 heading for leather wallets and card holders.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Full grain leather wallet with card slots",
+   "truth": "4202.31",
+   "a": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A full grain leather wallet with card slots is a pocket/handbag article with an outer surface of leather, matching heading 4202.31.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A wallet with card slots is a pocket/handbag article whose outer surface is genuine leather, which maps to 4202.31.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Full grain leather wallet with card slots",
+   "truth": "4202.31",
+   "a": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A wallet with card slots is a pocket/handbag article with its outer surface of full grain cowhide leather, matching 4202.31.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A wallet with card slots is a pocket/handbag article with outer surface of full grain cowhide leather, which falls under 4202.31.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Slim leather trifold wallet",
+   "truth": "4202.31",
+   "a": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A trifold wallet is a pocket/handbag article with the outer surface of genuine leather, matching heading 4202.31.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A trifold wallet is a pocket/handbag article with a genuine leather outer surface, matching HS 4202.31.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather card holder slim",
+   "truth": "4202.31",
+   "a": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A slim card holder is a pocket/handbag article with its outer surface of full grain leather, matching 4202.31.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A slim card holder is a pocket/handbag article with its outer surface of full grain leather, which matches 4202.31.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather card holder slim",
+   "truth": "4202.31",
+   "a": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A slim card case is a pocket/handbag article (card holder) with its outer surface in calf leather, matching 4202.31.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A slim card case of calf leather is a pocket/handbag article (card holder) with leather outer surface, matching 4202.31.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Vegetable tanned leather card case",
+   "truth": "4202.31",
+   "a": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A card case is a pocket/handbag article, and its outer surface is full grain leather, which matches 4202.31.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A card case is a pocket/handbag article whose outer surface is full grain leather, which fits the 4202.31 category.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Vegetable tanned leather card case",
+   "truth": "4202.31",
+   "a": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A pocket card case is a pocket/handbag article with its outer surface in calf leather, which matches heading 4202.31.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A pocket card case with its outer surface of calf leather falls under the pocket/handbag articles category (wallets, card holders) of leather.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Minimalist leather card wallet",
+   "truth": "4202.31",
+   "a": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A card wallet is a pocket/handbag article with its outer surface of full grain leather, which matches heading 4202.31.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A card wallet is a pocket/handbag article with an outer surface of full grain leather, which matches heading 4202.31.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather tote handbag",
+   "truth": "4202.21",
+   "a": {
+    "hs6": "4202.21",
+    "confidence": 0.93,
+    "reason": "A handbag with full grain leather outer surface falls under handbags with outer surface of leather.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.21",
+    "confidence": 0.93,
+    "reason": "The listing describes a handbag with full grain leather outer surface, matching heading 4202.21 for handbags with leather outer surface.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather tote handbag",
+   "truth": "4202.21",
+   "a": {
+    "hs6": "4202.21",
+    "confidence": 0.93,
+    "reason": "A handbag with a cowhide (leather) outer surface falls under handbags with outer surface of leather.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.21",
+    "confidence": 0.93,
+    "reason": "A cowhide tote with inner pockets is a handbag with outer surface of leather, matching 4202.21.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Genuine leather shoulder bag, tan",
+   "truth": "4202.21",
+   "a": {
+    "hs6": "4202.21",
+    "confidence": 0.93,
+    "reason": "A shoulder bag with full grain leather outer surface is a handbag, classified under 4202.21 for handbags with outer surface of leather.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.21",
+    "confidence": 0.93,
+    "reason": "A shoulder bag with full grain leather outer surface is a handbag, classified under 4202.21 for handbags with leather outer surface.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Genuine leather shoulder bag, tan",
+   "truth": "4202.21",
+   "a": {
+    "hs6": "4202.21",
+    "confidence": 0.93,
+    "reason": "A handbag with its outer surface of cowhide leather falls under 4202.21 (handbags, outer surface leather).",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.21",
+    "confidence": 0.93,
+    "reason": "A shoulder bag with its outer surface of cowhide leather is a handbag, which maps to the leather handbag code 4202.21.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Women's leather satchel handbag",
+   "truth": "4202.21",
+   "a": {
+    "hs6": "4202.21",
+    "confidence": 0.93,
+    "reason": "A handbag with full grain leather outer surface falls under 4202.21 (handbags, outer surface leather).",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.21",
+    "confidence": 0.93,
+    "reason": "A handbag with its outer surface of full grain leather falls under 4202.21 (handbags, outer surface leather).",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather weekend suitcase",
+   "truth": "4202.11",
+   "a": {
+    "hs6": "4202.11",
+    "confidence": 0.9,
+    "reason": "A suitcase with a leather outer surface falls under trunks and suitcases with leather exterior, and the lined interior and lock do not change the classification.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.11",
+    "confidence": 0.93,
+    "reason": "A suitcase with a leather outer surface falls under trunks/suitcases with outer surface of leather.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather weekend suitcase",
+   "truth": "4202.11",
+   "a": {
+    "hs6": "4202.11",
+    "confidence": 0.95,
+    "reason": "The listing describes a suitcase whose outer surface is leather, which matches the trunks/suitcases with leather outer surface heading.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.11",
+    "confidence": 0.93,
+    "reason": "A weekend suitcase with a leather outer surface is a trunk/suitcase with leather outer surface, matching HS 4202.11.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Cabin size leather trolley case",
+   "truth": "4202.11",
+   "a": {
+    "hs6": "4202.11",
+    "confidence": 0.9,
+    "reason": "A cabin-size trolley case with a leather outer surface is a trunk/suitcase of leather, matching heading 4202.11.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.11",
+    "confidence": 0.9,
+    "reason": "A cabin-size trolley case with a leather outer surface is a trunk/suitcase, which maps to 4202.11 (outer surface leather).",
+    "question": "Is the outer surface entirely leather, or only partly leather with other materials such as plastic or textile covering the main body?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cabin size leather trolley case",
+   "truth": "4202.11",
+   "a": {
+    "hs6": "4202.11",
+    "confidence": 0.92,
+    "reason": "A cabin-size trolley case is a trunk/suitcase and its outer surface is leather, which matches 4202.11.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.11",
+    "confidence": 0.93,
+    "reason": "A cabin-size trolley case is a trunk/suitcase, and the listing states the outer surface is leather, which matches 4202.11.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Vintage style leather travel trunk",
+   "truth": "4202.11",
+   "a": {
+    "hs6": "4202.11",
+    "confidence": 0.9,
+    "reason": "A travel trunk with a leather outer surface and lined interior fits the trunks/suitcases heading for leather outer surfaces.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.11",
+    "confidence": 0.9,
+    "reason": "A travel trunk with a leather outer surface and lined interior fits heading 4202 trunks/suitcases with leather outer surface.",
+    "question": "Is the outer surface entirely leather, or is it leather only in part (e.g., leather trim over a textile or plastic body)?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather belt brown 35mm",
+   "truth": "4203.30",
+   "a": {
+    "hs6": "4203.30",
+    "confidence": 0.95,
+    "reason": "A belt of vegetable-tanned cowhide leather matches the closed-list entry for belts and bandoliers of leather.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4203.30",
+    "confidence": 0.93,
+    "reason": "A vegetable-tanned cowhide belt is a leather belt, which falls under 4203.30 (belts and bandoliers of leather).",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather belt brown 35mm",
+   "truth": "4203.30",
+   "a": {
+    "hs6": "4203.30",
+    "confidence": 0.93,
+    "reason": "A genuine leather belt matches the closed-list code for belts and bandoliers of leather.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4203.30",
+    "confidence": 0.93,
+    "reason": "A genuine leather belt matches the closed-list code for belts and bandoliers of leather.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Men's full grain leather belt",
+   "truth": "4203.30",
+   "a": {
+    "hs6": "4203.30",
+    "confidence": 0.95,
+    "reason": "A men's belt made of full grain vegetable tanned cowhide leather falls under belts of leather in the closed list.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4203.30",
+    "confidence": 0.95,
+    "reason": "A men's belt of full grain vegetable tanned cowhide leather matches the closed-list code for belts and bandoliers of leather.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Men's full grain leather belt",
+   "truth": "4203.30",
+   "a": {
+    "hs6": "4203.30",
+    "confidence": 0.93,
+    "reason": "A genuine full grain leather belt is a belt of leather, which falls under 4203.30 (belts and bandoliers of leather).",
+    "question": null
+   },
+   "b": {
+    "hs6": "4203.30",
+    "confidence": 0.93,
+    "reason": "A full grain genuine leather belt is a belt of leather, which falls under 4203.30 (belts and bandoliers of leather).",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Handmade leather belt brass buckle",
+   "truth": "4203.30",
+   "a": {
+    "hs6": "4203.30",
+    "confidence": 0.95,
+    "reason": "A handmade vegetable-tanned cowhide belt with a brass buckle is a belt of leather, which matches the closed-list code for belts and bandoliers of leather.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4203.30",
+    "confidence": 0.95,
+    "reason": "A handmade vegetable-tanned cowhide belt with a brass buckle is a belt of leather, matching the closed-list code for belts and bandoliers of leather.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather driving gloves",
+   "truth": "4203.29",
+   "a": {
+    "hs6": "4203.29",
+    "confidence": 0.8,
+    "reason": "The listing describes leather driving gloves, which are not specifically sports gloves, so they fall under other leather gloves.",
+    "question": "Are these gloves specially designed for a sport (e.g., cycling or motorsport), or are they general-purpose driving gloves?"
+   },
+   "b": {
+    "hs6": "4203.29",
+    "confidence": 0.85,
+    "reason": "The listing describes leather driving gloves, which fall under gloves of leather; driving gloves are not sports-specific gloves under 4203.21, so the general leather glove heading applies.",
+    "question": "Are these designed specifically for a sport (e.g., cycling or golf) rather than general driving use, which would point to 4203.21 instead?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather driving gloves",
+   "truth": "4203.29",
+   "a": {
+    "hs6": "4203.29",
+    "confidence": 0.85,
+    "reason": "Leather gloves that are not specially designed for sports fall under 4203.29; the touch screen tips do not change the leather-glove classification.",
+    "question": "Are these gloves specially designed for a sport (such as cycling or motor racing padding), or are they general-purpose driving gloves?"
+   },
+   "b": {
+    "hs6": "4203.29",
+    "confidence": 0.85,
+    "reason": "Goat leather gloves for driving are gloves of leather not specially designed for sports, so they fall under 4203.29 (other gloves of leather); touch screen tips do not change the classification.",
+    "question": "Are the gloves specially designed for a sport (e.g., cycling or motorsport racing gloves) rather than general driving use?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Lambskin gloves ladies",
+   "truth": "4203.29",
+   "a": {
+    "hs6": "4203.29",
+    "confidence": 0.85,
+    "reason": "Gloves of leather that are not specially designed for sports fall under 4203.29 (other gloves, leather); the fleece lining does not change the leather classification.",
+    "question": "Are these gloves specially designed for sports use (e.g., cycling or skiing), which would point to 4203.21 instead?"
+   },
+   "b": {
+    "hs6": "4203.29",
+    "confidence": 0.85,
+    "reason": "Gloves made of leather (lambskin) that are not specially designed for sports fall under 4203.29 as other leather gloves.",
+    "question": "Are the gloves specially designed for sports use, or is the fleece lining a textile layer that changes the outer surface material?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Lambskin gloves ladies",
+   "truth": "4203.29",
+   "a": {
+    "hs6": "4203.29",
+    "confidence": 0.85,
+    "reason": "Gloves of leather not specially designed for sports, so they fall under 4203.29 rather than the sports-specific 4203.21.",
+    "question": "Are the gloves specially designed for a sport (e.g., cycling or skiing), or are they general-purpose fashion gloves?"
+   },
+   "b": {
+    "hs6": "4203.29",
+    "confidence": 0.85,
+    "reason": "Gloves of leather (goat leather) not specially designed for sports, so they fall under the other leather gloves subheading.",
+    "question": "Are the gloves specially designed for a sport (e.g., cycling, driving, or skiing), or are they general-purpose fashion gloves?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Men's winter leather gloves",
+   "truth": "4203.29",
+   "a": {
+    "hs6": "4203.29",
+    "confidence": 0.85,
+    "reason": "Gloves made of leather fall under the leather gloves heading, and as they are not specially designed for sports, they belong to the other-gloves subheading 4203.29.",
+    "question": "Are these gloves specially designed for a sport (for example, cycling or skiing), which would place them under 4203.21 instead?"
+   },
+   "b": {
+    "hs6": "4203.29",
+    "confidence": 0.85,
+    "reason": "Men's winter gloves made of leather are not designed specifically for sports, so they fall under other leather gloves in 4203.29.",
+    "question": "Are these gloves specially designed for a sport (such as cycling, skiing, or golf), which would change the classification to 4203.21?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather biker jacket",
+   "truth": "4203.10",
+   "a": {
+    "hs6": "4203.10",
+    "confidence": 0.9,
+    "reason": "A zip-front leather jacket is apparel of leather, which matches the closed-list code for leather apparel.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4203.10",
+    "confidence": 0.9,
+    "reason": "A leather zip-front jacket is outerwear apparel of leather, matching the apparel-of-leather code 4203.10 in the closed list.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather biker jacket",
+   "truth": "4203.10",
+   "a": {
+    "hs6": "4203.10",
+    "confidence": 0.9,
+    "reason": "A full leather jacket is apparel of leather, which matches the 4203.10 heading for leather apparel.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4203.10",
+    "confidence": 0.9,
+    "reason": "A full leather jacket is apparel of leather, which matches the closed-list code 4203.10 for apparel of leather.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Genuine cowhide bomber jacket",
+   "truth": "4203.10",
+   "a": {
+    "hs6": "4203.10",
+    "confidence": 0.95,
+    "reason": "A zip-front bomber jacket made of genuine cowhide leather is apparel of leather, which matches heading 4203.10.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4203.10",
+    "confidence": 0.95,
+    "reason": "A zip-front bomber jacket of genuine cowhide leather is apparel of leather, which matches heading 4203.10.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Genuine cowhide bomber jacket",
+   "truth": "4203.10",
+   "a": {
+    "hs6": "4203.10",
+    "confidence": 0.93,
+    "reason": "A full leather jacket is apparel of leather, which matches the closed-list code for apparel of leather.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4203.10",
+    "confidence": 0.9,
+    "reason": "A full leather bomber jacket is apparel of leather, which falls under 4203.10 for leather clothing.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Women's lambskin leather jacket",
+   "truth": "4203.10",
+   "a": {
+    "hs6": "4203.10",
+    "confidence": 0.9,
+    "reason": "A women's lambskin leather jacket is apparel of leather, which maps to 4203.10 (the closest list entry for leather outerwear), though the list does not include a women's-specific leather outerwear code.",
+    "question": "Is the jacket lined or padded with any textile, and is the outer shell 100% leather?"
+   },
+   "b": {
+    "hs6": "4203.10",
+    "confidence": 0.8,
+    "reason": "Women's leather outerwear jacket is apparel of leather, which falls under 4203.10 (apparel of leather) in the closed list.",
+    "question": "Is the jacket lined or padded, and does the leather outer shell cover the full garment rather than being trim or panels only?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather dog collar and lead set",
+   "truth": "4201.00",
+   "a": {
+    "hs6": "4201.00",
+    "confidence": 0.93,
+    "reason": "A dog collar and lead made of leather is saddlery/harness-type animal equipment, which the closed list assigns to 4201.00 regardless of material.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4201.00",
+    "confidence": 0.9,
+    "reason": "A dog collar and lead are saddlery/harness-type animal accessories, classified under 4201.00 regardless of material, even though the listing specifies leather.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather dog collar and lead set",
+   "truth": "4201.00",
+   "a": {
+    "hs6": "4201.00",
+    "confidence": 0.9,
+    "reason": "A leather dog collar, harness and lead are saddlery/harness items, which fall under 4201.00 regardless of material.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4201.00",
+    "confidence": 0.9,
+    "reason": "A leather dog collar and lead set is saddlery/harness for animals, which falls under 4201.00 regardless of material.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Handstitched leather dog collar",
+   "truth": "4201.00",
+   "a": {
+    "hs6": "4201.00",
+    "confidence": 0.93,
+    "reason": "A leather dog collar is saddlery and harness-type pet equipment, which the 4201.00 heading covers regardless of material.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4201.00",
+    "confidence": 0.93,
+    "reason": "A leather dog collar is saddlery and harness for pets, which the list assigns to 4201.00 regardless of material.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Handstitched leather dog collar",
+   "truth": "4201.00",
+   "a": {
+    "hs6": "4201.00",
+    "confidence": 0.9,
+    "reason": "A handstitched leather dog collar is saddlery/harness for animals, which falls under 4201.00 regardless of material, and the listing also mentions a harness and leash, which are covered by the same heading.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4201.00",
+    "confidence": 0.8,
+    "reason": "A leather dog collar and leash are saddlery and harness items, which fall under 4201.00 regardless of material.",
+    "question": "Is the item sold as a single collar and leash set, or as separate items, and is the harness part of a set with other products?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Padded leather dog lead",
+   "truth": "4201.00",
+   "a": {
+    "hs6": "4201.00",
+    "confidence": 0.93,
+    "reason": "A leather dog lead is a saddlery/harness-type pet article, which falls under 4201.00 regardless of material.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4201.00",
+    "confidence": 0.9,
+    "reason": "A leather dog lead is a saddlery/harness-type pet accessory, which falls under 4201.00 regardless of material.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather coin purse",
+   "truth": "4202.31",
+   "a": {
+    "hs6": "4202.31",
+    "confidence": 0.9,
+    "reason": "A pocket-sized leather purse is a pocket/handbag article with leather outer surface, matching heading 4202.31.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.31",
+    "confidence": 0.9,
+    "reason": "A pocket-sized leather purse is a pocket/handbag article with a leather outer surface, which matches heading 4202.31.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather coin purse",
+   "truth": "4202.31",
+   "a": {
+    "hs6": "4202.31",
+    "confidence": 0.9,
+    "reason": "A genuine leather coin wallet is a pocket/handbag article with outer surface of leather, matching heading 4202.31.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.31",
+    "confidence": 0.9,
+    "reason": "A leather coin purse is a pocket/handbag article with a leather outer surface, which falls under 4202.31.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Small zip purse in goat leather",
+   "truth": "4202.31",
+   "a": {
+    "hs6": "4202.31",
+    "confidence": 0.9,
+    "reason": "A small zip purse with a leather outer surface is a pocket/handbag article with leather outer surface, matching 4202.31.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.31",
+    "confidence": 0.9,
+    "reason": "A small zip purse with a leather outer surface is a pocket/handbag article of leather, matching HS 4202.31.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Small zip purse in goat leather",
+   "truth": "4202.31",
+   "a": {
+    "hs6": "4202.31",
+    "confidence": 0.9,
+    "reason": "A small zip coin wallet with a genuine leather outer surface is a pocket/handbag article, which falls under 4202.31 for leather outer surfaces.",
+    "question": "Is the outer surface entirely leather, or is it leather only in part (e.g., leather with textile lining or trim)?"
+   },
+   "b": {
+    "hs6": "4202.31",
+    "confidence": 0.93,
+    "reason": "A small zip coin wallet with a genuine leather outer surface is a pocket/handbag article, which falls under 4202.31 for leather outer surfaces.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather change pouch",
+   "truth": "4202.31",
+   "a": {
+    "hs6": "4202.31",
+    "confidence": 0.9,
+    "reason": "A pocket-sized leather purse is a pocket/handbag article with a leather outer surface, which matches HS 4202.31.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.31",
+    "confidence": 0.9,
+    "reason": "A pocket-sized leather purse is a pocket/handbag article with a leather outer surface, which fits HS 4202.31.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather crossbody bag",
+   "truth": "4202.21",
+   "a": {
+    "hs6": "4202.21",
+    "confidence": 0.9,
+    "reason": "A crossbody bag with an adjustable strap and genuine leather outer surface is a handbag, matching 4202.21 (handbags, outer surface leather).",
+    "question": "Is the outer surface entirely genuine leather, or is it leather-trimmed with plastic or textile body material?"
+   },
+   "b": {
+    "hs6": "4202.21",
+    "confidence": 0.9,
+    "reason": "A crossbody bag with an adjustable strap made of genuine leather is a handbag with outer surface of leather.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather crossbody bag",
+   "truth": "4202.21",
+   "a": {
+    "hs6": "4202.21",
+    "confidence": 0.9,
+    "reason": "A crossbody bag with a leather outer surface is a handbag, and the closed list assigns leather-surfaced handbags to 4202.21.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.21",
+    "confidence": 0.93,
+    "reason": "A compact crossbody bag with a leather outer surface is a handbag, and the closed list assigns handbags with leather outer surface to 4202.21.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Small leather handbag with strap, black",
+   "truth": "4202.21",
+   "a": {
+    "hs6": "4202.21",
+    "confidence": 0.9,
+    "reason": "A small black handbag with an outer surface of genuine leather falls under handbags with leather outer surface.",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.21",
+    "confidence": 0.9,
+    "reason": "A small black handbag with an outer surface of genuine leather falls under handbags with leather outer surface.",
+    "question": "Is the outer surface entirely genuine leather, or is it a composition or coated material?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Small leather handbag with strap, black",
+   "truth": "4202.21",
+   "a": {
+    "hs6": "4202.21",
+    "confidence": 0.93,
+    "reason": "A handbag with leather outer surface matches heading 4202.21 (handbags, outer surface leather).",
+    "question": null
+   },
+   "b": {
+    "hs6": "4202.21",
+    "confidence": 0.92,
+    "reason": "A handbag with a leather outer surface matches heading 4202.21 (handbags, outer surface leather).",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Leather saddle bag crossbody",
+   "truth": "4202.21",
+   "a": {
+    "hs6": "4202.21",
+    "confidence": 0.8,
+    "reason": "A crossbody saddle bag with genuine leather outer surface is a handbag, so it falls under handbags with leather outer surface.",
+    "question": "Is the outer surface entirely leather, or is it leather only in part (e.g., leather trim on a textile body)?"
+   },
+   "b": {
+    "hs6": "4202.21",
+    "confidence": 0.8,
+    "reason": "A crossbody saddle bag with genuine leather outer surface is a handbag with leather outer surface, matching 4202.21.",
+    "question": "Is the outer surface entirely leather, or is it leather only on the visible parts with textile or plastic elsewhere?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Organic cotton t-shirt",
+   "truth": "6109.10",
+   "a": {
+    "hs6": "6109.10",
+    "confidence": 0.95,
+    "reason": "A knitted short-sleeve t-shirt of cotton matches the 6109.10 heading for T-shirts, singlets and similar garments of cotton; organic certification does not change the classification.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6109.10",
+    "confidence": 0.95,
+    "reason": "A knitted short-sleeve cotton jersey t-shirt matches the T-shirts/singlets of knitted cotton heading exactly; organic certification does not change the classification.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Organic cotton t-shirt",
+   "truth": "6109.10",
+   "a": {
+    "hs6": "6109.10",
+    "confidence": 0.93,
+    "reason": "A knitted cotton tee is a T-shirt of knitted cotton, which matches HS 6109.10 directly.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6109.10",
+    "confidence": 0.93,
+    "reason": "A knitted cotton t-shirt matches the T-shirts/singlets of cotton heading 6109.10 directly.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Men's crew neck tee 100% cotton",
+   "truth": "6109.10",
+   "a": {
+    "hs6": "6109.10",
+    "confidence": 0.97,
+    "reason": "A short-sleeve crew neck tee made of knitted 100% cotton jersey matches the T-shirt/singlet code for cotton knitted garments.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6109.10",
+    "confidence": 0.95,
+    "reason": "Knitted 100% cotton short-sleeve crew neck tee matches the T-shirt/singlet heading 6109.10 for cotton knitted garments.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Men's crew neck tee 100% cotton",
+   "truth": "6109.10",
+   "a": {
+    "hs6": "6109.10",
+    "confidence": 0.93,
+    "reason": "A crew neck tee that is 100% cotton and knitted falls under T-shirts and singlets of knitted cotton.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6109.10",
+    "confidence": 0.93,
+    "reason": "A knitted 100% cotton crew neck tee is a T-shirt/singlet of knitted cotton, matching heading 6109.10.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Women's cotton jersey t-shirt",
+   "truth": "6109.10",
+   "a": {
+    "hs6": "6109.10",
+    "confidence": 0.97,
+    "reason": "A knitted cotton jersey short-sleeve t-shirt matches the T-shirts/singlets of knitted cotton heading 6109.10, and the women's designation does not change the code in this list.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6109.10",
+    "confidence": 0.95,
+    "reason": "Knitted cotton jersey short-sleeve top is a T-shirt-type garment, matching 6109.10 for T-shirts of knitted cotton.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton hoodie pullover",
+   "truth": "6110.20",
+   "a": {
+    "hs6": "6110.20",
+    "confidence": 0.95,
+    "reason": "A knitted pullover hoodie made of cotton fleece falls under the jerseys/pullovers/hoodies knitted of cotton heading.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6110.20",
+    "confidence": 0.93,
+    "reason": "A knitted pullover hoodie made of cotton fleece falls under knitted jerseys/pullovers/hoodies of cotton.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton hoodie pullover",
+   "truth": "6110.20",
+   "a": {
+    "hs6": "6110.20",
+    "confidence": 0.92,
+    "reason": "A knitted cotton hooded pullover is a jersey/pullover/hoodie of cotton, matching 6110.20.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6110.20",
+    "confidence": 0.93,
+    "reason": "Knitted cotton pullover with hood is a jersey/pullover/hoodie, matching 6110.20.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Knitted cotton fleece hoodie",
+   "truth": "6110.20",
+   "a": {
+    "hs6": "6110.20",
+    "confidence": 0.9,
+    "reason": "A knitted cotton fleece hooded pullover with a kangaroo pocket is a knitted jersey/hoodie of cotton, matching 6110.20.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6110.20",
+    "confidence": 0.9,
+    "reason": "A knitted cotton fleece hooded pullover is a jersey/pullover/hoodie of knitted cotton, matching 6110.20.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Knitted cotton fleece hoodie",
+   "truth": "6110.20",
+   "a": {
+    "hs6": "6110.20",
+    "confidence": 0.93,
+    "reason": "Knitted cotton hooded sweatshirt matches the jerseys/pullovers/hoodies knitted cotton heading.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6110.20",
+    "confidence": 0.93,
+    "reason": "A knitted hooded sweatshirt of cotton falls under jerseys/pullovers/hoodies of cotton knit.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Unisex cotton zip hoodie",
+   "truth": "6110.20",
+   "a": {
+    "hs6": "6110.20",
+    "confidence": 0.93,
+    "reason": "A knitted cotton fleece zip hoodie is a jersey/pullover/hoodie of cotton, matching 6110.20.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6110.20",
+    "confidence": 0.9,
+    "reason": "A knitted cotton fleece zip hoodie is a jersey/pullover/hoodie of cotton, matching 6110.20.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton knit sweater",
+   "truth": "6110.20",
+   "a": {
+    "hs6": "6110.20",
+    "confidence": 0.9,
+    "reason": "A knitted 100% cotton pullover matches the closed-list category for knitted jerseys/pullovers of cotton.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6110.20",
+    "confidence": 0.9,
+    "reason": "A 100% cotton knitted pullover matches the closed-list heading for knitted jerseys/pullovers of cotton.",
+    "question": "Is it a hooded garment or a plain pullover, and is it intended for babies (which would fall under 6111.20)?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton knit sweater",
+   "truth": "6110.20",
+   "a": {
+    "hs6": "6110.20",
+    "confidence": 0.9,
+    "reason": "A knitted cotton jersey jumper matches the closed-list heading for jerseys/pullovers of knitted cotton.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6110.20",
+    "confidence": 0.93,
+    "reason": "The listing describes a knitted cotton jersey jumper, which matches the knitted cotton jerseys/pullovers category.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Chunky cotton jumper",
+   "truth": "6110.20",
+   "a": {
+    "hs6": "6110.20",
+    "confidence": 0.9,
+    "reason": "A 100% cotton knitted pullover matches the closed list entry for knitted jerseys/pullovers of cotton.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6110.20",
+    "confidence": 0.9,
+    "reason": "A knitted 100% cotton pullover matches the list entry for jerseys/pullovers/hoodies of knitted cotton.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Chunky cotton jumper",
+   "truth": "6110.20",
+   "a": {
+    "hs6": "6110.20",
+    "confidence": 0.9,
+    "reason": "A knitted cotton jumper is a knitted jersey/pullover garment of cotton, matching heading 6110.20.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6110.20",
+    "confidence": 0.9,
+    "reason": "A knitted cotton jumper is a jersey/pullover, which matches the 6110.20 heading for knitted cotton jerseys, pullovers and hoodies.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Women's cotton cardigan sweater",
+   "truth": "6110.20",
+   "a": {
+    "hs6": "6110.20",
+    "confidence": 0.6,
+    "reason": "A 100% cotton knitted pullover fits the knitted jerseys/pullovers heading 6110.20, though a cardigan opens at the front and may fall under a different knitted garment heading not on this list.",
+    "question": "Does the cardigan open at the front (button or zip) rather than being a closed pullover, and is it a knitted garment for women?"
+   },
+   "b": {
+    "hs6": "6110.20",
+    "confidence": 0.8,
+    "reason": "A knitted 100% cotton women's cardigan falls under knitted jerseys/pullovers of cotton; the closest code on the list is 6110.20, though a cardigan is an open-front garment, so the list's coverage of cardigans is imperfect.",
+    "question": "Does the cardigan have a full front opening (buttons or zip), and is it a women's garment?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton ankle socks 5 pack",
+   "truth": "6115.95",
+   "a": {
+    "hs6": "6115.95",
+    "confidence": 0.9,
+    "reason": "Knitted socks made of 98% cotton match the knitted hosiery/socks of cotton heading 6115.95.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6115.95",
+    "confidence": 0.9,
+    "reason": "Knitted cotton socks match the hosiery code 6115.95 (knitted, of cotton), and the listing does not indicate any other material or construction.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton ankle socks 5 pack",
+   "truth": "6115.95",
+   "a": {
+    "hs6": "6115.95",
+    "confidence": 0.85,
+    "reason": "Listing describes knitted cotton-rich hosiery in socks format, which matches knitted cotton socks under 6115.95.",
+    "question": "Is the product knitted, and is it predominantly cotton by weight (not a blend dominated by another fibre)?"
+   },
+   "b": {
+    "hs6": "6115.95",
+    "confidence": 0.85,
+    "reason": "Listing describes cotton-rich knitted hosiery in socks, which matches the knitted cotton hosiery/socks heading.",
+    "question": "Is the sock knitted (as opposed to woven) and what is the exact fibre content, since 'cotton rich' may mean a blend with another fibre?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Men's cotton crew socks",
+   "truth": "6115.95",
+   "a": {
+    "hs6": "6115.95",
+    "confidence": 0.93,
+    "reason": "Knitted cotton socks are hosiery, which falls under 6115.95 for knitted cotton hosiery and socks.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6115.95",
+    "confidence": 0.9,
+    "reason": "Knitted cotton socks are hosiery, which maps to the closed-list code 6115.95 for knitted cotton hosiery and socks.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Men's cotton crew socks",
+   "truth": "6115.95",
+   "a": {
+    "hs6": "6115.95",
+    "confidence": 0.8,
+    "reason": "Knitted cotton-rich socks are hosiery, matching 6115.95 for knitted cotton hosiery.",
+    "question": "Is the product predominantly cotton by weight, and are the socks knitted rather than woven?"
+   },
+   "b": {
+    "hs6": "6115.95",
+    "confidence": 0.85,
+    "reason": "Knitted cotton-rich hosiery matches the 6115.95 socks category, though the description does not confirm the cotton content exceeds the majority threshold required for the cotton classification.",
+    "question": "What is the exact fibre composition by weight, and is the fabric knitted rather than woven?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Women's cotton sports socks",
+   "truth": "6115.95",
+   "a": {
+    "hs6": "6115.95",
+    "confidence": 0.9,
+    "reason": "Knitted cotton socks fall under hosiery/socks of knitted cotton, the closest match in the list for a knitted, 98% cotton sock.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6115.95",
+    "confidence": 0.9,
+    "reason": "Knitted cotton hosiery/socks matches the closed-list code for knitted cotton socks, with no leather or woven construction indicated.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Women's cotton leggings",
+   "truth": "6104.62",
+   "a": {
+    "hs6": "6104.62",
+    "confidence": 0.8,
+    "reason": "Knitted cotton-elastane leggings for women fall under women's trousers/leggings of knitted cotton, though the elastane content could be checked against the classification's fibre rules.",
+    "question": "Is the elastane content below 5% by weight, and is the fabric cotton as the predominant fibre?"
+   },
+   "b": {
+    "hs6": "6104.62",
+    "confidence": 0.8,
+    "reason": "Knitted women's leggings of cotton match the women's trousers/leggings knitted cotton heading; the elastane blend is a minor component and the listing is otherwise clear.",
+    "question": "Is cotton the predominant fibre by weight, and are the leggings knitted rather than woven?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Women's cotton leggings",
+   "truth": "6104.62",
+   "a": {
+    "hs6": "6104.62",
+    "confidence": 0.8,
+    "reason": "Women's leggings made of 95% cotton and described as knitted tights fit the women's knitted trousers/leggings of cotton heading.",
+    "question": "Are the leggings knitted or woven, and is the cotton content the predominant material by weight?"
+   },
+   "b": {
+    "hs6": "6104.62",
+    "confidence": 0.8,
+    "reason": "Women's leggings made of 95% cotton, which fits the knitted women's trousers/leggings code, though a knitted-versus-woven and garment-versus-hosiery check is worth confirming.",
+    "question": "Are the leggings knitted (not woven), and are they sold as trousers/leggings rather than as tights or hosiery?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Stretch cotton leggings black",
+   "truth": "6104.62",
+   "a": {
+    "hs6": "6104.62",
+    "confidence": 0.8,
+    "reason": "Knitted cotton leggings for women match the women's trousers/leggings knitted of cotton heading 6104.62, though the elastane blend and unspecified sex/cut leave some uncertainty.",
+    "question": "Are these women's or girls' leggings, and is cotton the predominant fibre by weight?"
+   },
+   "b": {
+    "hs6": "6104.62",
+    "confidence": 0.8,
+    "reason": "Knitted cotton leggings for women match 6104.62, though the listing does not state the gender, and the elastane content slightly complicates the cotton classification.",
+    "question": "Are these women's or girls' leggings, and is cotton the predominant fibre by weight?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Stretch cotton leggings black",
+   "truth": "6104.62",
+   "a": {
+    "hs6": "6104.62",
+    "confidence": 0.8,
+    "reason": "Knitted women's leggings of cotton fit the women's trousers/leggings knitted cotton code 6104.62.",
+    "question": "Are these worn as outerwear trousers (women's leggings) or as hosiery/tights covering the legs from the waist down, which would fall under a different heading?"
+   },
+   "b": {
+    "hs6": "6104.62",
+    "confidence": 0.8,
+    "reason": "Knitted cotton leggings are women's trousers/leggings of knitted cotton, matching 6104.62.",
+    "question": "Are these designed for women or children, and are they knitted rather than woven?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton yoga leggings",
+   "truth": "6104.62",
+   "a": {
+    "hs6": "6104.62",
+    "confidence": 0.8,
+    "reason": "Knitted cotton women's leggings match 6104.62 for women's trousers and leggings of knitted cotton, though the listing does not state the elastane percentage, which could affect classification.",
+    "question": "What is the percentage of elastane, and are these designed for women or unisex/men's wear?"
+   },
+   "b": {
+    "hs6": "6104.62",
+    "confidence": 0.85,
+    "reason": "Knitted cotton leggings for women match the women's trousers/leggings of knitted cotton category, though the listing does not state the wearer's sex and the elastane content is not addressed by the closed list.",
+    "question": "Are these designed for women, and is cotton the predominant fibre by weight?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton baby bodysuit",
+   "truth": "6111.20",
+   "a": {
+    "hs6": "6111.20",
+    "confidence": 0.95,
+    "reason": "The listing describes a knitted cotton garment for babies, which matches the babies' garments of knitted cotton heading.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6111.20",
+    "confidence": 0.93,
+    "reason": "The listing describes a knitted cotton garment for babies, which matches the 6111.20 heading for babies' garments of knitted cotton.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton baby bodysuit",
+   "truth": "6111.20",
+   "a": {
+    "hs6": "6111.20",
+    "confidence": 0.8,
+    "reason": "A baby bodysuit of cotton is a babies' garment; the listing does not state whether it is knitted or woven, which determines the subheading, though knitted is the usual construction for bodysuits.",
+    "question": "Is the bodysuit knitted (e.g., jersey or rib-knit) or woven?"
+   },
+   "b": {
+    "hs6": "6111.20",
+    "confidence": 0.8,
+    "reason": "A cotton baby bodysuit is a babies' garment; the list only has a knitted cotton babies' garments code, and a bodysuit is typically knitted.",
+    "question": "Is the bodysuit knitted (e.g., jersey or rib knit) or woven?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Organic cotton baby romper",
+   "truth": "6111.20",
+   "a": {
+    "hs6": "6111.20",
+    "confidence": 0.93,
+    "reason": "The listing describes a knitted cotton garment for babies, which matches the babies' garments of knitted cotton heading 6111.20.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6111.20",
+    "confidence": 0.93,
+    "reason": "The listing describes a knitted cotton garment for babies, which matches the babies' garments of knitted cotton heading 6111.20.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Organic cotton baby romper",
+   "truth": "6111.20",
+   "a": {
+    "hs6": "6111.20",
+    "confidence": 0.9,
+    "reason": "A baby romper is a garment for infants made of cotton, and the closed list includes 6111.20 for babies' garments of cotton; knitted versus woven construction is not stated, but the listing's soft cotton description suggests knitted fabric.",
+    "question": "Is the romper knitted or woven?"
+   },
+   "b": {
+    "hs6": "6111.20",
+    "confidence": 0.9,
+    "reason": "The listing describes a baby garment of cotton, and the closed list includes 6111.20 for babies' garments knitted of cotton; the description does not state whether the romper is knitted or woven, so the code assumes knitted, which is typical for soft baby rompers.",
+    "question": "Is the romper knitted (e.g., jersey or interlock) or woven?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Infant cotton onesie pack of 3",
+   "truth": "6111.20",
+   "a": {
+    "hs6": "6111.20",
+    "confidence": 0.93,
+    "reason": "The listing describes a knitted cotton garment for babies, which matches the babies' garments of knitted cotton heading.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6111.20",
+    "confidence": 0.93,
+    "reason": "The listing describes a knitted cotton garment for babies, which matches the babies' garments of knitted cotton heading.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton denim jeans men's",
+   "truth": "6203.42",
+   "a": {
+    "hs6": "6203.42",
+    "confidence": 0.95,
+    "reason": "Woven cotton denim trousers for men match men's trousers/jeans of woven cotton.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6203.42",
+    "confidence": 0.95,
+    "reason": "Woven cotton denim trousers for men match the men's woven cotton trousers/jeans heading.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton denim jeans men's",
+   "truth": "6203.42",
+   "a": {
+    "hs6": "6203.42",
+    "confidence": 0.93,
+    "reason": "Men's five-pocket jeans of cotton are woven trousers, matching HS 6203.42 for men's cotton trousers and jeans.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6203.42",
+    "confidence": 0.93,
+    "reason": "Men's five-pocket jeans of cotton denim are woven trousers of cotton, matching heading 6203.42.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Straight fit jeans 100% cotton",
+   "truth": "6203.42",
+   "a": {
+    "hs6": "6203.42",
+    "confidence": 0.95,
+    "reason": "Woven 100% cotton denim trousers for men match the men's cotton woven trousers/jeans heading 6203.42.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6203.42",
+    "confidence": 0.93,
+    "reason": "Woven 100% cotton denim trousers for men's wear match the men's trousers/jeans of cotton heading, though the listing does not state the wearer's gender.",
+    "question": "Are these trousers designed for men or boys, rather than women?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Straight fit jeans 100% cotton",
+   "truth": "6203.42",
+   "a": {
+    "hs6": "6203.42",
+    "confidence": 0.9,
+    "reason": "Five-pocket jeans of 100% cotton are men's or boys' woven trousers, matching the cotton woven trousers code 6203.42, though gender is not stated.",
+    "question": "Are these men's or boys' jeans, or are they women's jeans (which would fall under 6204.62 instead, not on this list)?"
+   },
+   "b": {
+    "hs6": "6203.42",
+    "confidence": 0.9,
+    "reason": "Five-pocket jeans of 100% cotton are men's or boys' woven trousers, which fall under 6203.42 (cotton trousers, woven); the listing does not specify women's or unisex sizing.",
+    "question": "Are these men's or unisex jeans, as opposed to women's (which would be 6204.62)?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Men's selvedge denim jeans",
+   "truth": "6203.42",
+   "a": {
+    "hs6": "6203.42",
+    "confidence": 0.95,
+    "reason": "Woven cotton denim trousers for men match the men's trousers/jeans of cotton code 6203.42.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6203.42",
+    "confidence": 0.95,
+    "reason": "Woven cotton denim trousers for men match the men's trousers/jeans of cotton heading 6203.42.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Men's cotton chinos",
+   "truth": "6203.42",
+   "a": {
+    "hs6": "6203.42",
+    "confidence": 0.93,
+    "reason": "Men's woven cotton trousers, matching the men's trousers/jeans code 6203.42 in the closed list.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6203.42",
+    "confidence": 0.95,
+    "reason": "Men's woven cotton trousers with a flat front match HS 6203.42 for men's trousers and chinos of cotton.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Men's cotton chinos",
+   "truth": "6203.42",
+   "a": {
+    "hs6": "6203.42",
+    "confidence": 0.9,
+    "reason": "Men's trousers of cotton that are woven (chinos are a woven twill fabric), matching the 6203.42 entry for men's woven cotton trousers.",
+    "question": "Are the chinos made of woven fabric (not knitted), and is the cotton content the main fibre?"
+   },
+   "b": {
+    "hs6": "6203.42",
+    "confidence": 0.9,
+    "reason": "Men's trousers of woven cotton fabric match heading 6203.42 (men's trousers/jeans, woven, of cotton), and chinos are a woven cotton trouser style.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Slim fit cotton chino trousers",
+   "truth": "6203.42",
+   "a": {
+    "hs6": "6203.42",
+    "confidence": 0.93,
+    "reason": "Woven cotton twill flat-front trousers for men match the men's trousers/jeans of cotton heading 6203.42, though the listing does not state the wearer's gender.",
+    "question": "Are these trousers designed for men or boys (versus women), since the gender determines whether 6203.42 or 6204.62 applies?"
+   },
+   "b": {
+    "hs6": "6203.42",
+    "confidence": 0.93,
+    "reason": "Woven cotton twill flat-front trousers for men match 6203.42 (men's trousers/jeans, woven, of cotton); the listing does not specify a gender, so it is inferred from the 'slim fit chino' styling.",
+    "question": "Are these men's or women's trousers, since women's woven cotton trousers would fall under 6204.62 instead?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Slim fit cotton chino trousers",
+   "truth": "6203.42",
+   "a": {
+    "hs6": "6203.42",
+    "confidence": 0.8,
+    "reason": "Men's cotton trousers are woven, and the listing describes men's cotton trousers, matching 6203.42 (men's trousers/jeans, woven, of cotton).",
+    "question": "Are the chinos woven rather than knitted, and are they men's trousers for adults or boys' trousers?"
+   },
+   "b": {
+    "hs6": "6203.42",
+    "confidence": 0.8,
+    "reason": "Men's cotton trousers are woven garments, and the listing matches the men's cotton woven trousers code 6203.42.",
+    "question": "Are these woven or knitted, and are they described as jeans or trousers without a fabric weight or other specific construction detail?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton twill trousers men's",
+   "truth": "6203.42",
+   "a": {
+    "hs6": "6203.42",
+    "confidence": 0.93,
+    "reason": "Men's woven cotton twill flat-front trousers match the men's woven cotton trousers/jeans heading 6203.42.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6203.42",
+    "confidence": 0.93,
+    "reason": "Men's woven cotton twill flat-front trousers match the men's trousers/jeans of woven cotton heading.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Women's cotton summer dress",
+   "truth": "6204.42",
+   "a": {
+    "hs6": "6204.42",
+    "confidence": 0.95,
+    "reason": "The listing describes a women's dress made of woven 100% cotton, which matches the 6204.42 category for women's dresses of woven cotton.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6204.42",
+    "confidence": 0.95,
+    "reason": "The listing describes a women's dress made of woven 100% cotton, which matches the women's dresses of woven cotton heading.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Women's cotton summer dress",
+   "truth": "6204.42",
+   "a": {
+    "hs6": "6204.42",
+    "confidence": 0.8,
+    "reason": "A women's summer dress made of lightweight cotton fits the woven cotton women's dress heading; the listing does not state whether the fabric is woven or knitted.",
+    "question": "Is the dress woven or knitted?"
+   },
+   "b": {
+    "hs6": "6204.42",
+    "confidence": 0.9,
+    "reason": "The listing describes a women's cotton summer dress, which matches the women's cotton dresses, woven heading 6204.42.",
+    "question": "Is the dress woven or knitted, since that determines whether it falls under 6204.42 or a knitted heading?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Woven cotton sundress midi",
+   "truth": "6204.42",
+   "a": {
+    "hs6": "6204.42",
+    "confidence": 0.93,
+    "reason": "A woven 100% cotton midi-length dress for women matches the closed-list code for women's woven cotton dresses.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6204.42",
+    "confidence": 0.92,
+    "reason": "A woven 100% cotton midi sundress is a women's dress of woven cotton, matching 6204.42.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Woven cotton sundress midi",
+   "truth": "6204.42",
+   "a": {
+    "hs6": "6204.42",
+    "confidence": 0.9,
+    "reason": "A woven cotton midi sundress is a women's dress of woven cotton, matching heading 6204.42.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6204.42",
+    "confidence": 0.9,
+    "reason": "A woven cotton dress for women matches the 6204.42 category for women's dresses of woven cotton.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton shirt dress ladies",
+   "truth": "6204.42",
+   "a": {
+    "hs6": "6204.42",
+    "confidence": 0.9,
+    "reason": "A knee-length dress made of 100% woven cotton for women matches the women's dresses, woven, of cotton heading.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6204.42",
+    "confidence": 0.9,
+    "reason": "Woven 100% cotton women's dress matches the women's dresses of cotton woven code.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Men's cotton oxford shirt",
+   "truth": "6205.20",
+   "a": {
+    "hs6": "6205.20",
+    "confidence": 0.97,
+    "reason": "A long-sleeve woven 100% cotton shirt designed for men matches the code for men's woven cotton shirts.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6205.20",
+    "confidence": 0.95,
+    "reason": "A long-sleeve woven 100% cotton shirt for men matches the men's shirts of cotton heading.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Men's cotton oxford shirt",
+   "truth": "6205.20",
+   "a": {
+    "hs6": "6205.20",
+    "confidence": 0.93,
+    "reason": "A men's dress shirt of cotton poplin, woven construction, maps to men's woven cotton shirts.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6205.20",
+    "confidence": 0.9,
+    "reason": "A men's woven cotton poplin dress shirt matches the men's woven cotton shirt code 6205.20.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Woven cotton button down shirt",
+   "truth": "6205.20",
+   "a": {
+    "hs6": "6205.20",
+    "confidence": 0.95,
+    "reason": "A long-sleeve button-down shirt that is 100% woven cotton and designed for men matches the men's woven cotton shirts code.",
+    "question": "Is this garment designed for men or boys (versus women), since the code choice depends on the wearer's gender?"
+   },
+   "b": {
+    "hs6": "6205.20",
+    "confidence": 0.93,
+    "reason": "A long-sleeve woven 100% cotton button-down shirt for men matches the men's woven cotton shirts code 6205.20.",
+    "question": "Is this garment designed for men or boys (versus women), since the listing doesn't state the intended wearer?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Woven cotton button down shirt",
+   "truth": "6205.20",
+   "a": {
+    "hs6": "6205.20",
+    "confidence": 0.95,
+    "reason": "A men's woven shirt made of cotton poplin matches the 6205.20 heading for men's shirts of cotton.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6205.20",
+    "confidence": 0.95,
+    "reason": "Men's woven cotton dress shirt matches the 6205.20 heading for men's shirts of cotton.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Men's cotton check shirt",
+   "truth": "6205.20",
+   "a": {
+    "hs6": "6205.20",
+    "confidence": 0.95,
+    "reason": "Men's long-sleeve shirt of woven 100% cotton matches the 6205.20 heading exactly.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6205.20",
+    "confidence": 0.95,
+    "reason": "A long-sleeve men's shirt made of 100% woven cotton matches the closed-list code for men's woven cotton shirts.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Women's cotton blouse",
+   "truth": "6206.30",
+   "a": {
+    "hs6": "6206.30",
+    "confidence": 0.9,
+    "reason": "A woven cotton voile blouse for women matches the code for women's blouses/shirts of woven cotton.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6206.30",
+    "confidence": 0.9,
+    "reason": "Listing describes a woven cotton women's blouse, matching the 6206.30 heading for women's blouses and shirts of cotton.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Women's cotton blouse",
+   "truth": "6206.30",
+   "a": {
+    "hs6": "6206.30",
+    "confidence": 0.95,
+    "reason": "The listing describes a women's blouse made of 100% cotton in woven construction, which matches the women's blouses/shirts woven of cotton heading.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6206.30",
+    "confidence": 0.95,
+    "reason": "The listing describes a women's blouse made of 100% cotton in woven construction, which matches code 6206.30 for women's blouses and shirts of woven cotton.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Embroidered cotton blouse",
+   "truth": "6206.30",
+   "a": {
+    "hs6": "6206.30",
+    "confidence": 0.9,
+    "reason": "Women's blouse of woven cotton voile matches 6206.30 (women's blouses/shirts, woven, of cotton).",
+    "question": null
+   },
+   "b": {
+    "hs6": "6206.30",
+    "confidence": 0.9,
+    "reason": "Women's blouse in woven cotton voile fabric matches the 6206.30 heading for women's blouses and shirts of cotton.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Embroidered cotton blouse",
+   "truth": "6206.30",
+   "a": {
+    "hs6": "6206.30",
+    "confidence": 0.9,
+    "reason": "A 100% cotton woven blouse is a women's blouse of woven cotton, matching 6206.30 directly.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6206.30",
+    "confidence": 0.9,
+    "reason": "A woven 100% cotton blouse is a women's blouse of woven cotton, matching 6206.30; the embroidery does not change the classification.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Woven cotton peasant blouse",
+   "truth": "6206.30",
+   "a": {
+    "hs6": "6206.30",
+    "confidence": 0.9,
+    "reason": "Woven cotton women's blouse matches the list entry for women's blouses/shirts of woven cotton.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6206.30",
+    "confidence": 0.9,
+    "reason": "A woven cotton women's blouse matches heading 6206 and the closed list's entry for women's blouses/shirts, woven, of cotton.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton bed sheet set queen",
+   "truth": "6302.31",
+   "a": {
+    "hs6": "6302.31",
+    "confidence": 0.8,
+    "reason": "A plain white 100% cotton bed linen set that is not printed fits bed linen of cotton, other than printed (6302.31).",
+    "question": "Is the sheet set printed or patterned, or is it plain woven cotton? Printed sheets would fall under 6302.21 instead."
+   },
+   "b": {
+    "hs6": "6302.31",
+    "confidence": 0.8,
+    "reason": "The listing describes plain white 100% cotton bed linen that is not printed, so it fits 6302.31 (bed linen, other, of cotton) rather than the printed-cotton code 6302.21.",
+    "question": "Is the sheet set printed or dyed in a solid color, and is it a woven fabric rather than knitted?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton bed sheet set queen",
+   "truth": "6302.31",
+   "a": {
+    "hs6": "6302.31",
+    "confidence": 0.85,
+    "reason": "Woven cotton percale bed sheet set that is not printed falls under other bed linen of cotton.",
+    "question": "Are the sheets printed or plain-dyed/unprinted, since printed bed linen is classified under 6302.21 instead?"
+   },
+   "b": {
+    "hs6": "6302.31",
+    "confidence": 0.8,
+    "reason": "Woven cotton percale bed sheet set that is not printed, so it falls under bed linen of cotton, other.",
+    "question": "Are the sheets printed or plain? A printed design would move the code to 6302.21."
+   },
+   "agree": true
+  },
+  {
+   "title": "Percale cotton sheets white",
+   "truth": "6302.31",
+   "a": {
+    "hs6": "6302.31",
+    "confidence": 0.9,
+    "reason": "Plain white 100% cotton bed linen that is not printed falls under the 'other, of cotton' bed linen subheading.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6302.31",
+    "confidence": 0.9,
+    "reason": "The listing describes plain white 100% cotton bed linen, which is unprinted bed linen of cotton and so fits 6302.31 rather than the printed category 6302.21.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Percale cotton sheets white",
+   "truth": "6302.31",
+   "a": {
+    "hs6": "6302.31",
+    "confidence": 0.9,
+    "reason": "Woven cotton percale sheets are bed linen of cotton that is not printed, so they fall under 6302.31 rather than the printed bed linen code.",
+    "question": "Are the sheets plain white throughout, with no printed or woven-in patterns, and is the product sold as a bed linen set?"
+   },
+   "b": {
+    "hs6": "6302.31",
+    "confidence": 0.9,
+    "reason": "Woven cotton percale bed sheets in plain white (not printed) fall under bed linen of cotton, other.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton flat sheet and fitted sheet",
+   "truth": "6302.31",
+   "a": {
+    "hs6": "6302.31",
+    "confidence": 0.9,
+    "reason": "Plain white 100% cotton bed linen that is not printed falls under the 'other' bed linen of cotton category.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6302.31",
+    "confidence": 0.9,
+    "reason": "Plain white 100% cotton bed linen that is not printed falls under the 'other' cotton bed linen subheading 6302.31.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton pillowcase pair",
+   "truth": "6302.31",
+   "a": {
+    "hs6": "6302.31",
+    "confidence": 0.85,
+    "reason": "Plain dyed cotton bed linen is bed linen of cotton that is not printed, matching 6302.31 rather than the printed-bed-linen code 6302.21.",
+    "question": "Is the fabric printed or patterned, or is it plain dyed as described?"
+   },
+   "b": {
+    "hs6": "6302.31",
+    "confidence": 0.8,
+    "reason": "Plain dyed cotton bed linen falls under bed linen of cotton that is not printed, so 6302.31 applies rather than the printed-bed-linen code 6302.21.",
+    "question": "Is the pillowcase pattern applied by printing, or is it plain dyed/woven without printed design?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton pillowcase pair",
+   "truth": "6302.31",
+   "a": {
+    "hs6": "6302.31",
+    "confidence": 0.9,
+    "reason": "A pair of 100% cotton pillowcases is bed linen of cotton; the listing does not indicate printed fabric, so the 'other' bed linen subheading applies.",
+    "question": "Is the cotton fabric printed or patterned, which would change the classification to 6302.21?"
+   },
+   "b": {
+    "hs6": "6302.31",
+    "confidence": 0.8,
+    "reason": "A pair of plain 100% cotton pillowcases is bed linen of cotton that is not printed, so it falls under 6302.31 rather than the printed bed linen code 6302.21.",
+    "question": "Are the pillowcases printed or patterned (6302.21) or plain/unprinted (6302.31)?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Percale cotton pillow cover",
+   "truth": "6302.31",
+   "a": {
+    "hs6": "6302.31",
+    "confidence": 0.8,
+    "reason": "Plain dyed cotton bed linen (pillow cover) is other bed linen of cotton, not printed.",
+    "question": "Is the pillow cover printed or plain-dyed only, and is it sold alone or as part of a set?"
+   },
+   "b": {
+    "hs6": "6302.31",
+    "confidence": 0.85,
+    "reason": "Plain dyed cotton pillow cover is bed linen of cotton that is not printed, matching 6302.31.",
+    "question": "Is the pillow cover printed or plain dyed, and is it sold as bed linen rather than a cushion cover?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Percale cotton pillow cover",
+   "truth": "6302.31",
+   "a": {
+    "hs6": "6302.31",
+    "confidence": 0.9,
+    "reason": "A 100% cotton pillow cover is household bed linen of cotton, and as a plain percale (not printed) it falls under the other bed linen of cotton subheading.",
+    "question": "Is the pillow cover printed or plain-dyed/woven without a print?"
+   },
+   "b": {
+    "hs6": "6302.31",
+    "confidence": 0.9,
+    "reason": "A 100% cotton pillow cover is household bed linen of cotton, and the listing does not indicate printed fabric, so it falls under the non-printed bed linen code.",
+    "question": "Is the percale fabric printed or dyed plain, since printed bed linen falls under 6302.21?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Plain cotton pillowcase set of 2",
+   "truth": "6302.31",
+   "a": {
+    "hs6": "6302.31",
+    "confidence": 0.85,
+    "reason": "Plain dyed cotton bed linen that is not printed falls under 6302.31, other bed linen of cotton.",
+    "question": "Is the pillowcase set printed, or is it plain dyed as described (confirming the 6302.31 rather than 6302.21 split)?"
+   },
+   "b": {
+    "hs6": "6302.31",
+    "confidence": 0.9,
+    "reason": "Plain dyed cotton pillowcases are bed linen of cotton that is not printed, matching 6302.31 rather than the printed category 6302.21.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Printed cotton duvet cover",
+   "truth": "6302.21",
+   "a": {
+    "hs6": "6302.21",
+    "confidence": 0.93,
+    "reason": "A printed 100% cotton duvet cover is bed linen of cotton and printed, matching code 6302.21.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6302.21",
+    "confidence": 0.93,
+    "reason": "A printed 100% cotton duvet cover is bed linen of cotton and printed, which matches 6302.21 directly.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Printed cotton duvet cover",
+   "truth": "6302.21",
+   "a": {
+    "hs6": "6302.21",
+    "confidence": 0.8,
+    "reason": "A printed cotton duvet cover is bed linen of cotton that is printed, which matches the 6302.21 heading.",
+    "question": "Is the pattern printed by a process such as digital or roller printing, rather than woven in (jacquard) or embroidered?"
+   },
+   "b": {
+    "hs6": "6302.21",
+    "confidence": 0.85,
+    "reason": "A printed cotton duvet cover is bed linen of cotton, and the listing specifies a printed pattern, matching 6302.21 over the non-printed 6302.31 category.",
+    "question": "Is the pattern printed (e.g., digital or screen print) rather than woven or embroidered in the fabric?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Floral cotton bed linen double",
+   "truth": "6302.21",
+   "a": {
+    "hs6": "6302.21",
+    "confidence": 0.93,
+    "reason": "Printed 100% cotton bed linen matches the 6302.21 category for printed cotton bed linen.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6302.21",
+    "confidence": 0.95,
+    "reason": "The listing describes printed 100% cotton bed linen, which matches the 6302.21 category for printed cotton bed linen.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Floral cotton bed linen double",
+   "truth": "6302.21",
+   "a": {
+    "hs6": "6302.21",
+    "confidence": 0.9,
+    "reason": "A printed cotton duvet cover is bed linen of cotton with a printed pattern, matching 6302.21.",
+    "question": "Is the cover printed (as stated) rather than yarn-dyed or woven with a pattern, to confirm the printed subheading?"
+   },
+   "b": {
+    "hs6": "6302.21",
+    "confidence": 0.9,
+    "reason": "A printed cotton duvet cover is bed linen of cotton with a printed pattern, matching 6302.21.",
+    "question": "Is the cover printed or dyed in a single colour, which would instead point to 6302.31?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Block print cotton quilt cover",
+   "truth": "6302.21",
+   "a": {
+    "hs6": "6302.21",
+    "confidence": 0.9,
+    "reason": "A printed 100% cotton quilt cover is bed linen of cotton that is printed, matching heading 6302.21.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6302.21",
+    "confidence": 0.9,
+    "reason": "A printed 100% cotton quilt cover is bed linen of cotton, and the listing specifies printed.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Terry cotton bath towel",
+   "truth": "6302.60",
+   "a": {
+    "hs6": "6302.60",
+    "confidence": 0.93,
+    "reason": "A 100% cotton terry towelling bath towel is toilet linen of cotton, matching the terry towelling toilet/kitchen linen code.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6302.60",
+    "confidence": 0.93,
+    "reason": "Terry towelling bath towel of 100% cotton matches the toilet/kitchen linen of terry towelling, cotton category.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Terry cotton bath towel",
+   "truth": "6302.60",
+   "a": {
+    "hs6": "6302.60",
+    "confidence": 0.9,
+    "reason": "A terry cotton bath towel is cotton terry towelling toilet linen, which matches the 6302.60 heading for toilet and kitchen linen of terry towelling of cotton.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6302.60",
+    "confidence": 0.9,
+    "reason": "Terry cotton bath linen is toilet/kitchen linen of cotton in terry towelling, which matches the 6302.60 heading.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Heavy 600gsm cotton towel",
+   "truth": "6302.60",
+   "a": {
+    "hs6": "6302.60",
+    "confidence": 0.93,
+    "reason": "A 100% cotton terry towelling towel is a toilet/kitchen linen item of cotton, matching the terry towelling code 6302.60.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6302.60",
+    "confidence": 0.93,
+    "reason": "A 100% cotton terry towelling towel is a toilet/kitchen linen article of cotton, matching the terry towelling toilet/kitchen linen code.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Heavy 600gsm cotton towel",
+   "truth": "6302.60",
+   "a": {
+    "hs6": "6302.60",
+    "confidence": 0.93,
+    "reason": "Terry towelling bath linen made of cotton falls under toilet/kitchen linen of terry towelling of cotton.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6302.60",
+    "confidence": 0.9,
+    "reason": "Terry towelling bath linen made of cotton matches the toilet/kitchen linen of terry towelling category.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton hand towel set terry",
+   "truth": "6302.60",
+   "a": {
+    "hs6": "6302.60",
+    "confidence": 0.9,
+    "reason": "A 100% cotton terry towelling hand towel set is toilet/kitchen linen of terry towelling, matching HS 6302.60.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6302.60",
+    "confidence": 0.9,
+    "reason": "A 100% cotton terry towelling hand towel set is toilet/kitchen linen of cotton, matching the terry towelling code 6302.60.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Block print cotton tablecloth",
+   "truth": "6302.51",
+   "a": {
+    "hs6": "6302.51",
+    "confidence": 0.9,
+    "reason": "The listing describes a cotton table linen item (tablecloth), which falls under 6302.51 for other cotton table linen; the hand block printing does not change the classification since the printed-bed-linen code 6302.21 applies only to bed linen.",
+    "question": "Is the tablecloth made of woven cotton with a plain or patterned weave, and are there any non-cotton fibres in the fabric?"
+   },
+   "b": {
+    "hs6": "6302.51",
+    "confidence": 0.9,
+    "reason": "Table linen made of cotton, hand block printed, falls under 'Table linen, other, of cotton' rather than the printed bed linen subheading.",
+    "question": "Is the tablecloth woven and is the printing its only decoration, or does it have knitted or terry construction that would change the code?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Block print cotton tablecloth",
+   "truth": "6302.51",
+   "a": {
+    "hs6": "6302.51",
+    "confidence": 0.85,
+    "reason": "A woven cotton tablecloth is table linen of cotton, and the listing does not indicate printed status, which would point to 6302.21 bed linen instead, so 6302.51 is the closest fit for table linen.",
+    "question": "Is the tablecloth printed (block print) in a way that would make it fit a printed-linen category, and is it intended for table use rather than bed or kitchen use?"
+   },
+   "b": {
+    "hs6": "6302.51",
+    "confidence": 0.9,
+    "reason": "A woven cotton tablecloth is table linen of cotton, and the listing does not indicate it is printed in a way that would fall under the printed bed linen code, so it fits 6302.51 Table linen, other, of cotton.",
+    "question": "Is the tablecloth printed, and is it intended only for table use rather than bed or toilet use?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton table cover 150x250",
+   "truth": "6302.51",
+   "a": {
+    "hs6": "6302.51",
+    "confidence": 0.8,
+    "reason": "Listing describes cotton table linen, and the printed-versus-other distinction for table linen is not clearly specified; 6302.51 covers other cotton table linen while printed cotton bed linen is a separate code.",
+    "question": "Is the table cover printed in a way that would classify it as printed rather than other cotton table linen, and does the product have any knitted or non-cotton components?"
+   },
+   "b": {
+    "hs6": "6302.51",
+    "confidence": 0.85,
+    "reason": "The listing describes cotton table linen that is hand block printed, and the closed list's 6302.51 covers table linen of cotton other than the printed bed-linen category.",
+    "question": "Is the table cover printed (which might instead fall under a printed-linen category) or is the printing decorative only, and is it knitted or woven?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton table cover 150x250",
+   "truth": "6302.51",
+   "a": {
+    "hs6": "6302.51",
+    "confidence": 0.9,
+    "reason": "A woven cotton tablecloth is table linen of cotton, which falls under 6302.51 (other table linen, of cotton) rather than the printed bed linen or toilet/kitchen linen codes.",
+    "question": "Is the tablecloth printed or plain? A printed one may still fit 6302.51, but confirming the finish would help rule out other linen codes."
+   },
+   "b": {
+    "hs6": "6302.51",
+    "confidence": 0.9,
+    "reason": "A woven cotton tablecloth is table linen of cotton, matching 6302.51 (other table linen of cotton).",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Linen look cotton tablecloth",
+   "truth": "6302.51",
+   "a": {
+    "hs6": "6302.51",
+    "confidence": 0.8,
+    "reason": "A cotton table linen item fits the table linen of cotton heading; the title's 'linen look' wording suggests it is not actually linen, so cotton is the material used.",
+    "question": "Is the tablecloth 100% cotton, or does it contain linen or man-made fibres, and is it printed (which could point to 6302.21 bed linen-style printed textiles if mis-categorised)?"
+   },
+   "b": {
+    "hs6": "6302.51",
+    "confidence": 0.8,
+    "reason": "The listing describes a cotton table linen item, which matches the closed-list code for other cotton table linen; 'linen look' refers to appearance, not fibre, and the 'hand block printed' detail points toward 6302.51 rather than the printed bed-linen code 6302.21 because the item is a tablecloth.",
+    "question": "Is the tablecloth made of 100% cotton fibre, or does it contain linen or synthetic blend fibres?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton napkins set of 6",
+   "truth": "6302.51",
+   "a": {
+    "hs6": "6302.51",
+    "confidence": 0.9,
+    "reason": "Cotton table napkins are table linen made of cotton, which maps to the 6302.51 'Table linen, other, of cotton' heading.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6302.51",
+    "confidence": 0.9,
+    "reason": "Cotton table napkins fall under table linen of cotton, which the list codes as 6302.51.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton napkins set of 6",
+   "truth": "6302.51",
+   "a": {
+    "hs6": "6302.91",
+    "confidence": 0.8,
+    "reason": "Plain woven cotton napkins are kitchen/table linen of cotton, and the closed list offers 6302.51 (table linen, other, of cotton) as the more specific fit for napkins.",
+    "question": "Are these napkins intended for table use, or are they general-purpose kitchen cloths?"
+   },
+   "b": {
+    "hs6": "6302.91",
+    "confidence": 0.8,
+    "reason": "Plain woven cotton napkins are kitchen/table textile articles, and the closest list code for cotton kitchen linen that is not terry towelling is 6302.91, although table linen 6302.51 is an alternative.",
+    "question": "Are these napkins intended as table linen (dining use) or as kitchen linen, and are they hemmed or otherwise finished in a way that separates them from general kitchen textiles?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Woven cotton dinner napkins",
+   "truth": "6302.51",
+   "a": {
+    "hs6": "6302.51",
+    "confidence": 0.9,
+    "reason": "Woven 100% cotton napkins are table linen, which falls under 6302.51 (other table linen of cotton) on the closed list.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6302.51",
+    "confidence": 0.9,
+    "reason": "Woven 100% cotton napkins are table linen, which falls under 6302.51 (other table linen of cotton).",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Woven cotton dinner napkins",
+   "truth": "6302.51",
+   "a": {
+    "hs6": "6302.91",
+    "confidence": 0.8,
+    "reason": "Woven cotton napkins are table linen of cotton, but the closed list has no table-linen-specific code for plain woven cotton other than 6302.51, which covers table linen, other, of cotton; 6302.91 is the closest fit for other toilet and kitchen linen of cotton, so the best match is ambiguous.",
+    "question": "Are these napkins intended as table linen (dining use) rather than kitchen or toilet linen, and are they printed or plain?"
+   },
+   "b": {
+    "hs6": "6302.91",
+    "confidence": 0.85,
+    "reason": "Woven cotton napkins are table/kitchen linen of cotton; the closed list's table linen code 6302.51 (other, of cotton) is the closer fit for dinner napkins, but 6302.91 covers other toilet/kitchen linen of cotton, so the best match is 6302.51.",
+    "question": "Are the napkins printed or bleached/dyed, and are they intended for table use rather than kitchen or toilet use?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cloth napkins cotton",
+   "truth": "6302.51",
+   "a": {
+    "hs6": "6302.51",
+    "confidence": 0.9,
+    "reason": "Cotton table napkins are table linen made of cotton, matching 6302.51 (other table linen, of cotton).",
+    "question": null
+   },
+   "b": {
+    "hs6": "6302.51",
+    "confidence": 0.9,
+    "reason": "Cotton table napkins are table linen of cotton, which matches the 6302.51 heading for other table linen of cotton.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton tea towel",
+   "truth": "6302.91",
+   "a": {
+    "hs6": "6302.91",
+    "confidence": 0.8,
+    "reason": "A non-terry cotton kitchen towel is toilet/kitchen linen of cotton, which fits 6302.91 rather than the terry towelling code 6302.60.",
+    "question": "Is the cotton tea towel woven in a plain weave, or is it made of terry-loop fabric?"
+   },
+   "b": {
+    "hs6": "6302.91",
+    "confidence": 0.85,
+    "reason": "A non-terry cotton kitchen linen fits 'other toilet/kitchen linen, of cotton'; terry towelling would instead fall under 6302.60.",
+    "question": "Is the tea towel made from terry towelling or a woven non-terry fabric?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton tea towel",
+   "truth": "6302.91",
+   "a": {
+    "hs6": "6302.91",
+    "confidence": 0.8,
+    "reason": "Plain weave cotton tea towels are kitchen linen made of cotton that is not terry towelling, so they fall under other toilet/kitchen linen of cotton.",
+    "question": "Are the tea towels terry-woven (looped pile surface) or flat woven, and are they printed or plain-dyed?"
+   },
+   "b": {
+    "hs6": "6302.91",
+    "confidence": 0.8,
+    "reason": "A plain weave cotton tea towel is a kitchen linen article of cotton not classed as terry towelling, which fits the other toilet/kitchen linen of cotton heading.",
+    "question": "Is the tea towel terry towelling (looped pile) or a flat plain weave? The listing says plain weave, but confirming it is not terry would settle between 6302.91 and 6302.60."
+   },
+   "agree": true
+  },
+  {
+   "title": "Printed cotton kitchen towel",
+   "truth": "6302.91",
+   "a": {
+    "hs6": "6302.91",
+    "confidence": 0.8,
+    "reason": "A cotton kitchen towel is toilet/kitchen linen of cotton, and since it is non-terry rather than terry towelling, it falls under other kitchen linen rather than 6302.60.",
+    "question": "Is the towel a woven fabric with a non-terry weave, and is it printed or unprinted? The code is 6302.91 either way, but confirming the weave and pile construction would rule out terry towelling (6302.60)."
+   },
+   "b": {
+    "hs6": "6302.91",
+    "confidence": 0.6,
+    "reason": "A cotton kitchen towel is toilet/kitchen linen of cotton; since it is non-terry and not specifically listed as terry towelling, it falls under other toilet/kitchen linen of cotton, though the printed finish could point to 6302.21 if it were bed linen.",
+    "question": "Is the towel made of terry (looped pile) fabric, or is it a plain/woven towel, and is it intended for kitchen use rather than bed linen?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Printed cotton kitchen towel",
+   "truth": "6302.91",
+   "a": {
+    "hs6": "6302.91",
+    "confidence": 0.8,
+    "reason": "Plain weave cotton tea towels are kitchen linen not terry, so they fall under other cotton toilet/kitchen linen rather than the terry towelling code.",
+    "question": "Is the towel terry (looped pile) or plain woven, and is the print applied by printing or is the fabric woven in a pattern?"
+   },
+   "b": {
+    "hs6": "6302.91",
+    "confidence": 0.8,
+    "reason": "A plain weave cotton tea towel is a kitchen linen article of cotton that is not terry, so it falls under other toilet/kitchen linen of cotton rather than the terry towelling or printed bed/table linen codes.",
+    "question": "Is the towel terry (looped pile) or a flat weave, and is it printed as a design or only decorated with woven stripes?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Woven cotton dish towel set",
+   "truth": "6302.91",
+   "a": {
+    "hs6": "6302.91",
+    "confidence": 0.85,
+    "reason": "Non-terry cotton kitchen linen fits the other toilet/kitchen linen of cotton category, since the listing does not specify terry towelling (6302.60) and is not printed or bed/table linen.",
+    "question": "Is the cotton fabric terry (looped pile) or plain-woven, and are the towels printed or plain?"
+   },
+   "b": {
+    "hs6": "6302.91",
+    "confidence": 0.85,
+    "reason": "Non-terry woven cotton kitchen linen falls under other toilet/kitchen linen of cotton, not the terry towelling category 6302.60.",
+    "question": "Is the set made from woven fabric with a plain or jacquard weave, rather than terry or pile construction?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton curtains pair",
+   "truth": "6303.91",
+   "a": {
+    "hs6": "6303.91",
+    "confidence": 0.85,
+    "reason": "Lined curtains of 100% woven cotton fall under curtains of cotton, other than knitted.",
+    "question": "Are the curtains knitted or woven, and are they made of cotton only (not blended with synthetic fibres)?"
+   },
+   "b": {
+    "hs6": "6303.91",
+    "confidence": 0.8,
+    "reason": "Woven 100% cotton lined curtains fall under curtains/blinds of cotton, other than knitted.",
+    "question": "Is the curtain fabric plain woven cotton (not knitted), and are the lining and face both cotton, or is the lining a different fibre?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton curtains pair",
+   "truth": "6303.91",
+   "a": {
+    "hs6": "6303.91",
+    "confidence": 0.85,
+    "reason": "Window curtains made of cotton canvas, woven and not knitted, match the curtains of cotton category.",
+    "question": "Are the curtains woven rather than knitted, and is any synthetic fibre present in the fabric?"
+   },
+   "b": {
+    "hs6": "6303.91",
+    "confidence": 0.85,
+    "reason": "Window curtains made of cotton canvas, not knitted, match the curtains/blinds of cotton code 6303.91.",
+    "question": "Are the curtains knitted or woven, and are they lined or made of mixed fibres?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Woven cotton curtain panels",
+   "truth": "6303.91",
+   "a": {
+    "hs6": "6303.91",
+    "confidence": 0.8,
+    "reason": "Woven 100% cotton curtains fit the closed-list heading for curtains and blinds of cotton, other than knitted.",
+    "question": "Are the curtains made of woven fabric with the cotton as the main fibre, and is the lining also cotton or a different material?"
+   },
+   "b": {
+    "hs6": "6303.91",
+    "confidence": 0.8,
+    "reason": "The listing describes woven 100% cotton curtains, which matches the closed-list category for curtains and blinds of cotton other than knitted.",
+    "question": "Are the curtains knitted or woven, and is the lining a separate material that could change the classification?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Woven cotton curtain panels",
+   "truth": "6303.91",
+   "a": {
+    "hs6": "6303.91",
+    "confidence": 0.9,
+    "reason": "The listing describes window curtains made of woven cotton, which matches the curtains/blinds of cotton, other than knitted category.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6303.91",
+    "confidence": 0.9,
+    "reason": "The listing describes woven cotton window curtains, which matches the curtains/blinds of cotton, other than knitted category.",
+    "question": "Are the panels woven rather than knitted, and is the cotton content the predominant fibre?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton eyelet curtains",
+   "truth": "6303.91",
+   "a": {
+    "hs6": "6303.91",
+    "confidence": 0.8,
+    "reason": "Woven 100% cotton curtains fall under curtains/blinds of cotton other than knitted; the lining and eyelet construction do not change the classification.",
+    "question": "Are the curtains knitted or woven, and is the lining a separate fabric or a fused coating?"
+   },
+   "b": {
+    "hs6": "6303.91",
+    "confidence": 0.85,
+    "reason": "Woven 100% cotton curtains fall under curtains of cotton other than knitted (6303.91); the lining does not change the classification in this list.",
+    "question": "Are the curtains knitted or woven, and is the eyelet component purely decorative with no synthetic fibres in the outer fabric?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Men's cotton cargo pants",
+   "truth": "6203.42",
+   "a": {
+    "hs6": "6203.42",
+    "confidence": 0.93,
+    "reason": "Men's woven cotton trousers with side pockets match the men's trousers/jeans heading for cotton woven garments.",
+    "question": null
+   },
+   "b": {
+    "hs6": "6203.42",
+    "confidence": 0.93,
+    "reason": "Men's woven cotton trousers match the 6203.42 heading for men's trousers of cotton, and cargo pants with side pockets are still trousers.",
+    "question": null
+   },
+   "agree": true
+  },
+  {
+   "title": "Men's cotton cargo pants",
+   "truth": "6203.42",
+   "a": {
+    "hs6": "6203.42",
+    "confidence": 0.7,
+    "reason": "Men's cotton cargo pants are trousers of cotton; the closed list only offers a woven cotton men's trousers code, and the listing does not state whether the fabric is woven or knitted.",
+    "question": "Is the fabric woven or knitted?"
+   },
+   "b": {
+    "hs6": "6203.42",
+    "confidence": 0.8,
+    "reason": "Men's cotton cargo pants are trousers of woven cotton, matching the men's trousers/jeans code 6203.42; the listing does not state whether the fabric is woven or knitted.",
+    "question": "Is the fabric woven or knitted?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton cargo trousers",
+   "truth": "6203.42",
+   "a": {
+    "hs6": "6203.42",
+    "confidence": 0.9,
+    "reason": "Woven cotton drill trousers for men fall under 6203.42, though the listing does not state the wearer's sex, which would decide between men's and women's trousers.",
+    "question": "Are these cargo trousers designed for men or for women?"
+   },
+   "b": {
+    "hs6": "6203.42",
+    "confidence": 0.9,
+    "reason": "Woven 100% cotton drill trousers for men's wear map to men's trousers of woven cotton, though the listing does not state whether the trousers are for men or women.",
+    "question": "Are these men's or women's trousers, and are they 100% cotton?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Cotton cargo trousers",
+   "truth": "6203.42",
+   "a": {
+    "hs6": "6203.42",
+    "confidence": 0.85,
+    "reason": "Men's cotton cargo trousers are woven garments, and the listing does not state the wearer's sex, so the men's trousers code is the closest match; women's trousers would be 6204.62 but that code is not on the list, and the listing is cotton, so 6203.42 fits best among the options given.",
+    "question": "Are these men's or women's trousers, and are they woven or knitted?"
+   },
+   "b": {
+    "hs6": "6203.42",
+    "confidence": 0.8,
+    "reason": "Cotton cargo trousers are men's woven trousers of cotton, matching 6203.42; the listing does not state whether they are for men or women, which could point to 6204.42 or 6104.62 if knitted.",
+    "question": "Are the trousers men's or women's, and are they woven or knitted?"
+   },
+   "agree": true
+  },
+  {
+   "title": "Woven cotton work trousers",
+   "truth": "6203.42",
+   "a": {
+    "hs6": "6203.42",
+    "confidence": 0.8,
+    "reason": "Woven cotton drill trousers with side pockets match men's trousers of woven cotton, though the listing does not state whether they are for men or women.",
+    "question": "Are these men's or women's trousers?"
+   },
+   "b": {
+    "hs6": "6203.42",
+    "confidence": 0.8,
+    "reason": "Woven cotton drill trousers with side pockets match the men's trousers category; the listing does not state the wearer's sex, so it could alternatively fall under women's trousers or another category.",
+    "question": "Are these men's or women's trousers, and are they intended for men or women?"
+   },
+   "agree": true
+  }
+ ]
+}

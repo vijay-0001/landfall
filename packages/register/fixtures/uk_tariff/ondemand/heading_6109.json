@@ -1,0 +1,308 @@
+{
+ "data": {
+  "id": "42978",
+  "type": "heading",
+  "attributes": {
+   "goods_nomenclature_item_id": "6109000000",
+   "description": "T-shirts, singlets and other vests, knitted or crocheted",
+   "bti_url": "https://www.gov.uk/guidance/check-what-youll-need-to-get-a-legally-binding-decision-on-a-commodity-code",
+   "formatted_description": "T-shirts, singlets and other vests, knitted or crocheted",
+   "description_plain": "T-shirts, singlets and other vests, knitted or crocheted",
+   "validity_start_date": "1972-01-01T00:00:00.000Z",
+   "validity_end_date": null,
+   "declarable": false
+  },
+  "relationships": {
+   "footnotes": {
+    "data": [
+     {
+      "id": "TN207",
+      "type": "footnote"
+     },
+     {
+      "id": "TN701",
+      "type": "footnote"
+     }
+    ]
+   },
+   "section": {
+    "data": {
+     "id": "11",
+     "type": "section"
+    }
+   },
+   "chapter": {
+    "data": {
+     "id": "42796",
+     "type": "chapter"
+    }
+   },
+   "commodities": {
+    "data": [
+     {
+      "id": "42979",
+      "type": "commodity"
+     },
+     {
+      "id": "99290",
+      "type": "commodity"
+     },
+     {
+      "id": "99291",
+      "type": "commodity"
+     },
+     {
+      "id": "42980",
+      "type": "commodity"
+     },
+     {
+      "id": "89744",
+      "type": "commodity"
+     },
+     {
+      "id": "42983",
+      "type": "commodity"
+     }
+    ]
+   }
+  }
+ },
+ "included": [
+  {
+   "id": "42979",
+   "type": "commodity",
+   "attributes": {
+    "description": "Of cotton",
+    "number_indents": 1,
+    "goods_nomenclature_item_id": "6109100000",
+    "leaf": false,
+    "producline_suffix": "80",
+    "goods_nomenclature_sid": 42979,
+    "formatted_description": "Of cotton",
+    "description_plain": "Of cotton",
+    "parent_sid": null,
+    "validity_start_date": "1972-01-01T00:00:00.000Z",
+    "validity_end_date": null,
+    "declarable": false
+   },
+   "relationships": {
+    "overview_measures": {
+     "data": [
+      {
+       "id": "20008197",
+       "type": "measure"
+      },
+      {
+       "id": "20277960",
+       "type": "measure"
+      },
+      {
+       "id": "-1012550897",
+       "type": "measure"
+      },
+      {
+       "id": "-1012545472",
+       "type": "measure"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "99290",
+   "type": "commodity",
+   "attributes": {
+    "description": "T-shirts",
+    "number_indents": 2,
+    "goods_nomenclature_item_id": "6109100010",
+    "leaf": true,
+    "producline_suffix": "80",
+    "goods_nomenclature_sid": 99290,
+    "formatted_description": "T-shirts",
+    "description_plain": "T-shirts",
+    "parent_sid": 42979,
+    "validity_start_date": "2015-03-10T00:00:00.000Z",
+    "validity_end_date": null,
+    "declarable": true
+   },
+   "relationships": {
+    "overview_measures": {
+     "data": [
+      {
+       "id": "20008197",
+       "type": "measure"
+      },
+      {
+       "id": "20277960",
+       "type": "measure"
+      },
+      {
+       "id": "-1012550897",
+       "type": "measure"
+      },
+      {
+       "id": "-1012545472",
+       "type": "measure"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "99291",
+   "type": "commodity",
+   "attributes": {
+    "description": "Other",
+    "number_indents": 2,
+    "goods_nomenclature_item_id": "6109100090",
+    "leaf": true,
+    "producline_suffix": "80",
+    "goods_nomenclature_sid": 99291,
+    "formatted_description": "Other",
+    "description_plain": "Other",
+    "parent_sid": 42979,
+    "validity_start_date": "2015-03-10T00:00:00.000Z",
+    "validity_end_date": null,
+    "declarable": true
+   },
+   "relationships": {
+    "overview_measures": {
+     "data": [
+      {
+       "id": "20008197",
+       "type": "measure"
+      },
+      {
+       "id": "20277960",
+       "type": "measure"
+      },
+      {
+       "id": "-1012550897",
+       "type": "measure"
+      },
+      {
+       "id": "-1012545472",
+       "type": "measure"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "42980",
+   "type": "commodity",
+   "attributes": {
+    "description": "Of other textile materials",
+    "number_indents": 1,
+    "goods_nomenclature_item_id": "6109900000",
+    "leaf": false,
+    "producline_suffix": "80",
+    "goods_nomenclature_sid": 42980,
+    "formatted_description": "Of other textile materials",
+    "description_plain": "Of other textile materials",
+    "parent_sid": null,
+    "validity_start_date": "1972-01-01T00:00:00.000Z",
+    "validity_end_date": null,
+    "declarable": false
+   },
+   "relationships": {
+    "overview_measures": {
+     "data": [
+      {
+       "id": "20277960",
+       "type": "measure"
+      },
+      {
+       "id": "-1012550897",
+       "type": "measure"
+      },
+      {
+       "id": "-1012545472",
+       "type": "measure"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "89744",
+   "type": "commodity",
+   "attributes": {
+    "description": "Of wool or fine animal hair or man-made fibres",
+    "number_indents": 2,
+    "goods_nomenclature_item_id": "6109902000",
+    "leaf": true,
+    "producline_suffix": "80",
+    "goods_nomenclature_sid": 89744,
+    "formatted_description": "Of wool or fine animal hair or man-made fibres",
+    "description_plain": "Of wool or fine animal hair or man-made fibres",
+    "parent_sid": 42980,
+    "validity_start_date": "2008-01-01T00:00:00.000Z",
+    "validity_end_date": null,
+    "declarable": true
+   },
+   "relationships": {
+    "overview_measures": {
+     "data": [
+      {
+       "id": "20008198",
+       "type": "measure"
+      },
+      {
+       "id": "20277960",
+       "type": "measure"
+      },
+      {
+       "id": "-1012550897",
+       "type": "measure"
+      },
+      {
+       "id": "-1012545472",
+       "type": "measure"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "42983",
+   "type": "commodity",
+   "attributes": {
+    "description": "Of other textile materials",
+    "number_indents": 2,
+    "goods_nomenclature_item_id": "6109909000",
+    "leaf": true,
+    "producline_suffix": "80",
+    "goods_nomenclature_sid": 42983,
+    "formatted_description": "Of other textile materials",
+    "description_plain": "Of other textile materials",
+    "parent_sid": 42980,
+    "validity_start_date": "1972-01-01T00:00:00.000Z",
+    "validity_end_date": null,
+    "declarable": true
+   },
+   "relationships": {
+    "overview_measures": {
+     "data": [
+      {
+       "id": "20008199",
+       "type": "measure"
+      },
+      {
+       "id": "20277960",
+       "type": "measure"
+      },
+      {
+       "id": "-1012550897",
+       "type": "measure"
+      },
+      {
+       "id": "-1012545472",
+       "type": "measure"
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

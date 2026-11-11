@@ -1,0 +1,75 @@
+{
+  "note": "Reviewed exceptions to the permissive-only policy. Status approved-pm: the PM approved all of these on 10 Nov 2026 (weak copyleft and attribution-only are fine). Each is weak copyleft or attribution-only, used unmodified, not linked into our code.",
+  "exceptions": [
+    {
+      "ecosystem": "python",
+      "package": "certifi",
+      "licence": "MPL-2.0",
+      "status": "approved-pm",
+      "reason": "CA bundle pulled in by httpx and the Anthropic SDK; file-level copyleft, used unmodified."
+    },
+    {
+      "ecosystem": "npm",
+      "package": "axe-core",
+      "licence": "MPL-2.0",
+      "status": "approved-pm",
+      "reason": "Accessibility test tool (dev dependency only, never shipped)."
+    },
+    {
+      "ecosystem": "npm",
+      "package": "caniuse-lite",
+      "licence": "CC-BY-4.0",
+      "status": "approved-pm",
+      "reason": "Browser data pulled in by the Next.js toolchain; attribution only."
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@axe-core/playwright",
+      "licence": "MPL-2.0",
+      "status": "approved-pm",
+      "reason": "Accessibility test integration (dev dependency only, never shipped)."
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@fontsource-variable/inter",
+      "licence": "OFL-1.1",
+      "status": "approved-pm",
+      "reason": "Self-hosted font files (SIL Open Font Licence is not the OGL listed in CLAUDE.md); fonts may be bundled and used commercially, licence text kept with the files."
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@fontsource-variable/jetbrains-mono",
+      "licence": "OFL-1.1",
+      "status": "approved-pm",
+      "reason": "Self-hosted font files (SIL Open Font Licence is not the OGL listed in CLAUDE.md); fonts may be bundled and used commercially, licence text kept with the files."
+    },
+    {
+      "ecosystem": "npm",
+      "package": "@fontsource-variable/space-grotesk",
+      "licence": "OFL-1.1",
+      "status": "approved-pm",
+      "reason": "Self-hosted font files (SIL Open Font Licence is not the OGL listed in CLAUDE.md); fonts may be bundled and used commercially, licence text kept with the files."
+    },
+    {
+      "ecosystem": "npm",
+      "package": "sharp",
+      "licence": "local MIT stub",
+      "status": "approved-pm",
+      "reason": "apps/web/stubs/sharp replaces the real sharp so its LGPL-3.0 libvips binaries are never installed; images.unoptimized is set."
+    },
+    {
+      "ecosystem": "npm",
+      "package": "lightningcss",
+      "licence": "MPL-2.0",
+      "status": "approved-pm",
+      "reason": "Next.js build-time CSS transformer; file-level copyleft, used unmodified, not shipped to browsers."
+    },
+    {
+      "ecosystem": "npm",
+      "package": "lightningcss-win32-x64-msvc",
+      "licence": "MPL-2.0",
+      "status": "approved-pm",
+      "reason": "Next.js build-time CSS transformer; file-level copyleft, used unmodified, not shipped to browsers."
+    }
+  ]
+}

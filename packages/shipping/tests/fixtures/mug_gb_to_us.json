@@ -1,0 +1,475 @@
+{
+  "rates": [
+    {
+      "additional_services_surcharge": 0.0,
+      "available_handover_options": [
+        "dropoff",
+        "free_pickup"
+      ],
+      "cost_rank": 1.0,
+      "courier_remarks": "Remote Area Surcharge may apply",
+      "courier_service": {
+        "courier_id": "e8996c12-0e37-42e8-b385-cbd6efe889ce",
+        "easyship_courier_service": true,
+        "icon": null,
+        "id": "e4e0b246-3bc3-4263-96a3-c7ba812b2d95",
+        "logo": null,
+        "name": "FedEx\u00ae International Connect Plus",
+        "umbrella_name": "FedEx"
+      },
+      "currency": "USD",
+      "ddp_handling_fee": 26.79,
+      "delivery_time_rank": 3.0,
+      "description": " 41.34 of taxes & duties are INCLUDED in the cost",
+      "discount": {
+        "amount": 0,
+        "origin_amount": 0
+      },
+      "easyship_rating": null,
+      "estimated_import_duty": 0.0,
+      "estimated_import_tax": 0.0,
+      "fuel_surcharge": 6.74,
+      "full_description": "FedEx\u00ae International Connect Plus (3-5 working days) 41.34 of taxes & duties are INCLUDED in the cost",
+      "import_duty_charge": 14.44,
+      "import_duty_details": [
+        {
+          "item_id": null,
+          "duty_origin_country_id_provided": 78,
+          "duty_origin_country_id_applied": 78,
+          "hs_code_provided": "69120000",
+          "hs_code_applied": "6912000000",
+          "subheading": false,
+          "duty_calculation_method": "FOB",
+          "line_item_shipment_value": 37.99,
+          "applied_rate_type": "general",
+          "base_duty_rate": 0.28,
+          "base_duty_amount": 10.64,
+          "additional_rates": [
+            {
+              "description": "Section 301 Forced Labour 10% (FLIP FRN, flat)",
+              "rate": 0.1,
+              "amount": 3.8
+            }
+          ],
+          "line_item_total_duty": 14.44
+        }
+      ],
+      "import_tax_charge": 0.11,
+      "import_tax_non_chargeable": 0.0,
+      "incoterms": "DDP",
+      "insurance_fee": 0.0,
+      "is_above_duty_threshold": true,
+      "is_above_threshold": true,
+      "max_delivery_time": 5,
+      "min_delivery_time": 3,
+      "minimum_pickup_fee": 0.0,
+      "other_surcharges": {
+        "details": [
+          {
+            "fee": 0.37,
+            "name": "Demand Surcharge",
+            "origin_fee": 0.28
+          },
+          {
+            "fee": 1.07,
+            "name": "Inbound Fee",
+            "origin_fee": 0.8
+          }
+        ],
+        "total_fee": 1.45
+      },
+      "oversized_surcharge": 0.0,
+      "payment_recipient": "Easyship",
+      "provincial_sales_tax": 0.0,
+      "rates_in_origin_currency": {
+        "additional_services_surcharge": 0.0,
+        "currency": "USD",
+        "ddp_handling_fee": 20.0,
+        "estimated_import_duty": 0.0,
+        "estimated_import_tax": 0.0,
+        "fuel_surcharge": 5.03,
+        "import_duty_charge": 10.78,
+        "import_tax_charge": 0.09,
+        "import_tax_non_chargeable": 0.0,
+        "insurance_fee": 0.0,
+        "minimum_pickup_fee": 0.0,
+        "oversized_surcharge": 0.0,
+        "provincial_sales_tax": 0.0,
+        "remote_area_surcharge": 0.0,
+        "residential_discounted_fee": null,
+        "residential_full_fee": null,
+        "sales_tax": 0.0,
+        "shipment_charge": 17.98,
+        "shipment_charge_total": 24.09,
+        "total_charge": 54.95,
+        "warehouse_handling_fee": 0.0
+      },
+      "remote_area_surcharge": 0.0,
+      "remote_area_surcharges": null,
+      "residential_discounted_fee": null,
+      "residential_full_fee": null,
+      "sales_tax": 0.0,
+      "shipment_charge": 24.09,
+      "shipment_charge_total": 32.27,
+      "total_charge": 73.62,
+      "tracking_rating": 3.0,
+      "value_for_money_rank": 1.0,
+      "warehouse_handling_fee": 0.0
+    },
+    {
+      "additional_services_surcharge": 0.0,
+      "available_handover_options": [
+        "dropoff",
+        "free_pickup"
+      ],
+      "cost_rank": 2.0,
+      "courier_remarks": null,
+      "courier_service": {
+        "courier_id": "e8996c12-0e37-42e8-b385-cbd6efe889ce",
+        "easyship_courier_service": true,
+        "icon": null,
+        "id": "c313c5b3-7c33-4207-a0f4-e4d8fdd89455",
+        "logo": null,
+        "name": "FedEx International Economy\u00ae",
+        "umbrella_name": "FedEx"
+      },
+      "currency": "USD",
+      "ddp_handling_fee": 26.79,
+      "delivery_time_rank": 2.0,
+      "description": " 41.34 of taxes & duties are INCLUDED in the cost",
+      "discount": {
+        "amount": 0,
+        "origin_amount": 0
+      },
+      "easyship_rating": null,
+      "estimated_import_duty": 0.0,
+      "estimated_import_tax": 0.0,
+      "fuel_surcharge": 17.54,
+      "full_description": "FedEx International Economy\u00ae (2-5 working days) 41.34 of taxes & duties are INCLUDED in the cost",
+      "import_duty_charge": 14.44,
+      "import_duty_details": [
+        {
+          "item_id": null,
+          "duty_origin_country_id_provided": 78,
+          "duty_origin_country_id_applied": 78,
+          "hs_code_provided": "69120000",
+          "hs_code_applied": "6912000000",
+          "subheading": false,
+          "duty_calculation_method": "FOB",
+          "line_item_shipment_value": 37.99,
+          "applied_rate_type": "general",
+          "base_duty_rate": 0.28,
+          "base_duty_amount": 10.64,
+          "additional_rates": [
+            {
+              "description": "Section 301 Forced Labour 10% (FLIP FRN, flat)",
+              "rate": 0.1,
+              "amount": 3.8
+            }
+          ],
+          "line_item_total_duty": 14.44
+        }
+      ],
+      "import_tax_charge": 0.11,
+      "import_tax_non_chargeable": 0.0,
+      "incoterms": "DDP",
+      "insurance_fee": 0.0,
+      "is_above_duty_threshold": true,
+      "is_above_threshold": true,
+      "max_delivery_time": 5,
+      "min_delivery_time": 2,
+      "minimum_pickup_fee": 0.0,
+      "other_surcharges": {
+        "details": [
+          {
+            "fee": 0.37,
+            "name": "Demand Surcharge",
+            "origin_fee": 0.28
+          },
+          {
+            "fee": 2.75,
+            "name": "Inbound Fee",
+            "origin_fee": 2.05
+          },
+          {
+            "fee": 2.75,
+            "name": "U.S. Inbound Processing Fee",
+            "origin_fee": 2.05
+          }
+        ],
+        "total_fee": 5.87
+      },
+      "oversized_surcharge": 0.0,
+      "payment_recipient": "Easyship",
+      "provincial_sales_tax": 0.0,
+      "rates_in_origin_currency": {
+        "additional_services_surcharge": 0.0,
+        "currency": "USD",
+        "ddp_handling_fee": 20.0,
+        "estimated_import_duty": 0.0,
+        "estimated_import_tax": 0.0,
+        "fuel_surcharge": 13.09,
+        "import_duty_charge": 10.78,
+        "import_tax_charge": 0.09,
+        "import_tax_non_chargeable": 0.0,
+        "insurance_fee": 0.0,
+        "minimum_pickup_fee": 0.0,
+        "oversized_surcharge": 0.0,
+        "provincial_sales_tax": 0.0,
+        "remote_area_surcharge": 0.0,
+        "residential_discounted_fee": null,
+        "residential_full_fee": null,
+        "sales_tax": 0.0,
+        "shipment_charge": 19.4,
+        "shipment_charge_total": 36.87,
+        "total_charge": 67.73,
+        "warehouse_handling_fee": 0.0
+      },
+      "remote_area_surcharge": 0.0,
+      "remote_area_surcharges": null,
+      "residential_discounted_fee": null,
+      "residential_full_fee": null,
+      "sales_tax": 0.0,
+      "shipment_charge": 25.99,
+      "shipment_charge_total": 49.39,
+      "total_charge": 90.74,
+      "tracking_rating": 3.0,
+      "value_for_money_rank": 2.0,
+      "warehouse_handling_fee": 0.0
+    },
+    {
+      "additional_services_surcharge": 0.0,
+      "available_handover_options": [
+        "free_pickup"
+      ],
+      "cost_rank": 3.0,
+      "courier_remarks": "Remote Area Surcharge may apply",
+      "courier_service": {
+        "courier_id": "e8996c12-0e37-42e8-b385-cbd6efe889ce",
+        "easyship_courier_service": true,
+        "icon": null,
+        "id": "ed86fa60-a2dc-4f04-a92a-48be4aad6a71",
+        "logo": null,
+        "name": "FedEx International Priority\u00ae Express",
+        "umbrella_name": "FedEx"
+      },
+      "currency": "USD",
+      "ddp_handling_fee": 26.79,
+      "delivery_time_rank": 4.0,
+      "description": " 41.34 of taxes & duties are INCLUDED in the cost",
+      "discount": {
+        "amount": 0,
+        "origin_amount": 0
+      },
+      "easyship_rating": null,
+      "estimated_import_duty": 0.0,
+      "estimated_import_tax": 0.0,
+      "fuel_surcharge": 19.65,
+      "full_description": "FedEx International Priority\u00ae Express (2-7 working days) 41.34 of taxes & duties are INCLUDED in the cost",
+      "import_duty_charge": 14.44,
+      "import_duty_details": [
+        {
+          "item_id": null,
+          "duty_origin_country_id_provided": 78,
+          "duty_origin_country_id_applied": 78,
+          "hs_code_provided": "69120000",
+          "hs_code_applied": "6912000000",
+          "subheading": false,
+          "duty_calculation_method": "FOB",
+          "line_item_shipment_value": 37.99,
+          "applied_rate_type": "general",
+          "base_duty_rate": 0.28,
+          "base_duty_amount": 10.64,
+          "additional_rates": [
+            {
+              "description": "Section 301 Forced Labour 10% (FLIP FRN, flat)",
+              "rate": 0.1,
+              "amount": 3.8
+            }
+          ],
+          "line_item_total_duty": 14.44
+        }
+      ],
+      "import_tax_charge": 0.11,
+      "import_tax_non_chargeable": 0.0,
+      "incoterms": "DDP",
+      "insurance_fee": 0.0,
+      "is_above_duty_threshold": true,
+      "is_above_threshold": true,
+      "max_delivery_time": 7,
+      "min_delivery_time": 2,
+      "minimum_pickup_fee": 0.0,
+      "other_surcharges": {
+        "details": [
+          {
+            "fee": 2.75,
+            "name": "Inbound Fee",
+            "origin_fee": 2.05
+          }
+        ],
+        "total_fee": 2.75
+      },
+      "oversized_surcharge": 0.0,
+      "payment_recipient": "Easyship",
+      "provincial_sales_tax": 0.0,
+      "rates_in_origin_currency": {
+        "additional_services_surcharge": 0.0,
+        "currency": "USD",
+        "ddp_handling_fee": 20.0,
+        "estimated_import_duty": 0.0,
+        "estimated_import_tax": 0.0,
+        "fuel_surcharge": 14.66,
+        "import_duty_charge": 10.78,
+        "import_tax_charge": 0.09,
+        "import_tax_non_chargeable": 0.0,
+        "insurance_fee": 0.0,
+        "minimum_pickup_fee": 0.0,
+        "oversized_surcharge": 0.0,
+        "provincial_sales_tax": 0.0,
+        "remote_area_surcharge": 0.0,
+        "residential_discounted_fee": null,
+        "residential_full_fee": null,
+        "sales_tax": 0.0,
+        "shipment_charge": 25.56,
+        "shipment_charge_total": 42.27,
+        "total_charge": 73.14,
+        "warehouse_handling_fee": 0.0
+      },
+      "remote_area_surcharge": 0.0,
+      "remote_area_surcharges": null,
+      "residential_discounted_fee": null,
+      "residential_full_fee": null,
+      "sales_tax": 0.0,
+      "shipment_charge": 34.24,
+      "shipment_charge_total": 56.64,
+      "total_charge": 97.99,
+      "tracking_rating": 3.0,
+      "value_for_money_rank": 3.0,
+      "warehouse_handling_fee": 0.0
+    },
+    {
+      "additional_services_surcharge": 0.0,
+      "available_handover_options": [
+        "dropoff",
+        "free_pickup"
+      ],
+      "cost_rank": 4.0,
+      "courier_remarks": null,
+      "courier_service": {
+        "courier_id": "e8996c12-0e37-42e8-b385-cbd6efe889ce",
+        "easyship_courier_service": true,
+        "icon": null,
+        "id": "1b4a8871-3803-4cf3-9ab5-782f8cf75bb1",
+        "logo": null,
+        "name": "FedEx International Priority\u00ae",
+        "umbrella_name": "FedEx"
+      },
+      "currency": "USD",
+      "ddp_handling_fee": 26.79,
+      "delivery_time_rank": 1.0,
+      "description": " 41.34 of taxes & duties are INCLUDED in the cost",
+      "discount": {
+        "amount": 0,
+        "origin_amount": 0
+      },
+      "easyship_rating": null,
+      "estimated_import_duty": 0.0,
+      "estimated_import_tax": 0.0,
+      "fuel_surcharge": 20.94,
+      "full_description": "FedEx International Priority\u00ae (2-5 working days) 41.34 of taxes & duties are INCLUDED in the cost",
+      "import_duty_charge": 14.44,
+      "import_duty_details": [
+        {
+          "item_id": null,
+          "duty_origin_country_id_provided": 78,
+          "duty_origin_country_id_applied": 78,
+          "hs_code_provided": "69120000",
+          "hs_code_applied": "6912000000",
+          "subheading": false,
+          "duty_calculation_method": "FOB",
+          "line_item_shipment_value": 37.99,
+          "applied_rate_type": "general",
+          "base_duty_rate": 0.28,
+          "base_duty_amount": 10.64,
+          "additional_rates": [
+            {
+              "description": "Section 301 Forced Labour 10% (FLIP FRN, flat)",
+              "rate": 0.1,
+              "amount": 3.8
+            }
+          ],
+          "line_item_total_duty": 14.44
+        }
+      ],
+      "import_tax_charge": 0.11,
+      "import_tax_non_chargeable": 0.0,
+      "incoterms": "DDP",
+      "insurance_fee": 0.0,
+      "is_above_duty_threshold": true,
+      "is_above_threshold": true,
+      "max_delivery_time": 5,
+      "min_delivery_time": 2,
+      "minimum_pickup_fee": 0.0,
+      "other_surcharges": {
+        "details": [
+          {
+            "fee": 0.37,
+            "name": "Demand Surcharge",
+            "origin_fee": 0.28
+          },
+          {
+            "fee": 2.75,
+            "name": "Inbound Fee",
+            "origin_fee": 2.05
+          }
+        ],
+        "total_fee": 3.12
+      },
+      "oversized_surcharge": 0.0,
+      "payment_recipient": "Easyship",
+      "provincial_sales_tax": 0.0,
+      "rates_in_origin_currency": {
+        "additional_services_surcharge": 0.0,
+        "currency": "USD",
+        "ddp_handling_fee": 20.0,
+        "estimated_import_duty": 0.0,
+        "estimated_import_tax": 0.0,
+        "fuel_surcharge": 15.63,
+        "import_duty_charge": 10.78,
+        "import_tax_charge": 0.09,
+        "import_tax_non_chargeable": 0.0,
+        "insurance_fee": 0.0,
+        "minimum_pickup_fee": 0.0,
+        "oversized_surcharge": 0.0,
+        "provincial_sales_tax": 0.0,
+        "remote_area_surcharge": 0.0,
+        "residential_discounted_fee": null,
+        "residential_full_fee": null,
+        "sales_tax": 0.0,
+        "shipment_charge": 27.06,
+        "shipment_charge_total": 45.02,
+        "total_charge": 75.89,
+        "warehouse_handling_fee": 0.0
+      },
+      "remote_area_surcharge": 0.0,
+      "remote_area_surcharges": null,
+      "residential_discounted_fee": null,
+      "residential_full_fee": null,
+      "sales_tax": 0.0,
+      "shipment_charge": 36.25,
+      "shipment_charge_total": 60.32,
+      "total_charge": 101.67,
+      "tracking_rating": 3.0,
+      "value_for_money_rank": 4.0,
+      "warehouse_handling_fee": 0.0
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "next": null,
+      "count": 4
+    },
+    "request_id": "52f7a032-9f80-42f4-9965-c2e5f55e512d"
+  }
+}
