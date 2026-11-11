@@ -123,7 +123,16 @@ The end-to-end browser tests (`cd apps/web && npx playwright test`) start the wh
 
 ## Putting it on a public server
 
-Set `LANDFALL_DEMO_READONLY=1` in the server's `.env`. Without it, anyone who can reach the console can change the sample shop, ask the assistant and run the AI (which spends your Anthropic tokens), and can approve rule proposals that change the rate register. With it, a visitor without an API key can still read every recommendation and price, but those calls answer "read-only". Keep merchant sign-up closed (leave `LANDFALL_ALLOW_SIGNUP` unset), and set a monthly spend limit on your Anthropic account as a second safety net.
+On a public address, protect it. Set these in the server's `.env` (all optional, all off by default, so local runs are unchanged):
+
+| Setting | What it does |
+|---|---|
+| `SITE_PASSWORD` (and `PUBLIC_URL`) | Visitors must enter this password before they see the console or can call its API. The shop's checkout widget, the quote call and the Coverage page stay open, so a merchant's checkout keeps working. |
+| `LANDFALL_AI_PER_MINUTE=10`, `LANDFALL_AI_PER_SESSION=100` | At most 10 AI actions a minute and 100 per visitor per 24 hours (a visitor is the API key, or the address if there is none). Beyond that the API answers 429 with a plain message and the AI is never called. |
+| `LANDFALL_OPS_LOCKED=1` | Refuses approving rule proposals, which change the rate register and have no login of their own. |
+| `LANDFALL_DEMO_READONLY=1` | For a public site *without* a password: a visitor with no API key can read the sample shop but cannot change it, run the AI or approve rules. |
+
+Also keep merchant sign-up closed (leave `LANDFALL_ALLOW_SIGNUP` unset) and set a monthly spend limit on your Anthropic account as a last safety net. After changing the password, recreate the web container (`up -d`); no rebuild is needed.
 
 ## Troubleshooting
 

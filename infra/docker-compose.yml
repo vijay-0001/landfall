@@ -53,6 +53,8 @@ services:
     restart: unless-stopped
     environment:
       API_INTERNAL_URL: http://api:8000
+      SITE_PASSWORD: ${SITE_PASSWORD:-}  # optional: when set, the public console needs this password (the checkout widget and quote stay open for shops)
+      PUBLIC_URL: ${PUBLIC_URL:-}        # the public address: only requests to this host are gated
     depends_on: { api: { condition: service_healthy } }
     networks: [internal]
 

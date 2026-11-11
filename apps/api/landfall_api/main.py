@@ -16,7 +16,7 @@ from . import demo
 from . import schemas as s
 from .config import env
 from .db import engine, migrate_all
-from .deps import current_shop, get_conn, ops_writer, quote_shop, require_shop, writable_shop
+from .deps import ai_budget, current_shop, get_conn, ops_writer, quote_shop, require_shop, writable_shop
 from .services import assistant, checkout, content, merchants, quote_token, storefront, timemachine
 from .services import catalogue as cat
 from .services import coverage as coverage_svc
@@ -99,7 +99,7 @@ def import_products(body: s.ImportIn, shop: dict = Depends(require_shop), conn: 
 
 
 @app.post("/api/products/sync", response_model=s.SyncOut)
-def sync_products(shop: dict = Depends(require_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.SyncOut:
+def sync_products(shop: dict = Depends(require_shop), conn: Connection = Depends(get_conn, scope="function"), _budget: None = Depends(ai_budget)) -> s.SyncOut:
     """Re-read the saved feed now (the nightly job does the same for every shop). New products get a recommendation; changed listings must be reviewed again."""
     try:
         return merchants.sync_feed(conn, shop, cat.llm_client())
@@ -127,7 +127,7 @@ def get_product(product_id: str, shop: dict = Depends(current_shop), conn: Conne
 
 
 @app.post("/api/products/{product_id}/recommend", response_model=s.ProductDetail)
-def recommend(product_id: str, shop: dict = Depends(writable_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.ProductDetail:
+def recommend(product_id: str, shop: dict = Depends(writable_shop), conn: Connection = Depends(get_conn, scope="function"), _budget: None = Depends(ai_budget)) -> s.ProductDetail:
     try:
         cat.owns_product(conn, product_id, shop)
     except LookupError as e:
@@ -152,7 +152,7 @@ def assistant_history(product_id: str, shop: dict = Depends(current_shop), conn:
 
 
 @app.post("/api/products/{product_id}/assistant", response_model=s.AssistantReply)
-def assistant_ask(product_id: str, body: s.AssistantIn, shop: dict = Depends(writable_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.AssistantReply:
+def assistant_ask(product_id: str, body: s.AssistantIn, shop: dict = Depends(writable_shop), conn: Connection = Depends(get_conn, scope="function"), _budget: None = Depends(ai_budget)) -> s.AssistantReply:
     """Ask about this product's recommendation. The assistant explains and points to sources; it has no path to Accept or Override."""
     try:
         cat.owns_product(conn, product_id, shop)
@@ -168,7 +168,7 @@ def assistant_ask(product_id: str, body: s.AssistantIn, shop: dict = Depends(wri
 
 
 @app.post("/api/recommendations/{rec_id}/answer", response_model=s.AnswerOut)
-def answer(rec_id: str, body: s.AnswerIn, shop: dict = Depends(writable_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.AnswerOut:
+def answer(rec_id: str, body: s.AnswerIn, shop: dict = Depends(writable_shop), conn: Connection = Depends(get_conn, scope="function"), _budget: None = Depends(ai_budget)) -> s.AnswerOut:
     try:
         cat.owns_recommendation(conn, rec_id, shop)
         return cat.answer(conn, cat.llm_client(), rec_id, body.question_id, body.option_id)
