@@ -121,6 +121,10 @@ scripts/ci licences                                # fails on GPL, AGPL, SSPL, B
 
 The end-to-end browser tests (`cd apps/web && npx playwright test`) start the whole stack themselves and need a clean database.
 
+## Putting it on a public server
+
+Set `LANDFALL_DEMO_READONLY=1` in the server's `.env`. Without it, anyone who can reach the console can change the sample shop, ask the assistant and run the AI (which spends your Anthropic tokens), and can approve rule proposals that change the rate register. With it, a visitor without an API key can still read every recommendation and price, but those calls answer "read-only". Keep merchant sign-up closed (leave `LANDFALL_ALLOW_SIGNUP` unset), and set a monthly spend limit on your Anthropic account as a second safety net.
+
 ## Troubleshooting
 
 - **The console says no store is connected.** That is the first-run state: open an account under *Connect your store*.

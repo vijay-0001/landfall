@@ -16,7 +16,7 @@ from . import demo
 from . import schemas as s
 from .config import env
 from .db import engine, migrate_all
-from .deps import current_shop, get_conn, quote_shop, require_shop
+from .deps import current_shop, get_conn, ops_writer, quote_shop, require_shop, writable_shop
 from .services import assistant, checkout, content, merchants, quote_token, storefront, timemachine
 from .services import catalogue as cat
 from .services import coverage as coverage_svc
@@ -113,7 +113,7 @@ def catalogue(shop: dict = Depends(current_shop), conn: Connection = Depends(get
 
 
 @app.post("/api/products", response_model=s.Product)
-def create_product(body: s.ProductCreate, shop: dict = Depends(current_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.Product:
+def create_product(body: s.ProductCreate, shop: dict = Depends(writable_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.Product:
     return cat.create_product(conn, body, shop)
 
 
@@ -127,7 +127,7 @@ def get_product(product_id: str, shop: dict = Depends(current_shop), conn: Conne
 
 
 @app.post("/api/products/{product_id}/recommend", response_model=s.ProductDetail)
-def recommend(product_id: str, shop: dict = Depends(current_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.ProductDetail:
+def recommend(product_id: str, shop: dict = Depends(writable_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.ProductDetail:
     try:
         cat.owns_product(conn, product_id, shop)
     except LookupError as e:
@@ -152,7 +152,7 @@ def assistant_history(product_id: str, shop: dict = Depends(current_shop), conn:
 
 
 @app.post("/api/products/{product_id}/assistant", response_model=s.AssistantReply)
-def assistant_ask(product_id: str, body: s.AssistantIn, shop: dict = Depends(current_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.AssistantReply:
+def assistant_ask(product_id: str, body: s.AssistantIn, shop: dict = Depends(writable_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.AssistantReply:
     """Ask about this product's recommendation. The assistant explains and points to sources; it has no path to Accept or Override."""
     try:
         cat.owns_product(conn, product_id, shop)
@@ -168,7 +168,7 @@ def assistant_ask(product_id: str, body: s.AssistantIn, shop: dict = Depends(cur
 
 
 @app.post("/api/recommendations/{rec_id}/answer", response_model=s.AnswerOut)
-def answer(rec_id: str, body: s.AnswerIn, shop: dict = Depends(current_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.AnswerOut:
+def answer(rec_id: str, body: s.AnswerIn, shop: dict = Depends(writable_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.AnswerOut:
     try:
         cat.owns_recommendation(conn, rec_id, shop)
         return cat.answer(conn, cat.llm_client(), rec_id, body.question_id, body.option_id)
@@ -179,7 +179,7 @@ def answer(rec_id: str, body: s.AnswerIn, shop: dict = Depends(current_shop), co
 
 
 @app.post("/api/recommendations/{rec_id}/decision", response_model=s.Decision)
-def decide(rec_id: str, body: s.DecisionIn, shop: dict = Depends(current_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.Decision:
+def decide(rec_id: str, body: s.DecisionIn, shop: dict = Depends(writable_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.Decision:
     try:
         cat.owns_recommendation(conn, rec_id, shop)
         return cat.decide_product(conn, rec_id, body)
@@ -192,7 +192,7 @@ def decide(rec_id: str, body: s.DecisionIn, shop: dict = Depends(current_shop), 
 
 
 @app.post("/api/products/bulk-accept", response_model=s.BulkAcceptOut)
-def bulk_accept(body: s.BulkAcceptIn, shop: dict = Depends(current_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.BulkAcceptOut:
+def bulk_accept(body: s.BulkAcceptIn, shop: dict = Depends(writable_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.BulkAcceptOut:
     try:
         return cat.bulk_accept(conn, body, shop)
     except ValueError as e:
@@ -210,7 +210,7 @@ def quote(body: s.QuoteIn, shop: dict = Depends(quote_shop), conn: Connection = 
 
 
 @app.post("/api/orders", response_model=s.OrderCreated)
-def create_order(body: s.OrderCreateIn, shop: dict = Depends(current_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.OrderCreated:
+def create_order(body: s.OrderCreateIn, shop: dict = Depends(writable_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.OrderCreated:
     """Create the PayPal order with the duty as tax_total and per-item tax. Returns the PayPal approval link for the buyer."""
     try:
         _keyless_shop(body.quote.shop_id, shop)
@@ -251,7 +251,7 @@ def order_receipt(order_id: str, shop: dict = Depends(current_shop), conn: Conne
 
 
 @app.post("/api/orders/{order_id}/capture", response_model=s.OrderCaptured)
-def capture_order(order_id: str, shop: dict = Depends(current_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.OrderCaptured:
+def capture_order(order_id: str, shop: dict = Depends(writable_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.OrderCaptured:
     try:
         return checkout.capture_order(conn, order_id, shop=shop)
     except LookupError as e:
@@ -297,7 +297,7 @@ def radar(shop: dict = Depends(current_shop), conn: Connection = Depends(get_con
 
 
 @app.post("/api/radar/{alert_id}/choice", response_model=s.RadarAlert)
-def radar_choice(alert_id: str, body: s.RadarChoiceIn, shop: dict = Depends(current_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.RadarAlert:
+def radar_choice(alert_id: str, body: s.RadarChoiceIn, shop: dict = Depends(writable_shop), conn: Connection = Depends(get_conn, scope="function")) -> s.RadarAlert:
     try:
         return radar_svc.choose(conn, alert_id, body.choice, shop=shop)
     except LookupError as e:
@@ -358,17 +358,17 @@ def _rule_action(conn: Connection, rule_id: str, action: str, edits: dict | None
 
 
 @app.post("/api/ops/rules/{rule_id}/approve", response_model=s.RuleProposal)
-def ops_approve(rule_id: str, conn: Connection = Depends(get_conn, scope="function")) -> s.RuleProposal:
+def ops_approve(rule_id: str, conn: Connection = Depends(get_conn, scope="function"), _guard: None = Depends(ops_writer)) -> s.RuleProposal:
     return _rule_action(conn, rule_id, "approve")
 
 
 @app.post("/api/ops/rules/{rule_id}/edit", response_model=s.RuleProposal)
-def ops_edit(rule_id: str, body: s.RuleEditIn, conn: Connection = Depends(get_conn, scope="function")) -> s.RuleProposal:
+def ops_edit(rule_id: str, body: s.RuleEditIn, conn: Connection = Depends(get_conn, scope="function"), _guard: None = Depends(ops_writer)) -> s.RuleProposal:
     return _rule_action(conn, rule_id, "edit", body.model_dump(exclude_none=True))
 
 
 @app.post("/api/ops/rules/{rule_id}/reject", response_model=s.RuleProposal)
-def ops_reject(rule_id: str, conn: Connection = Depends(get_conn, scope="function")) -> s.RuleProposal:
+def ops_reject(rule_id: str, conn: Connection = Depends(get_conn, scope="function"), _guard: None = Depends(ops_writer)) -> s.RuleProposal:
     return _rule_action(conn, rule_id, "reject")
 
 

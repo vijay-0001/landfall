@@ -6,6 +6,7 @@ from fastapi import Depends, Header, HTTPException
 from sqlalchemy import Connection
 
 from . import demo
+from .config import env
 from .db import engine
 
 
@@ -50,3 +51,29 @@ def require_shop(authorization: str | None = Header(default=None), conn: Connect
     if shop is None:
         raise HTTPException(status_code=401, detail="This call needs your API key: Authorization: Bearer <key>", headers={"WWW-Authenticate": "Bearer"})
     return shop
+
+
+READONLY_MESSAGE = ("The sample shop is read-only on this site: you can look at every recommendation and price, "
+                    "but changing it, asking the assistant or running the AI needs your own account. See INSTALL.md to run Landfall yourself.")
+
+
+def public_readonly() -> bool:
+    """True on a public deployment (LANDFALL_DEMO_READONLY=1): nobody without an API key may spend model tokens or change anything."""
+    return env("LANDFALL_DEMO_READONLY") == "1"
+
+
+def writable_shop(authorization: str | None = Header(default=None), conn: Connection = Depends(get_conn, scope="function")) -> dict:
+    """Like current_shop, for calls that change data or can spend model tokens. A caller with a valid key is its own merchant. Without a key the demo
+    merchant is used only where the deployment allows it; on a public site (LANDFALL_DEMO_READONLY=1) the call is refused."""
+    shop = _from_header(authorization, conn)
+    if shop is not None:
+        return shop
+    if public_readonly():
+        raise HTTPException(status_code=403, detail=READONLY_MESSAGE)
+    return dict(demo.SHOP)
+
+
+def ops_writer() -> None:
+    """The ops console approves rule proposals that change the rate register. It has no login, so on a public site its write calls are refused."""
+    if public_readonly():
+        raise HTTPException(status_code=403, detail="Approving rule proposals is switched off on this public site.")
