@@ -20,7 +20,7 @@ jobs:
         with: { node-version: "24" }
       - run: pip install -r requirements-dev.txt
       - run: npm ci --omit=optional --ignore-scripts || true
-      - run: scripts/ci all
+      - run: bash scripts/ci all
   images:
     runs-on: ubuntu-latest
     needs: ci
