@@ -8,9 +8,14 @@ from landfall_classifier.candidates import all_headings, describe, heading_menu,
 from landfall_classifier.wide import classify_wide, select_headings
 
 needs_whole = pytest.mark.skipif(len(all_headings()) < 1000, reason="the whole-tariff recordings are fetched at seed or deploy time (tools/fetch_hts_all.py)")
+# The heading MENU ships with the repo (headings.json), but the per-heading code files (hts_9503.json, hts_9504.json ...) are fetched at seed or deploy
+# time. Tests that read the codes under those headings skip on a clean checkout and run wherever the recordings are present.
+needs_codes = pytest.mark.skipif(not (load_candidates(headings=["9503"]) and load_candidates(headings=["9504"])),
+                                 reason="the per-heading tariff recordings (hts_9503.json, hts_9504.json) are fetched at seed or deploy time (tools/fetch_hts_all.py)")
 
 
 @needs_whole
+@needs_codes
 def test_the_whole_tariff_is_available_to_the_classifier():
     assert len(all_headings()) > 1000
     menu = heading_menu()
@@ -47,6 +52,7 @@ def test_select_headings_keeps_only_real_headings_in_order_and_at_most_three():
 
 
 @needs_whole
+@needs_codes
 def test_classify_wide_runs_the_two_calls_on_the_chosen_headings_only():
     llm = Script(["9503"], ANSWER)
     raw, cands = classify_wide(llm, Listing(title="Toy car", description="Die-cast toy car", shop_country="GB"))
@@ -78,6 +84,7 @@ class Retry:
 
 
 @needs_whole
+@needs_codes
 def test_when_both_calls_find_nothing_a_second_heading_pass_is_tried():
     llm = Retry()
     raw, cands = classify_wide(llm, Listing(title="Stone mug", description="A mug carved from stone"))
