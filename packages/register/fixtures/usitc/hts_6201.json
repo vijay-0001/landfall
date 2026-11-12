@@ -1,0 +1,2039 @@
+{
+ "fetched": "2026-11-03",
+ "source": "https://hts.usitc.gov/reststop/exportList?from=6201.00.00&to=6201.99.99&format=JSON&styles=false",
+ "rows": [
+  {
+   "htsno": "6201.20",
+   "indent": "1",
+   "description": "Of wool or fine animal hair:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.20.11",
+   "indent": "2",
+   "description": "Overcoats, carcoats, capes, cloaks and similar coats:",
+   "superior": null,
+   "units": [],
+   "general": "41\u00a2/kg + 16.3%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.20.11.10",
+   "indent": "3",
+   "description": "Men's (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.20.11.20",
+   "indent": "3",
+   "description": "Boys' (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Anoraks (including ski-jackets), windbreakers and similar articles (including padded, sleeveless jackets):",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Recreational performance outerwear:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.20.19.00",
+   "indent": "4",
+   "description": "Padded, sleeveless jackets (459)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "8.5%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.20.29",
+   "indent": "4",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "49.7\u00a2/kg + 19.7%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.20.29.11",
+   "indent": "5",
+   "description": "Men's (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.20.29.21",
+   "indent": "5",
+   "description": "Boys' (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.20.35.00",
+   "indent": "4",
+   "description": "Padded, sleeveless jackets (459)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "8.5%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.20.40",
+   "indent": "4",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "49.7\u00a2/kg + 19.7%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.20.40.11",
+   "indent": "5",
+   "description": "Men's (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.20.40.21",
+   "indent": "5",
+   "description": "Boys' (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30",
+   "indent": "1",
+   "description": "Of cotton:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Overcoats, carcoats, capes, cloaks and similar coats:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.12.00",
+   "indent": "3",
+   "description": "Containing 15 percent or more by weight of down and waterfowl plumage and of which down comprises 35   percent or more by weight; containing 10 percent or more by weight of down (353)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "4.4%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "60%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.20",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "9.4%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Raincoats:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.20.10",
+   "indent": "5",
+   "description": "Men's (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.20.20",
+   "indent": "5",
+   "description": "Boys' (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Corduroy:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.20.25",
+   "indent": "6",
+   "description": "Men's (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.20.35",
+   "indent": "6",
+   "description": "Boys' (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.20.50",
+   "indent": "6",
+   "description": "Men's (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.20.60",
+   "indent": "6",
+   "description": "Boys' (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Anoraks (including ski-jackets), windbreakers and similar articles (including padded, sleeveless jackets):",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Recreational performance outerwear:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.30.00",
+   "indent": "4",
+   "description": "Containing 15 percent or more by weight of down and waterfowl plumage and of which down comprises 35 percent or more by weight; containing 10 percent or more by weight of down (353)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "4.4%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "60%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.40.00",
+   "indent": "5",
+   "description": "Water resistant (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "6.2%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "37.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.50",
+   "indent": "5",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "9.4%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Padded, sleeveless jackets:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.50.05",
+   "indent": "7",
+   "description": "With attachments for sleeves (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.50.10",
+   "indent": "7",
+   "description": "Other (359)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.50.21",
+   "indent": "7",
+   "description": "Corduroy (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Blue denim:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.50.31",
+   "indent": "8",
+   "description": "Men's (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.50.41",
+   "indent": "8",
+   "description": "Boys' (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.50.51",
+   "indent": "8",
+   "description": "Men's (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.50.61",
+   "indent": "8",
+   "description": "Boys' (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.60.00",
+   "indent": "4",
+   "description": "Containing 15 percent or more by weight of down and waterfowl plumage and of which down comprises 35 percent or more by weight; containing 10 percent or more by weight of down (353)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "4.4%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "60%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.70.00",
+   "indent": "5",
+   "description": "Water resistant (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "6.2%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "37.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.80",
+   "indent": "5",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "9.4%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Padded, sleeveless jackets:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.80.05",
+   "indent": "7",
+   "description": "With attachments for sleeves (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.80.10",
+   "indent": "7",
+   "description": "Other (359)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.80.21",
+   "indent": "7",
+   "description": "Corduroy (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Blue denim:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.80.31",
+   "indent": "8",
+   "description": "Men's (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.80.41",
+   "indent": "8",
+   "description": "Boys' (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.80.51",
+   "indent": "8",
+   "description": "Men's (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.30.80.61",
+   "indent": "8",
+   "description": "Boys' (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40",
+   "indent": "1",
+   "description": "Of man-made fibers:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Overcoats, carcoats, capes, cloaks and similar coats:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.10.00",
+   "indent": "3",
+   "description": "Containing 15 percent or more by weight of down and waterfowl plumage and of which down comprises 35   percent or more by weight; containing 10 percent or more by weight of down (653)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "4.4%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "60%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.15",
+   "indent": "4",
+   "description": "Containing 36 percent or more by weight of wool or fine animal hair",
+   "superior": null,
+   "units": [],
+   "general": "49.7\u00a2/kg + 19.7%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.15.10",
+   "indent": "5",
+   "description": "Men's (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.15.20",
+   "indent": "5",
+   "description": "Boys' (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.20",
+   "indent": "4",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "27.7%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Raincoats:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.20.15",
+   "indent": "6",
+   "description": "Men's (634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.20.20",
+   "indent": "6",
+   "description": "Boys' (634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.20.30",
+   "indent": "6",
+   "description": "Men's (634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.20.40",
+   "indent": "6",
+   "description": "Boys' (634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Anoraks (including ski-jackets), windbreakers and similar articles (including padded, sleeveless jackets):",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Recreational performance outerwear:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.25.00",
+   "indent": "4",
+   "description": "Containing 15 percent or more by weight of down and waterfowl plumage and of which down comprises 35 percent or more by weight; containing 10 percent or more by weight of down (653)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "4.4%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "60%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.35",
+   "indent": "5",
+   "description": "Padded sleeveless jackets:",
+   "superior": null,
+   "units": [],
+   "general": "14.9%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "76%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.35.10",
+   "indent": "6",
+   "description": "With attachments for sleeves (634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.35.20",
+   "indent": "6",
+   "description": "Other (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.40",
+   "indent": "6",
+   "description": "Containing 36 percent or more by weight of wool or fine animal hair",
+   "superior": null,
+   "units": [],
+   "general": "49.5\u00a2/kg + 19.6%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.40.11",
+   "indent": "7",
+   "description": "Men's (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.40.21",
+   "indent": "7",
+   "description": "Boys' (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.45.00",
+   "indent": "7",
+   "description": "Water resistant (634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "7.1%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "65%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.50",
+   "indent": "7",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "27.7%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.50.11",
+   "indent": "8",
+   "description": "Men's (634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.50.21",
+   "indent": "8",
+   "description": "Boys' (634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.55.00",
+   "indent": "4",
+   "description": "Containing 15 percent or more by weight of down and waterfowl plumage and of which down comprises 35 percent or more by weight; containing 10 percent or more by weight of down (653)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "4.4%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "60%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.60",
+   "indent": "5",
+   "description": "Padded, sleeveless jackets",
+   "superior": null,
+   "units": [],
+   "general": "14.9%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "76%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.60.10",
+   "indent": "6",
+   "description": "With attachments for sleeves (634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.60.20",
+   "indent": "6",
+   "description": "Other (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.65",
+   "indent": "6",
+   "description": "Containing 36 percent or more by weight of wool or fine animal hair",
+   "superior": null,
+   "units": [],
+   "general": "49.5\u00a2/kg + 19.6%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.65.11",
+   "indent": "7",
+   "description": "Men's (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.65.21",
+   "indent": "7",
+   "description": "Boys' (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.70.00",
+   "indent": "7",
+   "description": "Water resistant (634) ",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "7.1%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "65%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.75",
+   "indent": "7",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "27.7%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.75.11",
+   "indent": "8",
+   "description": "Men's (634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.40.75.21",
+   "indent": "8",
+   "description": "Boys' (634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90",
+   "indent": "1",
+   "description": "Of other textile materials:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Overcoats, carcoats, capes, cloaks and similar coats:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.19.00",
+   "indent": "3",
+   "description": "Containing 70 percent or more by weight of silk or silk waste (734)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.29",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "2.8%",
+   "special": "Free (AU,BH,CL,CO,E*,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.29.10",
+   "indent": "4",
+   "description": "Subject to cotton restraints (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.29.20",
+   "indent": "4",
+   "description": "Subject to wool restraints (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.29.30",
+   "indent": "4",
+   "description": "Subject to man-made fiber restraints (634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.29.60",
+   "indent": "4",
+   "description": "Other (834)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Anoraks (including ski-jackets), windbreakers and similar articles (including padded, sleeveless jackets):",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Recreational performance outerwear:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.39.00",
+   "indent": "4",
+   "description": "Containing 70 percent or more by weight of silk or silk waste (735)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.49",
+   "indent": "4",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "4.2%",
+   "special": "Free (AU,BH,CL,CO,E*,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.49.10",
+   "indent": "5",
+   "description": "Subject to cotton restraints (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.49.20",
+   "indent": "5",
+   "description": "Subject to wool restraints (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.49.30",
+   "indent": "5",
+   "description": "Subject to man-made fiber restraints (634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.49.60",
+   "indent": "5",
+   "description": "Other (834)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.59.00",
+   "indent": "4",
+   "description": "Containing 70 percent or more by weight of silk or silk waste (735)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.69",
+   "indent": "4",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "4.2%",
+   "special": "Free (AU,BH,CL,CO,E*,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.69.10",
+   "indent": "5",
+   "description": "Subject to cotton restraints (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.69.20",
+   "indent": "5",
+   "description": "Subject to wool restraints (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.69.30",
+   "indent": "5",
+   "description": "Subject to man-made fiber restraints (634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6201.90.69.60",
+   "indent": "5",
+   "description": "Other (834)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  }
+ ]
+}

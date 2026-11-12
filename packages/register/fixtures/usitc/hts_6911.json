@@ -1,0 +1,462 @@
+{
+ "fetched": "2026-11-01",
+ "source": "https://hts.usitc.gov/reststop/exportList?from=6911.00.00&to=6911.99.99&format=JSON&styles=false",
+ "rows": [
+  {
+   "htsno": "6911.10",
+   "indent": "1",
+   "description": "Tableware and kitchenware:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.10.00",
+   "indent": "2",
+   "description": "Hotel or restaurant ware and other ware not household ware",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "25%",
+   "special": "Free (A+,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "75%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Of bone chinaware:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.15.00",
+   "indent": "4",
+   "description": "Valued not over $31.50 per dozen pieces",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "8%",
+   "special": "Free (A*,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "75%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.25.00",
+   "indent": "4",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "6%",
+   "special": "Free (A*,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "75%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Available in specified sets:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.35",
+   "indent": "5",
+   "description": "In any pattern for which the aggregate value of the articles listed in additional U.S. note 6(b) of this chapter is not over $56",
+   "superior": null,
+   "units": [],
+   "general": "26%",
+   "special": "Free (A*,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "75%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.35.10",
+   "indent": "6",
+   "description": "Plates not over 27.9 cm in maximum dimension; teacups and saucers; mugs; soups, fruits and cereals, the foregoing not over 22.9 cm in maximum dimension",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.35.50",
+   "indent": "6",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "In any pattern for which the aggregate value of the articles listed in additional U.S. note 6(b) of this chapter is over $56:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.37",
+   "indent": "6",
+   "description": "Aggregate value not over $200",
+   "superior": null,
+   "units": [],
+   "general": "8%",
+   "special": "Free (A*,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "75%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.37.10",
+   "indent": "7",
+   "description": "Plates not over 27.9 cm in maximum dimension, teacups and saucers; mugs; soups, fruits and cereals, the foregoing not over 22.9 cm in maximum dimension",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.37.50",
+   "indent": "7",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.38",
+   "indent": "6",
+   "description": "Aggregate value over $200",
+   "superior": null,
+   "units": [],
+   "general": "6%",
+   "special": "Free (A*,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "75%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.38.10",
+   "indent": "7",
+   "description": "Plates not over 27.9 cm in maximum dimension; teacups and saucers; mugs; soups, fruits and cereals, the foregoing not over 22.9 cm in maximum dimension",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.38.50",
+   "indent": "7",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.41.00",
+   "indent": "5",
+   "description": "Steins with permanently attached pewter lids, candy boxes, decanters, punch bowls, pretzel dishes, tidbit dishes, tiered servers, bonbon dishes, egg cups, spoons and spoon rests, oil and vinegar sets, tumblers and salt and pepper shaker sets",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "6.3%",
+   "special": "Free (A*,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "70%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.45.00",
+   "indent": "5",
+   "description": "Mugs and other steins",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "14%",
+   "special": "Free (A*,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "70%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.52.00",
+   "indent": "5",
+   "description": "Cups valued over $8 but not over $29 per dozen; saucers valued over $5.25 but not over $18.75 per dozen; soups, oatmeals and cereals valued over $9.30 but not over $33 per dozen; plates not over 22.9 cm in maximum diameter and valued over $8.50 but not over $31 per dozen; plates over 22.9 but not over 27.9 cm in maximum diameter and valued over $11.50 but not over $41 per dozen; platters or chop dishes valued over $40 but not over $143 per dozen; sugars valued over $23 but not over $85 per dozen; creamers valued over $20 but not over $75 per dozen; and beverage servers valued over $50 but not over $180 per dozen",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "8%",
+   "special": "Free (A+,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "75%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.58.00",
+   "indent": "5",
+   "description": "Cups valued over $29 per dozen; saucers valued over $18.75 per dozen; soups, oatmeals and cereals valued over $33 per dozen; plates not over 22.9 cm in maximum diameter and valued over $31 per dozen; plates over 22.9 but not over 27.9 cm in maximum diameter and valued over $41 per dozen; platters or chop dishes valued over $143 per dozen; sugars valued over $85 per dozen; creamers valued over $75 per dozen; and beverage servers valued over $180 per dozen",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "6%",
+   "special": "Free (A+,AU,BH,CL,CO,D,E,IL, JO,KR,MA, OM,P,PA,PE,S,SG)",
+   "other": "75%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.60.00",
+   "indent": "5",
+   "description": "Serviette rings",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "20.8%",
+   "special": "Free (A*,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "75%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.80",
+   "indent": "5",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "20.8%",
+   "special": "Free (A+,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "75%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.80.10",
+   "indent": "6",
+   "description": "Suitable for food or drink contact",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.10.80.90",
+   "indent": "6",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.90.00",
+   "indent": "1",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "5.4%",
+   "special": "Free (A*,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "70%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.90.00.10",
+   "indent": "2",
+   "description": "Toilet articles",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6911.90.00.50",
+   "indent": "2",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  }
+ ]
+}

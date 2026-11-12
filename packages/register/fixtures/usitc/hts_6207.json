@@ -1,0 +1,714 @@
+{
+ "fetched": "2026-11-03",
+ "source": "https://hts.usitc.gov/reststop/exportList?from=6207.00.00&to=6207.99.99&format=JSON&styles=false",
+ "rows": [
+  {
+   "htsno": "",
+   "indent": "1",
+   "description": "Underpants and briefs:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.11.00.00",
+   "indent": "2",
+   "description": "Of cotton (352)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "6.1%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "37.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.19",
+   "indent": "2",
+   "description": "Of other textile materials:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.19.10.00",
+   "indent": "3",
+   "description": "Containing 70 percent or more by weight of silk or silk waste (752)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "1.7%",
+   "special": "Free (AU,BH, CL,CO,E,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.19.90",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "10.5%",
+   "special": "Free (AU,BH, CL,CO,E*,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.19.90.10",
+   "indent": "4",
+   "description": "Of man-made fibers (652)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.19.90.30",
+   "indent": "4",
+   "description": "Other (852)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "1",
+   "description": "Nightshirts and pajamas:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.21.00",
+   "indent": "2",
+   "description": "Of cotton",
+   "superior": null,
+   "units": [],
+   "general": "8.9%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "With two or more colors in the warp and/or the filling:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.21.00.10",
+   "indent": "4",
+   "description": "Men's (351)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.21.00.20",
+   "indent": "4",
+   "description": "Boys' (351)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.21.00.30",
+   "indent": "4",
+   "description": "Men's (351)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.21.00.40",
+   "indent": "4",
+   "description": "Boys' (351)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.22.00.00",
+   "indent": "2",
+   "description": "Of man-made fibers (651)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "16%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "76%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.29",
+   "indent": "2",
+   "description": "Of other textile materials:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.29.10.00",
+   "indent": "3",
+   "description": "Containing 70 percent or more by weight of silk or silk waste (751)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "1.1%",
+   "special": "Free (AU,BH, CL,CO,E,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "65%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.29.90",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "7.1%",
+   "special": "Free (AU,BH, CL,CO,E*,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "65%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.29.90.10",
+   "indent": "4",
+   "description": "Of wool or fine animal hair (459)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.29.90.30",
+   "indent": "4",
+   "description": "Other (851)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "1",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.91",
+   "indent": "2",
+   "description": "Of cotton:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.91.10.00",
+   "indent": "3",
+   "description": "Bathrobes, dressing gowns and similar articles (350)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "8.4%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.91.30",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "6.1%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "37.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.91.30.10",
+   "indent": "4",
+   "description": "Sleepwear (351)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.91.30.20",
+   "indent": "4",
+   "description": "Other (352)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99",
+   "indent": "2",
+   "description": "Of other textile materials:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Of wool or fine animal hair:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99.20.00",
+   "indent": "4",
+   "description": "Bathrobes, dressing gowns and similar articles (459)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "8.5%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99.40.00",
+   "indent": "4",
+   "description": "Other (459)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "6.1%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "52%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99.70",
+   "indent": "3",
+   "description": "Containing 70 percent or more by weight of silk or silk waste",
+   "superior": null,
+   "units": [],
+   "general": "1.1%",
+   "special": "Free (AU,BH, CL,CO,E,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "65%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99.70.10",
+   "indent": "4",
+   "description": "Bathrobes, dressing gowns and similar articles (750)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99.70.20",
+   "indent": "4",
+   "description": "Sleepwear (751)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99.70.30",
+   "indent": "4",
+   "description": "Other (752)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Of man-made fibers:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99.75",
+   "indent": "4",
+   "description": "Bathrobes, dressing gowns and similar articles",
+   "superior": null,
+   "units": [],
+   "general": "14.9%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99.75.10",
+   "indent": "5",
+   "description": "Containing 36 percent or more by weight of wool or fine animal hair (459)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99.75.20",
+   "indent": "5",
+   "description": "Other (650)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99.85",
+   "indent": "4",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "10.5%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM, P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99.85.10",
+   "indent": "5",
+   "description": "Sleepwear (651)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99.85.20",
+   "indent": "5",
+   "description": "Other (652)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99.90",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "7.1%",
+   "special": "Free (AU,BH, CL,CO,E*,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "65%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99.90.10",
+   "indent": "4",
+   "description": "Bathrobes, dressing gowns and similar articles (850)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6207.99.90.40",
+   "indent": "4",
+   "description": "Other (852)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "fetched": "2026-11-03",
+ "source": "https://hts.usitc.gov/reststop/exportList?from=6301.00.00&to=6301.99.99&format=JSON&styles=false",
+ "rows": [
+  {
+   "htsno": "6301.10.00.00",
+   "indent": "1",
+   "description": "Electric blankets (666)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "11.4%",
+   "special": "Free (AU,BH, CL,CO,E*,IL,JO, KR,MA,OM,P, PA,PE,S,SG)",
+   "other": "77.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6301.20.00",
+   "indent": "1",
+   "description": "Blankets (other than electric blankets) and traveling rugs, of wool or fine animal hair",
+   "superior": null,
+   "units": [],
+   "general": "Free",
+   "special": "",
+   "other": "$1.10/kg + 60%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6301.20.00.10",
+   "indent": "2",
+   "description": "Not over 3 meters in length (464)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6301.20.00.20",
+   "indent": "2",
+   "description": "Over 3 meters in length (410)",
+   "superior": null,
+   "units": [
+    "m2",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6301.30.00",
+   "indent": "1",
+   "description": "Blankets (other than electric blankets) and traveling rugs, of cotton",
+   "superior": null,
+   "units": [],
+   "general": "8.4%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "30%",
+   "footnotes": [
+    {
+     "columns": [
+      "other"
+     ],
+     "value": "See 9903.90.08. ",
+     "type": "endnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6301.30.00.10",
+   "indent": "2",
+   "description": "Woven (369)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6301.30.00.20",
+   "indent": "2",
+   "description": "Other (369)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6301.40.00",
+   "indent": "1",
+   "description": "Blankets (other than electric blankets) and traveling rugs, of synthetic fibers",
+   "superior": null,
+   "units": [],
+   "general": "8.5%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "77.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6301.40.00.10",
+   "indent": "2",
+   "description": "Woven (666)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6301.40.00.20",
+   "indent": "2",
+   "description": "Other (666)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6301.90.00",
+   "indent": "1",
+   "description": "Other blankets and traveling rugs",
+   "superior": null,
+   "units": [],
+   "general": "7.2%",
+   "special": "Free (AU,BH, CL,CO,E*,IL, JO,KR, MA,NP,OM,P, PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6301.90.00.10",
+   "indent": "2",
+   "description": "Of artificial fibers (666)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6301.90.00.20",
+   "indent": "3",
+   "description": "Containing 85 percent or more by weight of silk or silk waste",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6301.90.00.30",
+   "indent": "3",
+   "description": "Other (899)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  }
+ ]
+}

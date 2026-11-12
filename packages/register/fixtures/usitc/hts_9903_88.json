@@ -1,0 +1,1181 @@
+[ {
+  "htsno" : "9903.88.01",
+  "indent" : "0",
+  "description" : "Except as provided in headings 9903.88.05, 9903.88.06, 9903.88.07, 9903.88.08, 9903.88.10, 9903.88.11, 9903.88.14, 9903.88.19, 9903.88.50, 9903.88.52, 9903.88.58, 9903.88.60, 9903.88.62, 9903.88.66, 9903.88.67, 9903.88.68, or 9903.88.69, articles the product of China, as provided for in U.S. note 20(a) to this subchapter and as provided for in the subheadings enumerated in U.S. note 20(b) [to this subchapter]",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading plus 25%",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.02",
+  "indent" : "0",
+  "description" : "Except as provided in headings 9903.88.12, 9903.88.17, 9903.88.20, 9903.88.54, 9903.88.59, 9903.88.61, 9903.88.63, 9903.88.66, 9903.88.67, 9903.88.68, 9903.88.69, or 9903.88.70, articles the product of China, as provided for in U.S. note 20(c) to this subchapter and as provided for in the subheadings enumerated in U.S. note 20(d)",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading + 25%",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.03",
+  "indent" : "0",
+  "description" : "Except as provided in headings 9903.88.13, 9903.88.18, 9903.88.33, 9903.88.34, 9903.88.35, 9903.88.36, 9903.88.37, 9903.88.38, 9903.88.40, 9903.88.41, 9903.88.43, 9903.88.45, 9903.88.46, 9903.88.48, 9903.88.56, 9903.88.64, 9903.88.66, 9903.88.67, 9903.88.68, or 9903.88.69, articles the product of China, as provided for in U.S. note 20(e) to this subchapter and as provided for in the subheadings enumerated in U.S. note 20(f)",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading + 25%",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.04",
+  "indent" : "0",
+  "description" : "Except as provided in headings 9903.88.33, 9903.88.34, 9903.88.36, 9903.88.37, 9903.88.38, 9903.88.40, 9903.88.46, 9903.88.48, 9903.88.56, 9903.88.64, 9903.88.66, 9903.88.67, or 9903.88.69, articles the product of China, as provided for in U.S. note 20(g) to this subchapter and as provided for in the subheadings enumerated in U.S. note 20(g)",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading + 25%",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.05",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(h) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  }, {
+    "columns" : [ "general" ],
+    "marker" : "2",
+    "value" : " Effective period extended only for subdivisions (2), (7), (11), (29), (30) and (31) of note 20(h) to this subchapter. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.06",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(i) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.07",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(j) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "desc", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.08",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(k) to this subchapter, each covered by an exclusion granted by the United States Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.09",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(l) to this subchapter and as provided for in the subheadings enumerated in U.S. notes 20(f) or 20(g) to this subchapter, if exported to the United States before May 10, 2019 and entered for consumption, or withdrawn from warehouse for consumption, on or after May 10, 2019, and before June 15, 2019",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading + 10%",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.10",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(m) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.11",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(n) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.12",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(o) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.13",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(p) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.14",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(q) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.15",
+  "indent" : "0",
+  "description" : "Except as provided in headings 9903.88.39, 9903.88.42, 9903.88.44, 9903.88.47, 9903.88.49, 9903.88.51, 9903.88.53, 9903.88.55, 9903.88.57, 9903.88.65, 9903.88.66, 9903.88.67, 9903.88.68, or 9903.88.69, articles the product of China, as provided for in U.S. note 20(r) to this subchapter and as provided for in the subheadings enumerated in U.S. note 20(s)",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading + 7.5%",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.16",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(t) to this subchapter and as provided for in the subheadings enumerated in U.S. note 20(u) [Compiler's note: provision suspended.]",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading + 15%",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  }, {
+    "columns" : [ "general" ],
+    "marker" : "2",
+    "value" : " Subdivisions (t) and (u) of note 20 to this chapter and heading 9903.88.16 are suspended. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.17",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(v) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.18",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(w) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.19",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(x) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.20",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(y) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.21",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(z) to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.22",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(aa) to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.23",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(bb) to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.24",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(cc) to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.25",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(dd) to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.26",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(ee) to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.27",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(ff) to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.28",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(gg) to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.33",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(ll) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.34",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(mm) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.35",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(nn) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.36",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(oo) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.37",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(pp) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.38",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(qq) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.39",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(rr) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.40",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(ss) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.41",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(tt) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.42",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(uu) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.43",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(vv) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.44",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(ww) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.45",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(xx) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.46",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(yy) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.47",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(zz) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.48",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(aaa) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.49",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(bbb) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.50",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after June 4, 2020, and through December 31, 2020, articles the product of China, as provided for in U.S. note 20(ccc) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.51",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(ddd) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.52",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after July 9, 2020, and through December 31, 2020, articles the product of China, as provided for in U.S. note 20(eee) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.53",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(fff) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.54",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after July 31, 2020, and through December 31, 2020, articles the product of China, as provided for in U.S. note 20(ggg) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.55",
+  "indent" : "0",
+  "description" : "Articles the product of China, as provided for in U.S. note 20(hhh) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.56",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after August 7, 2020, and through December 31, 2020, articles the product of China, as provided for in U.S. note 20(iii) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.57",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after September 1, 2020, and through December 31, 2020, articles the product of China, as provided for in U.S. note 20(jjj) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.58",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after September 20, 2020, and through December 31, 2020, articles the product of China, as provided for in U.S. note 20(kkk) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.59",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after September 20, 2020, and through December 31, 2020, articles the product of China, as provided for in U.S. note 20(lll) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.60",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after October 2, 2020, and through December 31, 2020, articles the product of China, as provided for in U.S. note 20(mmm) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.61",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after October 2, 2020, and through December 31, 2020, articles the product of China, as provided for in U.S. note 20(nnn) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.62",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after January 1, 2021, and through November 30, 2021, articles the product of China, as provided for in U.S. note 20(ooo) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.63",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after January 1, 2021, and through November 30, 2021, articles the product of China, as provided for in U.S. note 20(ppp) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.64",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after January 1, 2021, and through November 30, 2021, articles the product of China, as provided for in U.S. note 20(qqq) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.65",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after January 1, 2021, and through November 30, 2021, articles the product of China, as provided for in U.S. note 20(rrr) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.66",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after December 1, 2021, and before June 1, 2023, articles the product of China, as provided for in U.S. note 20(sss) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.67",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after October 12, 2021 and through June 14, 2024, articles the product of China, as provided for in U.S. note 20(ttt) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : " 1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.68",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after June 1, 2023, and before June 15, 2024, articles the product of China, as provided for in U.S. note 20(uuu) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.88.69",
+  "indent" : "0",
+  "description" : "Effective with respect to entries on or after June 15, 2024 and through November 9, 2026, articles the product of China, as provided for in U.S. note 20(vvv) to this subchapter, each covered by an exclusion granted by the U.S. Trade Representative",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "",
+  "other" : "",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+} ]

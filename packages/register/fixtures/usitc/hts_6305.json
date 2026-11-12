@@ -1,0 +1,236 @@
+{
+ "fetched": "2026-11-03",
+ "source": "https://hts.usitc.gov/reststop/exportList?from=6305.00.00&to=6305.99.99&format=JSON&styles=false",
+ "rows": [
+  {
+   "htsno": "6305.10.00.00",
+   "indent": "1",
+   "description": "Of jute or of other textile bast fibers of heading 5303",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "2.2\u00a2/kg + 10%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6305.20.00.00",
+   "indent": "1",
+   "description": "Of cotton (369)",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "6.2%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "40%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "1",
+   "description": "Of man-made textile materials:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6305.32.00",
+   "indent": "2",
+   "description": "Flexible intermediate bulk containers",
+   "superior": null,
+   "units": [],
+   "general": "8.4%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "103%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6305.32.00.10",
+   "indent": "3",
+   "description": "Weighing one kg or more (669)",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6305.32.00.20",
+   "indent": "3",
+   "description": "Other (669)",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6305.33.00",
+   "indent": "2",
+   "description": "Other, of polyethylene or polypropylene strip or the like",
+   "superior": null,
+   "units": [],
+   "general": "8.4%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "103%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6305.33.00.10",
+   "indent": "3",
+   "description": "Weighing one kg or more (669)",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Weighing less than 1 kg, with an outer laminated ply of plastics sheeting:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6305.33.00.40",
+   "indent": "5",
+   "description": "Printed with three or more colors (669)",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6305.33.00.60",
+   "indent": "5",
+   "description": "Other (669)",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6305.33.00.80",
+   "indent": "4",
+   "description": "Other (669)",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6305.39.00.00",
+   "indent": "2",
+   "description": "Other (669)",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "8.4%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "103%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6305.90.00.00",
+   "indent": "1",
+   "description": "Of other textile materials (899)",
+   "superior": null,
+   "units": [
+    "kg"
+   ],
+   "general": "6.2%",
+   "special": "Free (AU,BH, CL,CO,E*,IL,JO, KR,MA,OM,P, PA,PE,S,SG)",
+   "other": "40%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  }
+ ]
+}

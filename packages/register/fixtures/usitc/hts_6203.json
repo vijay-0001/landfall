@@ -1,0 +1,5981 @@
+{
+ "fetched": "2026-11-01",
+ "source": "https://hts.usitc.gov/reststop/exportList?from=6203.00.00&to=6203.99.99&format=JSON&styles=false",
+ "rows": [
+  {
+   "htsno": "",
+   "indent": "1",
+   "description": "Suits:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.11",
+   "indent": "2",
+   "description": "Of wool or fine animal hair:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Containing 30 percent or more by weight of silk or silk waste:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.11.15.00",
+   "indent": "4",
+   "description": "Of worsted wool fabric, made of wool yarn having an average fiber diameter of 18.5 microns or less   (443)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "7.5%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "65%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.11.30.00",
+   "indent": "4",
+   "description": "Other (443)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "7.5%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "65%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.11.60.00",
+   "indent": "4",
+   "description": "Of worsted wool fabric, made of wool yarn having an average fiber diameter of 18.5 microns or less   (443)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "17.5%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.11.90.00",
+   "indent": "4",
+   "description": "Other (443)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "17.5%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.12",
+   "indent": "2",
+   "description": "Of synthetic fibers:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.12.10.00",
+   "indent": "3",
+   "description": "Containing 36 percent or more by weight of wool or fine animal hair (443)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "17.5%",
+   "special": "Free (AU,BH,CL, CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.12.20",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "27.3%",
+   "special": "Free (AU,BH,CL, CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "77.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.12.20.10",
+   "indent": "4",
+   "description": "Men's (643)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.12.20.20",
+   "indent": "4",
+   "description": "Boys' (643)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.19",
+   "indent": "2",
+   "description": "Of other textile materials:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.19.10",
+   "indent": "3",
+   "description": "Of cotton",
+   "superior": null,
+   "units": [],
+   "general": "13.2%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.19.10.10",
+   "indent": "4",
+   "description": "Jackets imported as parts of suits (333)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.19.10.20",
+   "indent": "4",
+   "description": "Trousers, breeches and shorts imported as parts of suits (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.19.10.30",
+   "indent": "4",
+   "description": "Waistcoats imported as parts of suits (359)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Of artificial fibers:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.19.20.00",
+   "indent": "4",
+   "description": "Containing 36 percent or more by weight of wool or fine animal hair (443)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "52.9\u00a2/kg + 21%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.19.30.00",
+   "indent": "4",
+   "description": "Other (643)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "14.9%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM, P,PA,PE,S,SG)",
+   "other": "77.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.19.50.00",
+   "indent": "3",
+   "description": "Containing 70 percent or more by weight of silk or silk waste (743)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "3.8%",
+   "special": "Free (AU,BH, CL,CO,E,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.19.90",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "7.1%",
+   "special": "Free (AU,BH, CL,CO,E*,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Subject to cotton restraints:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.19.90.10",
+   "indent": "5",
+   "description": "Jackets imported as parts of suits (333)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.19.90.20",
+   "indent": "5",
+   "description": "Trousers, breeches and shorts imported as parts of suits (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.19.90.30",
+   "indent": "5",
+   "description": "Waistcoats imported as parts of suits (359)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.19.90.40",
+   "indent": "4",
+   "description": "Subject to wool restraints (443)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.19.90.50",
+   "indent": "4",
+   "description": "Subject to man-made fiber restraints (643)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.19.90.80",
+   "indent": "4",
+   "description": "Other (843)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "1",
+   "description": "Ensembles:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.22",
+   "indent": "2",
+   "description": "Of cotton:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.22.10.00",
+   "indent": "3",
+   "description": "Judo, karate and other oriental martial arts uniforms (359)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "7.5%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.22.30",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "The rate applicable to each garment in the ensemble if separately entered",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "The rate applicable to each garment in the ensemble if separately entered",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.22.30.10",
+   "indent": "4",
+   "description": "Garments described in heading 6201 (334)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.22.30.15",
+   "indent": "4",
+   "description": "Jackets and blazers described in heading 6203 (333)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.22.30.20",
+   "indent": "4",
+   "description": "Trousers and breeches (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.22.30.30",
+   "indent": "4",
+   "description": "Shorts (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.22.30.50",
+   "indent": "4",
+   "description": "Shirts (340)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.22.30.60",
+   "indent": "4",
+   "description": "Other (359)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.23.00",
+   "indent": "2",
+   "description": "Of synthetic fibers",
+   "superior": null,
+   "units": [],
+   "general": "The rate applicable to each garment in the ensemble if separately entered",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "The rate applicable to each garment in the ensemble if separately entered",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Containing 36 percent or more by weight of wool or fine animal hair:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.23.00.10",
+   "indent": "4",
+   "description": "Garments described in heading 6201 (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.23.00.15",
+   "indent": "4",
+   "description": "Jackets and blazers described in heading 6203 (433)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.23.00.20",
+   "indent": "4",
+   "description": "Trousers, breeches and shorts (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.23.00.30",
+   "indent": "4",
+   "description": "Shirts (440)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.23.00.40",
+   "indent": "4",
+   "description": "Other (459)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.23.00.50",
+   "indent": "4",
+   "description": "Garments described in heading 6201(634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.23.00.55",
+   "indent": "4",
+   "description": "Jackets and blazers described in heading 6203 (633)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.23.00.60",
+   "indent": "4",
+   "description": "Trousers and breeches (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.23.00.70",
+   "indent": "4",
+   "description": "Shorts (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.23.00.80",
+   "indent": "4",
+   "description": "Shirts (640)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.23.00.90",
+   "indent": "4",
+   "description": "Other (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29",
+   "indent": "2",
+   "description": "Of other textile materials:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Of wool or fine animal hair:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.10",
+   "indent": "4",
+   "description": "Suits, suit-type jackets and trousers, the foregoing of worsted wool fabric, made of wool yarn having   an average fiber diameter of 18.5 microns or less",
+   "superior": null,
+   "units": [],
+   "general": "The rate applicable to each garment in the ensemble if separately entered",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "The rate applicable to each garment in the ensemble if separately entered",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.10.10",
+   "indent": "5",
+   "description": "Suits (443)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.10.15",
+   "indent": "5",
+   "description": "Suit-type jackets (433)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.10.20",
+   "indent": "5",
+   "description": "Trousers (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.15",
+   "indent": "4",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "The rate applicable to each garment in the ensemble if separately entered",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "The rate applicable to each garment in the ensemble if separately entered",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.15.10",
+   "indent": "5",
+   "description": "Garments described in heading 6201 (434)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.15.15",
+   "indent": "5",
+   "description": "Jackets and blazers described in heading 6203 (433)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.15.20",
+   "indent": "5",
+   "description": "Trousers, breeches and shorts (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.15.30",
+   "indent": "5",
+   "description": "Shirts (440)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.15.60",
+   "indent": "5",
+   "description": "Other (459)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.20",
+   "indent": "3",
+   "description": "Of artificial fibers",
+   "superior": null,
+   "units": [],
+   "general": "The rate applicable to each garment in the ensemble if separately entered",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "The rate applicable to each garment in the ensemble if separately entered",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.20.10",
+   "indent": "4",
+   "description": "Garments described in heading 6201 (634)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.20.20",
+   "indent": "4",
+   "description": "Jackets and blazers described in heading 6203 (633)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.20.30",
+   "indent": "4",
+   "description": "Trousers and breeches (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.20.35",
+   "indent": "4",
+   "description": "Shorts (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.20.50",
+   "indent": "4",
+   "description": "Shirts (640)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.20.60",
+   "indent": "4",
+   "description": "Other (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.30",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "The rate applicable to each garment in the in the ensemble if separately entered",
+   "special": "Free (AU,BH, CL,CO,E*,IL, JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "The rate applicable to each garment in the ensemble if separately entered",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Garments described in heading 6201:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.30.10",
+   "indent": "5",
+   "description": "Containing 70 percent or more by weight of silk or silk waste (734)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.30.20",
+   "indent": "5",
+   "description": "Other (834)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Jackets and blazers described in heading 6203:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.30.26",
+   "indent": "5",
+   "description": "Containing 70 percent or more by weight of silk or silk waste (733)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.30.28",
+   "indent": "5",
+   "description": "Other (833)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Trousers, breeches and shorts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.30.30",
+   "indent": "5",
+   "description": "Containing 70 percent or more by weight of silk or silk waste (747)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.30.46",
+   "indent": "6",
+   "description": "Trousers and breeches (847)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.30.48",
+   "indent": "6",
+   "description": "Shorts (847)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Shirts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.30.50",
+   "indent": "5",
+   "description": "Containing 70 percent or more by weight of silk or silk waste (740)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.30.60",
+   "indent": "5",
+   "description": "Other (840)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.30.70",
+   "indent": "5",
+   "description": "Containing 70 percent or more by weight of silk or silk waste (759)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.29.30.80",
+   "indent": "5",
+   "description": "Other (859)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "1",
+   "description": "Suit-type jackets and blazers:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.31",
+   "indent": "2",
+   "description": "Of wool or fine animal hair:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.31.50",
+   "indent": "3",
+   "description": "Of worsted wool fabric, made of wool yarn having an average fiber diameter of 18.5 microns or less",
+   "superior": null,
+   "units": [],
+   "general": "17.5%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "59.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.31.50.10",
+   "indent": "4",
+   "description": "For suits described in Note 3(a) (443)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.31.50.20",
+   "indent": "4",
+   "description": "Other (433)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.31.90",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "17.5%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "59.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.31.90.10",
+   "indent": "4",
+   "description": "For suits described in Note 3(a) (443)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.31.90.20",
+   "indent": "4",
+   "description": "Other (433)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.32",
+   "indent": "2",
+   "description": "Of cotton:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.32.10.00",
+   "indent": "3",
+   "description": "Containing 36 percent or more by weight of flax fibers (333)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "2.8%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM, P,PA,PE,S,SG)",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.32.20",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "9.4%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM, P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Corduroy:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.32.20.10",
+   "indent": "5",
+   "description": "Men's (333)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.32.20.20",
+   "indent": "5",
+   "description": "Boys' (333)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.32.20.30",
+   "indent": "4",
+   "description": "Blue denim (333)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.32.20.40",
+   "indent": "5",
+   "description": "Men's (333)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.32.20.50",
+   "indent": "5",
+   "description": "Boys' (333)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.33",
+   "indent": "2",
+   "description": "Of synthetic fibers:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.33.10",
+   "indent": "3",
+   "description": "Containing 36 percent or more by weight of wool or fine animal hair",
+   "superior": null,
+   "units": [],
+   "general": "22%",
+   "special": "Free (AU,BH,CL, CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "59.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Men's:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.33.10.30",
+   "indent": "5",
+   "description": "For suits described in Note 3(a) (443)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.33.10.40",
+   "indent": "5",
+   "description": "Other (433)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Boys':",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.33.10.50",
+   "indent": "5",
+   "description": "For suits described in Note 3(a) (443)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.33.10.60",
+   "indent": "5",
+   "description": "Other (433)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.33.20",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "27.3%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "77.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.33.20.10",
+   "indent": "4",
+   "description": "Men's (633)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.33.20.20",
+   "indent": "4",
+   "description": "Boys' (633)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.39",
+   "indent": "2",
+   "description": "Of other textile materials:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Of artificial fibers:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.39.10",
+   "indent": "4",
+   "description": "Containing 36 percent or more by weight of wool or fine animal hair",
+   "superior": null,
+   "units": [],
+   "general": "22%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "59.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.39.10.10",
+   "indent": "5",
+   "description": "For suits described in Note 3(a) (443)",
+   "superior": null,
+   "units": [
+    "No.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.39.10.20",
+   "indent": "5",
+   "description": "Other (433)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.39.20",
+   "indent": "4",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "27.3%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "77.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.39.20.10",
+   "indent": "5",
+   "description": "Men's (633)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.39.20.20",
+   "indent": "5",
+   "description": "Boys' (633)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.39.50.00",
+   "indent": "3",
+   "description": "Containing 70 percent or more by weight of silk or silk waste (733)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "1%",
+   "special": "Free (AU,BH, CL,CO,E,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.39.90",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "6.5%",
+   "special": "Free (AU,BH, CL,CO,E*,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.39.90.10",
+   "indent": "4",
+   "description": "Subject to cotton restraints (333)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.39.90.20",
+   "indent": "4",
+   "description": "Subject to wool restraints (433)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.39.90.30",
+   "indent": "4",
+   "description": "Subject to man-made fiber restraints (633)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.39.90.60",
+   "indent": "4",
+   "description": "Other (833)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "1",
+   "description": "Trousers, bib and brace overalls, breeches and shorts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41",
+   "indent": "2",
+   "description": "Of wool or fine animal hair:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Recreational performance outerwear:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Trousers, breeches and shorts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.01",
+   "indent": "5",
+   "description": "Trousers and breeches, containing elastomeric fiber, water resistant, without belt loops, weighing more than 9 kg per dozen",
+   "superior": null,
+   "units": [],
+   "general": "7.6%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.01.10",
+   "indent": "6",
+   "description": "Men's (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.01.20",
+   "indent": "6",
+   "description": "Boys' (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.03",
+   "indent": "6",
+   "description": "Trousers of worsted wool fabric, made of wool yarn having an average fiber diameter of 18.5 microns or less",
+   "superior": null,
+   "units": [],
+   "general": "41.9\u00a2/kg + 16.3%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.03.10",
+   "indent": "7",
+   "description": "Men's (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.03.20",
+   "indent": "7",
+   "description": "Boys' (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.06",
+   "indent": "6",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "41.9\u00a2/kg + 16.3%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Trousers and breeches:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.06.10",
+   "indent": "8",
+   "description": "Men's (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.06.20",
+   "indent": "8",
+   "description": "Boys' (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.06.30",
+   "indent": "7",
+   "description": "Shorts (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.08.00",
+   "indent": "4",
+   "description": "Bib and brace overalls (459) ",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "8.5%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "63%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Trousers, breeches and shorts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.25",
+   "indent": "5",
+   "description": "Trousers and breeches, containing elastomeric fiber, water resistant, without belt loops, weighing more than 9 kg per dozen",
+   "superior": null,
+   "units": [],
+   "general": "7.6%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.25.10",
+   "indent": "6",
+   "description": "Men's (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.25.20",
+   "indent": "6",
+   "description": "Boys' (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.30",
+   "indent": "6",
+   "description": "Trousers of worsted wool fabric, made of wool yarn having an average fiber diameter of 18.5 microns or less",
+   "superior": null,
+   "units": [],
+   "general": "41.9\u00a2/kg + 16.3%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.30.10",
+   "indent": "7",
+   "description": "Men's (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.30.20",
+   "indent": "7",
+   "description": "Boys' (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.60",
+   "indent": "6",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "41.9\u00a2/kg + 16.3%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Trousers and breeches:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.60.10",
+   "indent": "8",
+   "description": "Men's (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.60.20",
+   "indent": "8",
+   "description": "Boys'  (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.60.30",
+   "indent": "7",
+   "description": "Shorts (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.41.80.00",
+   "indent": "4",
+   "description": "Bib and brace overalls (459)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "8.5%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "63%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42",
+   "indent": "2",
+   "description": "Of cotton:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Recreational performance outerwear:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.03.00",
+   "indent": "4",
+   "description": "Containing 15 percent or more by weight of down and waterfowl plumage and of which down comprises 35 percent or more by weight; containing 10 percent or more by weight of down",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "60%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.05",
+   "indent": "5",
+   "description": "Bib and brace overalls",
+   "superior": null,
+   "units": [],
+   "general": "10.3%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.05.05",
+   "indent": "6",
+   "description": "Insulated for cold weather protection (359)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.05.10",
+   "indent": "7",
+   "description": "Men's (359)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Boys', sizes 2-7:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.05.25",
+   "indent": "8",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.05.50",
+   "indent": "8",
+   "description": "Other (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.05.90",
+   "indent": "7",
+   "description": "Other (359)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.07",
+   "indent": "5",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "16.6%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.07.03",
+   "indent": "6",
+   "description": "Containing compact yarns described in statistical reporting numbers 5205.42.0021, 5205.43.0021 5205.44.0021, 5205.46.0021 or 5205.47.0021 (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Men's trousers and breeches:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.07.06",
+   "indent": "8",
+   "description": "Corduroy (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.07.11",
+   "indent": "8",
+   "description": "Blue denim (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.07.16",
+   "indent": "8",
+   "description": "Other (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Boys' trousers and breeches:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "8",
+   "description": "Corduroy:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.07.21",
+   "indent": "9",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.07.26",
+   "indent": "9",
+   "description": "Other (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "8",
+   "description": "Blue denim:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.07.31",
+   "indent": "9",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.07.36",
+   "indent": "9",
+   "description": "Other (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "8",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.07.41",
+   "indent": "9",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.07.46",
+   "indent": "9",
+   "description": "Other (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.07.51",
+   "indent": "7",
+   "description": "Men's shorts (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Boys' shorts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.07.56",
+   "indent": "8",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.07.61",
+   "indent": "8",
+   "description": "Other (347) ",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.17.00",
+   "indent": "4",
+   "description": "Containing 15 percent or more by weight of down and waterfowl plumage and of which down comprises 35 percent or more by weight; containing 10 percent or more by weight of down",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "60%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.25",
+   "indent": "5",
+   "description": "Bib and brace overalls",
+   "superior": null,
+   "units": [],
+   "general": "10.3%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.25.05",
+   "indent": "6",
+   "description": "Insulated, for cold weather protection (359)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.25.10",
+   "indent": "7",
+   "description": "Men's (359)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Boys', sizes 2-7:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.25.25",
+   "indent": "8",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.25.50",
+   "indent": "8",
+   "description": "Other (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.25.90",
+   "indent": "7",
+   "description": "Other (359)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.45",
+   "indent": "5",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "16.6%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.45.03",
+   "indent": "6",
+   "description": "Containing compact yarns described in statistical reporting numbers 5205.42.0021, 5205.43.0021 5205.44.0021, 5205.46.0021 or 5205.47.0021 (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Men's trousers and breeches:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.45.06",
+   "indent": "8",
+   "description": "Corduroy (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.45.11",
+   "indent": "8",
+   "description": "Blue denim (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.45.14",
+   "indent": "8",
+   "description": "Designed for use in hospitals, clinics, laboratories or contaminated areas (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.45.18",
+   "indent": "8",
+   "description": "Other (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Boys' trousers and breeches:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "8",
+   "description": "Corduroy:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.45.21",
+   "indent": "9",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.45.26",
+   "indent": "9",
+   "description": "Other (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "8",
+   "description": "Blue denim:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.45.31",
+   "indent": "9",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.45.36",
+   "indent": "9",
+   "description": "Other (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "8",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.45.41",
+   "indent": "9",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.45.46",
+   "indent": "9",
+   "description": "Other (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.45.51",
+   "indent": "7",
+   "description": "Men's shorts (347)",
+   "superior": null,
+   "units": [
+    "doz. ",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Boys' shorts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.45.56",
+   "indent": "8",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.42.45.61",
+   "indent": "8",
+   "description": "Other (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43",
+   "indent": "2",
+   "description": "Of synthetic fibers:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Recreational performance outerwear:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.01.00",
+   "indent": "4",
+   "description": "Containing 15 percent or more by weight of down and waterfowl plumage and of which down comprises 35 percent or more by weight; containing 10 percent or more by weight of down",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "60%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Bib and brace overalls:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.03.00",
+   "indent": "6",
+   "description": "Water resistant (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "7.1%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "65%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.05",
+   "indent": "6",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "14.9%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "76%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.05.05",
+   "indent": "7",
+   "description": "Insulated, for cold weather protection (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.05.10",
+   "indent": "8",
+   "description": "Men's (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "8",
+   "description": "Boys', sizes 2-7:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.05.25",
+   "indent": "9",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.05.50",
+   "indent": "9",
+   "description": "Other (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.05.90",
+   "indent": "8",
+   "description": "Other (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.09",
+   "indent": "6",
+   "description": "Containing 36 percent or more by weight of wool or fine animal hair",
+   "superior": null,
+   "units": [],
+   "general": "49.6\u00a2/kg + 19.7%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Trousers and breeches:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.09.10",
+   "indent": "8",
+   "description": "Men's (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.09.20",
+   "indent": "8",
+   "description": "Boys' (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.09.30",
+   "indent": "7",
+   "description": "Shorts (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.11",
+   "indent": "7",
+   "description": "Water resistant trousers or breeches (647) ",
+   "superior": null,
+   "units": [],
+   "general": "7.1%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "65%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.11.10",
+   "indent": "8",
+   "description": "Ski/snowboard pants (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.11.90",
+   "indent": "8",
+   "description": "Other (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.13",
+   "indent": "7",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "27.9%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "8",
+   "description": "Trousers and breeches:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.13.10",
+   "indent": "9",
+   "description": "Men's (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "9",
+   "description": "Boys':",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.13.15",
+   "indent": "10",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.13.20",
+   "indent": "10",
+   "description": "Other (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "8",
+   "description": "Shorts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.13.30",
+   "indent": "9",
+   "description": "Men's (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "9",
+   "description": "Boys':",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.13.35",
+   "indent": "10",
+   "description": "Imported as parts of playsuits (257)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.13.40",
+   "indent": "10",
+   "description": "Other (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.45.00",
+   "indent": "4",
+   "description": "Containing 15 percent or more by weight of down and waterfowl plumage and of which down comprises 35 percent or more by weight; containing 10 percent or more by weight of down",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "60%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Bib and brace overalls:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.55.00",
+   "indent": "6",
+   "description": "Water resistant (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "7.1%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "65%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.60",
+   "indent": "6",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "14.9%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "76%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.60.05",
+   "indent": "7",
+   "description": "Insulated, for cold weather protection (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.60.10",
+   "indent": "8",
+   "description": "Men's (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "8",
+   "description": "Boys', sizes 2-7:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.60.25",
+   "indent": "9",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.60.50",
+   "indent": "9",
+   "description": "Other (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.60.90",
+   "indent": "8",
+   "description": "Other (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.65.00",
+   "indent": "6",
+   "description": "Certified hand-loomed and folklore products (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "12.2%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "76%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.70",
+   "indent": "7",
+   "description": "Containing 36 percent or more by weight of wool or fine animal hair",
+   "superior": null,
+   "units": [],
+   "general": "49.6\u00a2/kg + 19.7%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "52.9\u00a2/kg + 58.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "8",
+   "description": "Trousers and breeches:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.70.10",
+   "indent": "9",
+   "description": "Men's (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.70.20",
+   "indent": "9",
+   "description": "Boys' (447) ",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.70.30",
+   "indent": "8",
+   "description": "Shorts (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.75",
+   "indent": "8",
+   "description": "Water resistant trousers or breeches (647)",
+   "superior": null,
+   "units": [],
+   "general": "7.1%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "65%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.75.10",
+   "indent": "9",
+   "description": "Ski/snowboard pants (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.75.90",
+   "indent": "9",
+   "description": "Other (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.90",
+   "indent": "8",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "27.9%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "9",
+   "description": "Trousers and breeches:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "10",
+   "description": "Men\u2019s:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.90.09",
+   "indent": "11",
+   "description": "Designed for use in hospitals, clinics, laboratories or contaminated areas (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.90.11",
+   "indent": "11",
+   "description": "Other (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "10",
+   "description": "Boys':",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.90.15",
+   "indent": "11",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.90.20",
+   "indent": "11",
+   "description": "Other (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "9",
+   "description": "Shorts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.90.30",
+   "indent": "10",
+   "description": "Men's (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "10",
+   "description": "Boys':",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.90.35",
+   "indent": "11",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.43.90.40",
+   "indent": "11",
+   "description": "Other (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49",
+   "indent": "2",
+   "description": "Of other textile materials:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Recreational performance outerwear:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Of artificial fibers:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.01",
+   "indent": "5",
+   "description": "Bib and brace overalls",
+   "superior": null,
+   "units": [],
+   "general": "8.5%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "76%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.01.05",
+   "indent": "6",
+   "description": "Insulated, for cold weather protection (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.01.10",
+   "indent": "7",
+   "description": "Men's (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Boys', sizes 2-7:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.01.25",
+   "indent": "8",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.01.50",
+   "indent": "8",
+   "description": "Other (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.01.90",
+   "indent": "7",
+   "description": "Other (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.05",
+   "indent": "5",
+   "description": "Trousers, breeches and shorts",
+   "superior": null,
+   "units": [],
+   "general": "27.9%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM, P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.05.05",
+   "indent": "6",
+   "description": "Containing 36 percent or more by weight of wool or fine animal hair (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Trousers and breeches:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.05.15",
+   "indent": "8",
+   "description": "Men's (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "8",
+   "description": "Boys'",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.05.20",
+   "indent": "9",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.05.30",
+   "indent": "9",
+   "description": "Other (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Shorts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.05.45",
+   "indent": "8",
+   "description": "Men's (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "8",
+   "description": "Boys':",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.05.50",
+   "indent": "9",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.05.60",
+   "indent": "9",
+   "description": "Other (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Of other textile materials:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.07",
+   "indent": "5",
+   "description": "Containing 70 percent or more by weight of silk or silk waste",
+   "superior": null,
+   "units": [],
+   "general": "Free",
+   "special": "",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.07.10",
+   "indent": "6",
+   "description": "Bib and brace overalls (759)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.07.20",
+   "indent": "6",
+   "description": "Trousers and breeches (747)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.07.30",
+   "indent": "6",
+   "description": "Shorts (747)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.09",
+   "indent": "5",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "2.8%",
+   "special": "Free (AU,BH,CL,CO,E*,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.09.10",
+   "indent": "6",
+   "description": "Bib and brace overalls (859)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Trousers and breeches:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.09.20",
+   "indent": "7",
+   "description": "Subject to cotton restraints (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.09.25",
+   "indent": "7",
+   "description": "Subject to wool restraints (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.09.30",
+   "indent": "7",
+   "description": "Subject to man-made fiber restraints (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.09.45",
+   "indent": "7",
+   "description": "Other (847)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.09.60",
+   "indent": "6",
+   "description": "Shorts (847)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Of artificial fibers:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.25",
+   "indent": "5",
+   "description": "Bib and brace overalls",
+   "superior": null,
+   "units": [],
+   "general": "8.5%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "76%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.25.05",
+   "indent": "6",
+   "description": "Insulated, for cold weather protection (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "6",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.25.10",
+   "indent": "7",
+   "description": "Men's (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Boys', sizes 2-7:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.25.25",
+   "indent": "8",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.25.50",
+   "indent": "8",
+   "description": "Other (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.25.90",
+   "indent": "7",
+   "description": "Other (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Trousers, breeches and shorts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.35.00",
+   "indent": "6",
+   "description": "Certified hand-loomed and folklore products",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "12.2%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM, P,PA,PE,S,SG)",
+   "other": "76%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.50",
+   "indent": "6",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "27.9%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR, MA,OM, P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.50.05",
+   "indent": "7",
+   "description": "Containing 36 percent or more by weight of wool or fine animal hair (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "7",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "8",
+   "description": "Trousers and breeches:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.50.15",
+   "indent": "9",
+   "description": "Men's (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "9",
+   "description": "Boys':",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.50.20",
+   "indent": "10",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.50.30",
+   "indent": "10",
+   "description": "Other (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "8",
+   "description": "Shorts:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.50.45",
+   "indent": "9",
+   "description": "Men's (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "9",
+   "description": "Boys':",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.50.50",
+   "indent": "10",
+   "description": "Imported as parts of playsuits (237)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.50.60",
+   "indent": "10",
+   "description": "Other (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.60",
+   "indent": "4",
+   "description": "Containing 70 percent or more by weight of silk or silk waste",
+   "superior": null,
+   "units": [],
+   "general": "Free",
+   "special": "",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.60.10",
+   "indent": "5",
+   "description": "Bib and brace overalls (759)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.60.20",
+   "indent": "5",
+   "description": "Trousers and breeches (747)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.60.30",
+   "indent": "5",
+   "description": "Shorts (747)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.90",
+   "indent": "4",
+   "description": "Other ",
+   "superior": null,
+   "units": [],
+   "general": "2.8%",
+   "special": "Free (AU,BH,CL,CO,E*,IL,JO,KR,MA,OM,P,PA,PE,S,SG) ",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.90.10",
+   "indent": "5",
+   "description": "Bib and brace overalls (859)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Trousers and breeches:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.90.20",
+   "indent": "6",
+   "description": "Subject to cotton restraints (347)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.90.25",
+   "indent": "6",
+   "description": "Subject to wool restraints (447)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.90.30",
+   "indent": "6",
+   "description": "Subject to man-made fiber restraints (647)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.90.45",
+   "indent": "6",
+   "description": "Other (847)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6203.49.90.60",
+   "indent": "5",
+   "description": "Shorts (847)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  }
+ ]
+}

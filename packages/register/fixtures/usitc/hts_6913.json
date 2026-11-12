@@ -1,0 +1,182 @@
+{
+ "fetched": "2026-11-01",
+ "source": "https://hts.usitc.gov/reststop/exportList?from=6913.00.00&to=6913.99.99&format=JSON&styles=false",
+ "rows": [
+  {
+   "htsno": "6913.10",
+   "indent": "1",
+   "description": "Of porcelain or china:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6913.10.10.00",
+   "indent": "2",
+   "description": "Statues, statuettes and handmade flowers, valued over $2.50 each and produced by professional sculptors or directly from molds made from original models produced by professional sculptors",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "20%",
+   "footnotes": [
+    {
+     "columns": [
+      "other"
+     ],
+     "value": "See 9903.90.08. ",
+     "type": "endnote"
+    }
+   ],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6913.10.20.00",
+   "indent": "3",
+   "description": "Of bone chinaware",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "3.3%",
+   "special": "Free (A*,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "70%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6913.10.50.00",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "70%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6913.90",
+   "indent": "1",
+   "description": "Other:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6913.90.10.00",
+   "indent": "2",
+   "description": "Statues, statuettes and handmade flowers, valued over $2.50 each and produced by professional sculptors or directly from molds made from original models produced by professional sculptors",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "20%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6913.90.20.00",
+   "indent": "3",
+   "description": "Of ceramic tile",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "50%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6913.90.30.00",
+   "indent": "3",
+   "description": "Of earthenware, whether or not decorated, having a reddish-colored body and a lustrous glaze, and mottled, streaked or solidly colored brown to black with metallic oxide or salt",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "25%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6913.90.50.00",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "Dz Pcs"
+   ],
+   "general": "6%",
+   "special": "Free (A*,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "51.5%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  }
+ ]
+}

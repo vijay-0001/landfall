@@ -1,0 +1,167 @@
+{
+ "fetched": "2026-11-03",
+ "source": "https://hts.usitc.gov/reststop/exportList?from=6215.00.00&to=6215.99.99&format=JSON&styles=false",
+ "rows": [
+  {
+   "htsno": "6215.10.00",
+   "indent": "1",
+   "description": "Of silk or silk waste",
+   "superior": null,
+   "units": [],
+   "general": "7.2%",
+   "special": "Free (AU,BH, CL,CO,E*,IL, JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "65%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6215.10.00.25",
+   "indent": "2",
+   "description": "Containing 50 percent or more by weight (including any linings and interlinings) of textile materials   other than silk or silk waste (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Containing less than 50 percent by weight (including any linings and interlinings) of textile   materials other than silk or silk waste:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6215.10.00.40",
+   "indent": "3",
+   "description": "With outer shell containing 70 percent or more by weight of silk or silk waste (758)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6215.10.00.90",
+   "indent": "3",
+   "description": "Other (858)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6215.20.00.00",
+   "indent": "1",
+   "description": "Of man-made fibers (659)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "24.8\u00a2/kg + 12.7%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM, P,PA,PE,S,SG)",
+   "other": "26.5\u00a2/kg +65%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6215.90.00",
+   "indent": "1",
+   "description": "Of other textile materials",
+   "superior": null,
+   "units": [],
+   "general": "5%",
+   "special": "Free (AU,BH,CL,CO,E*,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "52%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6215.90.00.10",
+   "indent": "2",
+   "description": "Of wool or fine animal hair (459)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6215.90.00.15",
+   "indent": "2",
+   "description": "Of cotton (359)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6215.90.00.20",
+   "indent": "2",
+   "description": "Other (858)",
+   "superior": null,
+   "units": [
+    "doz.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "fetched": "2026-11-01",
+ "source": "https://hts.usitc.gov/reststop/exportList?from=4201.00.00&to=4201.99.99&format=JSON&styles=false",
+ "rows": [
+  {
+   "htsno": "4201.00.30.00",
+   "indent": "1",
+   "description": "Dog leashes, collars, muzzles, harnesses and similar dog equipment",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "2.4%",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "35%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "4201.00.60.00",
+   "indent": "1",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "No."
+   ],
+   "general": "2.8%",
+   "special": "Free (A*,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "15%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  }
+ ]
+}

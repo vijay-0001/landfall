@@ -1,0 +1,1149 @@
+{
+ "fetched": "2026-11-03",
+ "source": "https://hts.usitc.gov/reststop/exportList?from=6116.00.00&to=6116.99.99&format=JSON&styles=false",
+ "rows": [
+  {
+   "htsno": "6116.10",
+   "indent": "1",
+   "description": "Impregnated, coated, covered or laminated with plastics or rubber:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.05.00",
+   "indent": "2",
+   "description": "Ice hockey gloves and field hockey gloves",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "25%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.08.00",
+   "indent": "2",
+   "description": "Other gloves, mittens and mitts, all the foregoing specially designed for use in sports, including ski and snowmobile gloves, mittens and mitts",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "2.8%",
+   "special": "Free (A*,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "25%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "2",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Without fourchettes:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Cut and sewn from preexisting machine knit fabric that is impregnated, coated, covered or laminated with plastics or rubber:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Of vegetable fibers:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.13.00",
+   "indent": "6",
+   "description": "Containing over 50 percent by weight of plastics or rubber",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "12.5%",
+   "special": "Free (AU,BH, CL,CO,E,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "61%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.17",
+   "indent": "6",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "23.5%",
+   "special": "Free (AU,BH, CL,CO,IL,JO, KR,MA,OM, P,PA,PE,S,SG) 22.5% (E)",
+   "other": "61%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.17.20",
+   "indent": "7",
+   "description": "Subject to cotton restraints (331)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.17.30",
+   "indent": "7",
+   "description": "Subject to man-made fiber restraints (631)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.17.40",
+   "indent": "7",
+   "description": "Other (831)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "5",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.44.00",
+   "indent": "6",
+   "description": "Containing over 50 percent by weight of plastics or rubber",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "9.9%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA, OM,P,PA,PE,S,SG) 8.9% (E)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.48",
+   "indent": "6",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "18.6%",
+   "special": "Free (AU,BH, CL,CO,IL,JO, KR,MA,OM, P,PA,PE,S,SG) 16.3% (E)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.48.10",
+   "indent": "7",
+   "description": "Subject to cotton restraints (331)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.48.20",
+   "indent": "7",
+   "description": "Subject to man-made fiber re- straints (631)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.48.30",
+   "indent": "7",
+   "description": "Other (831)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.55",
+   "indent": "5",
+   "description": "Containing 50 percent or more by weight of cotton, man-made fibers or other textile fibers, or any combination thereof",
+   "superior": null,
+   "units": [],
+   "general": "13.2%",
+   "special": "Free (AU,BH, CL,CO,IL,JO, KR,MA,OM, P,PA,PE,S,SG) 10.7% (E)",
+   "other": "75%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.55.10",
+   "indent": "6",
+   "description": "Subject to cotton restraints (331)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.55.20",
+   "indent": "6",
+   "description": "Subject to man-made fiber restraints (631)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.55.30",
+   "indent": "6",
+   "description": "Other (831)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.65.00",
+   "indent": "5",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "7%",
+   "special": "Free (AU,BH, CL,CO,IL, JO,KR,MA, OM,P,PA,PE,S,SG) 6% (E)",
+   "other": "75%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "With fourchettes:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.75",
+   "indent": "4",
+   "description": "Containing 50 percent or more by weight of cotton, man-made fibers or other textile fibers, or any combination thereof",
+   "superior": null,
+   "units": [],
+   "general": "13.2%",
+   "special": "Free (AU,BH, CL,CO,E*,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "25%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.75.10",
+   "indent": "5",
+   "description": "Subject to cotton restraints (331)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.75.20",
+   "indent": "5",
+   "description": "Subject to man-made fiber restraints (631)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.75.30",
+   "indent": "5",
+   "description": "Other (831)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.10.95.00",
+   "indent": "4",
+   "description": "Other",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "7%",
+   "special": "Free (AU,BH, CL,CO,E,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "25%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "1",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.91.00.00",
+   "indent": "2",
+   "description": "Of wool or fine animal hair (431)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "31.2\u00a2/kg + 7%",
+   "special": "Free (AU,BH,CL,CO,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "$1.10/kg +50%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.92",
+   "indent": "2",
+   "description": "Of cotton:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.92.05.00",
+   "indent": "3",
+   "description": "Ice hockey gloves and field hockey gloves",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "45%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.92.08.00",
+   "indent": "3",
+   "description": "Other gloves, mittens and mitts, all the fore going specially designed for use in sports, including ski and snowmobile gloves, mittens and mitts",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "2.8%",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "45%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Made from a pre-existing machine knit fabric:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.92.64",
+   "indent": "5",
+   "description": "Without fourchettes",
+   "superior": null,
+   "units": [],
+   "general": "23.5%",
+   "special": "Free (AU,BH, CL,CO,IL,JO, KR,MA,OM, P,PA,PE,S,SG) 22.5% (E)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.92.64.10",
+   "indent": "6",
+   "description": "Terry cloth type, looped pile fabric (331)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.92.64.20",
+   "indent": "6",
+   "description": "Jersey type, brushed or napped fabric (331)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.92.64.30",
+   "indent": "6",
+   "description": "Lisle type, no pile, not brushed or napped (331)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.92.64.40",
+   "indent": "6",
+   "description": "Other (331)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.92.74",
+   "indent": "5",
+   "description": "With fourchettes",
+   "superior": null,
+   "units": [],
+   "general": "23.5%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM,P, PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.92.74.50",
+   "indent": "6",
+   "description": "Jersey type, brushed or napped fabric (331)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.92.74.60",
+   "indent": "6",
+   "description": "Lisle type, no pile, not brushed or napped (331)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.92.74.70",
+   "indent": "6",
+   "description": "Other (331)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.92.88.00",
+   "indent": "5",
+   "description": "Without fourchettes (331)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "9.4%",
+   "special": "Free (AU,BH, CL,CO,IL,JO, KR,MA,OM, P,PA,PE,S,SG) 7.4% (E)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.92.94.00",
+   "indent": "5",
+   "description": "With fourchettes (331)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "9.4%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM, P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.93",
+   "indent": "2",
+   "description": "Of synthetic fibers:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.93.05.00",
+   "indent": "3",
+   "description": "Ice hockey gloves and field hockey gloves",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "45%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.93.08.00",
+   "indent": "3",
+   "description": "Other gloves, mittens and mitts, all the fore going specially designed for use in sports, including ski and snowmobile gloves, mittens and mitts",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "2.8%",
+   "special": "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "45%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Containing 23 percent or more by weight of wool or fine animal hair:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.93.64.00",
+   "indent": "5",
+   "description": "Without fourchettes (431)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "31\u00a2/kg + 6.9%",
+   "special": "Free (AU,BH, CL,CO,IL,JO, KR,MA,OM, P,PA,PE,S,SG) 31\u00a2/kg + 5.4% (E)",
+   "other": "$1.10/kg + 50%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.93.74.00",
+   "indent": "5",
+   "description": "With fourchettes (431)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "31\u00a2/kg + 6.9%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM, P,PA,PE,S,SG)",
+   "other": "$1.10/kg + 50%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.93.88.00",
+   "indent": "5",
+   "description": "Without fourchettes (631)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "18.6%",
+   "special": "Free (AU,BH, CL,CO,IL,JO, KR,MA,OM, P,PA,PE,S,SG) 16.3% (E)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.93.94.00",
+   "indent": "5",
+   "description": "With fourchettes (631)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "18.6%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM, P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.99",
+   "indent": "2",
+   "description": "Of other textile materials:",
+   "superior": null,
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": "",
+   "additionalDuties": "",
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "3",
+   "description": "Of artificial fibers:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.99.20.00",
+   "indent": "4",
+   "description": "Ice hockey gloves and field hockey gloves",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "45%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.99.35.00",
+   "indent": "4",
+   "description": "Other gloves, mittens and mitts, all the fore going specially designed for use in sports, including ski and snowmobile gloves, mittens and mitts",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "2.8%",
+   "special": "Free (A*,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
+   "other": "45%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "",
+   "indent": "4",
+   "description": "Other:",
+   "superior": "true",
+   "units": [],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": null,
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.99.48.00",
+   "indent": "5",
+   "description": "Without fourchettes (631)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "18.8%",
+   "special": "Free (AU,BH, CL,CO,IL,JO, KR,MA,OM, P,PA,PE,S,SG) 16.5% (E)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.99.54.00",
+   "indent": "5",
+   "description": "With fourchettes (631)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "18.8%",
+   "special": "Free (AU,BH, CL,CO,IL,JO,KR, MA,OM, P,PA,PE,S,SG)",
+   "other": "90%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.99.75.00",
+   "indent": "3",
+   "description": "Containing 70 percent or more by weight of silk or silk waste",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "Free",
+   "special": "",
+   "other": "40%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.99.95",
+   "indent": "3",
+   "description": "Other",
+   "superior": null,
+   "units": [],
+   "general": "3.8%",
+   "special": "Free (AU,BH, CL,CO,E*,IL,JO, KR,MA,OM, P,PA,PE,S,SG)",
+   "other": "40%",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.99.95.10",
+   "indent": "4",
+   "description": "Subject to cotton restraints (331)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.99.95.20",
+   "indent": "4",
+   "description": "Subject to wool restraints (431)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.99.95.30",
+   "indent": "4",
+   "description": "Subject to man-made fiber restraints (631)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  },
+  {
+   "htsno": "6116.99.95.60",
+   "indent": "4",
+   "description": "Other (831)",
+   "superior": null,
+   "units": [
+    "doz. prs.",
+    "kg"
+   ],
+   "general": "",
+   "special": "",
+   "other": "",
+   "footnotes": [],
+   "quotaQuantity": null,
+   "additionalDuties": null,
+   "addiitionalDuties": null
+  }
+ ]
+}
