@@ -6,5 +6,7 @@ pg8000
 -e packages/register
 -e packages/classifier
 -e packages/paypal
+-e packages/rules
+-e packages/shipping
 -e apps/api
 -e apps/worker

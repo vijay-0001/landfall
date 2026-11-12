@@ -16,6 +16,8 @@ backups/
 .mypy_cache/
 *.egg-info/
 coverage/
+# the console's Coverage page is source code, not test-coverage output
+!apps/web/src/app/(seller)/coverage/
 test-results/
 playwright-report/
 screenshots/

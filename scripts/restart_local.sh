@@ -23,6 +23,9 @@ KILN_PP_ID=$(envget PAYPAL_CLIENT_ID); KILN_PP_SECRET=$(envget PAYPAL_CLIENT_SEC
 (cd apps/renderer && PORT=3300 WEB_URL=http://127.0.0.1:3000 node server.mjs > "$TEMP/renderer.log" 2>&1 &)
 (cd apps/kiln && PORT=3400 LANDFALL_API_URL=http://127.0.0.1:8000 KILN_ADMIN_USER=owner KILN_ADMIN_PASSWORD="$KILN_ADMIN_PW" LANDFALL_PUBLIC_API_URL=http://127.0.0.1:8000 LANDFALL_CONSOLE_URL=http://127.0.0.1:3000 LANDFALL_KILN_API_KEY="$KILN_KEY" KILN_PAYPAL_CLIENT_ID="$KILN_PP_ID" KILN_PAYPAL_CLIENT_SECRET="$KILN_PP_SECRET" KILN_PUBLIC_URL=http://127.0.0.1:3400 node server.mjs > "$TEMP/kiln.log" 2>&1 &)
 if [ "$1" != "--no-build" ]; then (cd apps/web && API_PROXY_TARGET=http://127.0.0.1:8000 API_INTERNAL_URL=http://127.0.0.1:8000 npm run build > "$TEMP/webbuild.log" 2>&1) || { tail -20 "$TEMP/webbuild.log"; exit 1; }; fi
-(cd apps/web && API_INTERNAL_URL=http://127.0.0.1:8000 npx next start -p 3000 -H 127.0.0.1 > "$TEMP/web.log" 2>&1 &)
+# Password gate: SITE_PASSWORD in .env turns it on. Open the console at http://localhost:3000 (the gate guards that address; the renderer
+# uses 127.0.0.1 and so is not gated). No SITE_PASSWORD in .env means no gate.
+SITE_PW=$(envget SITE_PASSWORD); GATE_URL=""; [ -n "$SITE_PW" ] && GATE_URL=http://localhost:3000
+(cd apps/web && SITE_PASSWORD="$SITE_PW" PUBLIC_URL="$GATE_URL" API_INTERNAL_URL=http://127.0.0.1:8000 npx next start -p 3000 -H 127.0.0.1 > "$TEMP/web.log" 2>&1 &)
 until curl -s -m 3 http://127.0.0.1:8000/api/health | grep -q ok; do sleep 3; done
 echo up
